@@ -22,3 +22,4 @@ deploy:
   verbose: true
   on:
     branch: master
+  target_branch: master
