@@ -6,7 +6,7 @@ python:
 install:
   - wget https://raw.githubusercontent.com/njnmco/njnmdoc/master/njnmdoc
 
-script: ./njnmdoc *.md
+script: python3 njnmdoc *.md
 
 deploy:
   provider: pages
