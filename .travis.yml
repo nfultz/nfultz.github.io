@@ -3,6 +3,11 @@ language: python
 python:
   - "3.6"
 
+# safelist
+branches:
+  only:
+  - master
+
 install:
   - wget https://raw.githubusercontent.com/njnmco/njnmdoc/master/njnmdoc
   - pip3 install markdown
