@@ -3,3 +3,6 @@
 ## July 2019
 
   * 31 - LA R User Group West
+
+## June 2019
+
