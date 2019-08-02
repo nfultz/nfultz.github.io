@@ -1,4 +1,4 @@
-# Social Calendar
+<!-- njnmdoc: menu="MENU" title="Talks"  -->
 
 ## Aug 2019
 
@@ -7,6 +7,3 @@
 ## July 2019
 
   * 31 - LA R User Group West
-
-## June 2019
-
