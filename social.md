@@ -1,4 +1,5 @@
-# Social Calendar
+<!-- njnmdoc: menu="MENU" title="Events"  -->
+# Events Calendar
 
 ## Aug 2019
 
