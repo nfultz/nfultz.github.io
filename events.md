@@ -3,6 +3,7 @@
 
 ## Aug 2019
 
+  * 17 - Data Con née Big Data Day
   * 10 - Kansas Linux Fest (Wichita, KS)
 
 ## July 2019
