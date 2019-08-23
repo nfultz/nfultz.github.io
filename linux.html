@@ -24,8 +24,10 @@
 </ul>
 </li>
 <li>Mount s3 bucket using s3fs<ul>
-<li>Tricky if there is a dot in the bucket name</li>
-<li><code>s3fs -o -o -o &lt;bucketname&gt; &lt;mountpoint&gt;</code> #TODO</li>
+<li>Tricky if there is a dot in the bucket name, must <code>use_path_request_style</code></li>
+<li>If not in us-east-1, most override region</li>
+<li>Set umask or only root will have permissions</li>
+<li><code>s3fs -o use_path_request_style -o iam_role -o url=https://s3-us-west-2.amazonaws.com -o umask=022 -o endpoint=us-west-2 &lt;bucketname&gt; &lt;mountpoint&gt;</code></li>
 </ul>
 </li>
 <li>recursive copy using <code>ncftp</code><ul>
