@@ -9,11 +9,12 @@ These are my typical, every-day go-to sauces:
   * Cholula
   * Sriracha
   * Crystal
+  * Franks
 
-For non-sauce heat, I use:
+For non-sauce flavor, I use:
 
   * Tajin
-  * Shichimi Togarashi
+  * Shichimi Togarashi🌶️
 
 
 
@@ -21,7 +22,7 @@ For my 34th birthday, I got a [Hot Ones][] gift set. Thanks Ira!
 
   * Clark+Hopkins Quintana Roo
   * Pirate's Lantern Hot Bajan BBQ
-  * Torchbearer Sauces' Habenero Evil - "Accidentally Healthy, Intentionally Delicious"
+  * Torchbearer Sauces' Habenero Evil - "Accidentally Healthy, Intentionally Delicious"🌶️
 
 My mother got me an Ass Kickin' gift set, plus a bonus. Thanks mom!
 
@@ -29,6 +30,13 @@ My mother got me an Ass Kickin' gift set, plus a bonus. Thanks mom!
   * Ass Kickin Roasted Garlic
   * Ass Kickin Cajun
   * Ass Kickin Wasabi
-  * Aztecs Revenge Chipotle Burning Revenge
+  * Aztecs Revenge Chipotle Burning Revenge🌶️
+
+Wishlist:
+
+  * Chamoy
+  * https://yunhai.shop/collections/all/products/su-chili-crisp
+  * https://www.amazon.com/Yellowbird-Hot-Sauce-Combo-3-Pack/dp/B07BRRVBRQ/
+
 
 [Hot Ones]: https://www.youtube.com/playlist?list=PLAzrgbu8gEMIwGmZWJLVbu0BmoEhVMQMw
