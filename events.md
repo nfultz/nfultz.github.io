@@ -3,6 +3,8 @@
 
 ## Aug 2019
 
+  * 28 - Customer Data Science (Retina.ai)
+  * 17 - Data Con (USC)
   * 10 - Kansas Linux Fest (Wichita, KS)
 
 ## July 2019
