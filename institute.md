@@ -79,6 +79,9 @@ He continues:
 > will happen. You know that if you’ve ever bet on a sporting event, right?”
 
 
+> Any math wonk with a computer can run a Bernoulli distribution.
+
+
 ## Research Assistants
 
 > Russ’s fingerprints are all over the book you have just read, from the BDNF
