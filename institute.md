@@ -46,6 +46,7 @@ And:
 > to slaughter a twelve-thousand-pound elephant to get ninety pounds of ivory.
 > Tim doubted if Evans could appreciate the irony,
 
+
 ## Bernoulli
 
 > “Once I got access to a real computer,” Luke resumed, “I did a Bernoulli
@@ -61,14 +62,23 @@ And:
 Oh ho!
 
 > “The Bernoulli is an accurate way of expressing probability,”
->
+
+Only for binary outcomes?
+
+
 >  “It’s based on the idea that there are two possible outcomes to certain
 > empiric events, like coin flips or the winners of football games. The outcomes
-> can be expressed as p for positive result and n for negative result. I won’t
-> bore you with the details, but you end up with a boolean-valued outcome that
-> clearly expresses the difference between random and non-random events.”
+> can be expressed as p for positive result and n for negative result.
 
-What?
+Standard notation would be _p_ for "proportion" and _n_ for sample size. He
+also seems to have conflated the Bernoulli distribution with the binomial
+distribution.
+
+>  I won’t bore you with the details, but you end up with a boolean-valued
+>  outcome that clearly expresses the difference between random and non-random
+>  events.”
+
+What? I can't even parse this.
 
 He continues:
 
@@ -79,8 +89,12 @@ He continues:
 > will happen. You know that if you’ve ever bet on a sporting event, right?”
 
 
+Football scores are random as well, unless the games are fixed.
+
+
 > Any math wonk with a computer can run a Bernoulli distribution.
 
+Indeed, so could anyone else, with a coin.
 
 ## Research Assistants
 
@@ -102,5 +116,17 @@ He continues:
 > I put it to bed. It’s very hard to let old friends go.
 >
 >  I miss you, buddy.
->
->
+
+## Conclusions
+
+  * I'm not going to argue whether King's lampshading of irony is appropriate or effective.
+  * I would argue that irony depends on going contra expectations.
+    * Dumb people (those with incorrect expectations) should experience irony more often.
+    * But actually it's the smart people. Ironic?
+
+  * Your description of probability was not very precise, which goes against Luke's
+    supposed genius.
+
+  * The part about Russ was the most touching part of the whole book.
+
+  * Mr King, if you need an actual math person to proof read the mathy-parts, I'm available.
