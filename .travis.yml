@@ -9,6 +9,7 @@ branches:
   - master
 
 install:
+  - wget -N https://raw.githubusercontent.com/njnmco/njnmdoc/master/www/jemdoc.css
   - wget https://raw.githubusercontent.com/njnmco/njnmdoc/master/njnmdoc
   - pip3 install markdown
 
