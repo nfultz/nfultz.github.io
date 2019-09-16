@@ -28,6 +28,7 @@
       * `./configure`
       * `make`
       * `sudo checkinstall` - choose 'don't copy' for files in build and home dir
+  * `sudo ldconfig /usr/local/lib`
   * `sudo cp /usr/local/etc/freshclam.conf{.sample,}`
       * Edit
   * make shared folder:
