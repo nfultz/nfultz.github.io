@@ -21,3 +21,17 @@
   * For audio, there seems to be quite a bit of lag when muxing with video. Instead, open the two streams independently.
     * Find source in `pactl list sources | grep name`
     * Open pulse audio stream in VLC: `vlc pulse://alsa_input.usb-VXIS_Inc_FHD_Capture-02.iec958-stereo`
+
+## ClamAV from source
+
+  * Get tarball and install:
+      * `./configure`
+      * `make`
+      * `sudo checkinstall` - choose 'don't copy' for files in build and home dir
+  * `sudo cp /usr/local/etc/freshclam.conf{.sample,}`
+      * Edit
+  * make shared folder:
+      * `sudo mkdir /usr/local/share/clamav`
+      * `sudo chgrp 130 /usr/local/share/clamav`
+      * `sudo chmod 776 /usr/local/share/clamav`
+  * `sudo freshclam` to update virus defs
