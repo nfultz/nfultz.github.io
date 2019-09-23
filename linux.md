@@ -36,3 +36,13 @@
       * `sudo chgrp 130 /usr/local/share/clamav`
       * `sudo chmod 776 /usr/local/share/clamav`
   * `sudo freshclam` to update virus defs
+
+## Cisco AnyConnect VPN
+
+  * `sudo apt install network-manager-openconnect-gnome`
+  * Start `nm-applet` - this may require the gnome-tweak to show indicators
+      * https://bugzilla.redhat.com/show_bug.cgi?id=1394977
+  * Better debugging: ```
+sudo nmcli general logging level TRACE
+journalctl -u NetworkManager --since '2 minutes ago'
+```
