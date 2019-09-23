@@ -7,7 +7,7 @@
 ## Aug 2019
 
   * 28 - Customer Data Science (Retina.ai) - _Forecasting over Funnels_ [[slides]](http://bit.ly/2ZtpBIv) [[video]](https://www.youtube.com/watch?v=-0NVk4cqgPs)
-  * 10 - Kansas Linux Fest (Wichita State) - _Dotfiles: A Survey_ \[[slides](http://bit.ly/2NVyiXu)]
+  * 10 - Kansas Linux Fest (Wichita State) - _Dotfiles: A Survey_ [[slides]](http://bit.ly/2NVyiXu)
 
 
 ## Nov 2013
