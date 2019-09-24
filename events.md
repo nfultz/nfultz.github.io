@@ -2,9 +2,9 @@
 
 ## Sep 2019
 
-  * 25 - Customer Data Science (Luma Launch)
-  * 26 - Tech Day LA (The Reef)
   * 27 - LA R User Group West
+  * 26 - Tech Day LA (The Reef)
+  * 25 - Customer Data Science (Luma Launch)
 
 ## Aug 2019
 
