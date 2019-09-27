@@ -42,6 +42,7 @@ My mother got me an Ass Kickin' gift set, plus a bonus. Thanks mom!
 Wishlist:
 
   * https://www.amazon.com/Yellowbird-Hot-Sauce-Combo-3-Pack/dp/B07BRRVBRQ/
+  * https://dandidosauce.com/collections/dandido-hot-sauce/products/dandido-sauce
 
 
 [Hot Ones]: https://www.youtube.com/playlist?list=PLAzrgbu8gEMIwGmZWJLVbu0BmoEhVMQMw
