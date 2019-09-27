@@ -20,7 +20,10 @@ For non-sauce flavor, I use:
   * Tajin
   * Shichimi Togarashi🌶️
 
+Amy got me some spicy stuff from Taiwan. Thanks Amy!
 
+  * Yun Hai Su Spicy Chili Crisp - "An oil of one hundred sensations."🌶️
+  * TK Food Garlic Chili
 
 For my 34th birthday, I got a [Hot Ones][] gift set. Thanks Ira!
 
@@ -38,7 +41,6 @@ My mother got me an Ass Kickin' gift set, plus a bonus. Thanks mom!
 
 Wishlist:
 
-  * https://yunhai.shop/collections/all/products/su-chili-crisp
   * https://www.amazon.com/Yellowbird-Hot-Sauce-Combo-3-Pack/dp/B07BRRVBRQ/
 
 
