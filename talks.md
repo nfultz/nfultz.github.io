@@ -20,7 +20,7 @@
 
 ## Sep 2016
 
-  * 25 - SoCal Data Science - _Going Bayesian in AdTech_ [[slides]]() [[video]]()
+  * 25 - SoCal Data Science - _Going Bayesian in AdTech_ [[slides]](https://goo.gl/GGef26) [[video]](https://www.youtube.com/watch?v=HqHVPQh2ehg)
 
 ## Feb 2016
 
