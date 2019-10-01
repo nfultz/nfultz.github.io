@@ -9,13 +9,23 @@
   * 28 - Customer Data Science - _Forecasting over Funnels_ [[slides]](http://bit.ly/2ZtpBIv) [[video]](https://www.youtube.com/watch?v=-0NVk4cqgPs)
   * 10 - Kansas Linux Fest - _Dotfiles: A Survey_ [[slides]](http://bit.ly/2NVyiXu)
 
+## April 2019
+
+  * 6 - satRDay LA - _Better Research Planning Through Simulation_ [[slides]](http://bit.ly/2OLIvCt) [[video]](https://www.youtube.com/watch?v=WZLc0bqmOEw)
+
+
 ## Feb 2019
 
   * 15 - CSP - _Better Research Planning Through Simulation_
 
+## Sep 2016
+
+  * 25 - SoCal Data Science - _Going Bayesian in AdTech_ [[slides]]() [[video]]()
+
 ## Feb 2016
 
   * 19 - CSP - _Statistical Models in Production: A Taxonomy of Deployment Methods_
+
 
 ## Feb 2014
 
