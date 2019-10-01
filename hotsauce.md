@@ -44,6 +44,7 @@ Wishlist:
   * https://www.amazon.com/Yellowbird-Hot-Sauce-Combo-3-Pack/dp/B07BRRVBRQ/
   * https://dandidosauce.com/collections/dandido-hot-sauce/products/dandido-sauce
   * https://www.evilcowboy.com/collections/retail-products
+  * https://treatyourmeat.com/product/gator-bait-hot-sauce/
 
 
 [Hot Ones]: https://www.youtube.com/playlist?list=PLAzrgbu8gEMIwGmZWJLVbu0BmoEhVMQMw
