@@ -13,19 +13,33 @@
 
   * 6 - satRDay LA - _Better Research Planning Through Simulation_ [[slides]](http://bit.ly/2OLIvCt) [[video]](https://www.youtube.com/watch?v=WZLc0bqmOEw)
 
-
 ## Feb 2019
 
   * 15 - CSP - _Better Research Planning Through Simulation_
 
+## Oct 2018
+
+  * 20 - IDEAS SoCal Data Science - _Data Science for Good – A Case Study in Wisconsin Higher Ed_
+
+## July 2018
+
+  * 26 - SoCal Python - _Easy CLI tools with Python Fire_
+
+## Oct 2017
+
+  * 22 - IDEAS SoCal Data Science - _Deep Learning for Ad Mix Optimization_
+
+## Nov 2016
+
+  * 02 - PyData SoCal - _Three Python Projects 😇😈😵_
+
 ## Sep 2016
 
-  * 25 - SoCal Data Science - _Going Bayesian in AdTech_ [[slides]](https://goo.gl/GGef26) [[video]](https://www.youtube.com/watch?v=HqHVPQh2ehg)
+  * 25 - IDEAS SoCal Data Science - _Going Bayesian in AdTech_ [[slides]](https://goo.gl/GGef26) [[video]](https://www.youtube.com/watch?v=HqHVPQh2ehg)
 
 ## Feb 2016
 
   * 19 - CSP - _Statistical Models in Production: A Taxonomy of Deployment Methods_
-
 
 ## Feb 2014
 
