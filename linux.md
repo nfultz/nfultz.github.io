@@ -46,3 +46,13 @@
 sudo nmcli general logging level TRACE
 journalctl -u NetworkManager --since '2 minutes ago'
 ```
+
+## FoxyProxy config
+
+  * Add New Proxy
+      * host - "localhost"
+      * port - 9999
+      * Socks Proxy checked, SOCKS v5 selected
+      * Add rule *neal-nuc*
+  * ssh -D 9999 nfultz@neal.nuc
+  * visit http://neal-nuc:8787 from chrome
