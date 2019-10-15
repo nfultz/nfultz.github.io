@@ -2,11 +2,11 @@
 
 ## Oct 2019
 
-  * 30 - PyLadies (Platform)
-  * 26 - SoCal Data Science (DTLA)
+  * 30 - Customer Data Science (Luma Launch)
+  * 26 - IDEAS (DTLA)
+  * 24 - LA R User Group West (UCLA)
   * 23 - PyLadies (Platform)
   * 15 - LA Machine Learning (Zefr)
-  * 10 - LA Big Data (Core Digital Media)
   * 06 - Data Kind Data Dive
   * 03 - PyData (SnackNation)
 
