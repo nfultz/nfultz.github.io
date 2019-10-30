@@ -1,11 +1,16 @@
 <!-- njnmdoc: menu="MENU" title="Events"  -->
 
+## Nov 2019
+
+  * 23 - Los Angeles R Users All Hands (Warner Bros)
+  * 07 - Data Science Salon (East Angel)
+  * 01 - Cloud Study Jam (System 1)
+
 ## Oct 2019
 
-  * 30 - Customer Data Science (Luma Launch)
+  * 30 - Customer Data Science (The Lot)
   * 26 - IDEAS (DTLA)
   * 24 - LA R User Group West (UCLA)
-  * 23 - PyLadies (Platform)
   * 15 - LA Machine Learning (Zefr)
   * 06 - Data Kind Data Dive
   * 03 - PyData (SnackNation)
