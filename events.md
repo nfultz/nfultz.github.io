@@ -4,8 +4,7 @@
 
   * 23 - Los Angeles R Users All Hands (Warner Bros)
   * 07 - Data Science Salon (East Angel)
-  * 01 - Cloud Study Jam (System 1)
-
+  
 ## Oct 2019
 
   * 30 - Customer Data Science (The Lot)
