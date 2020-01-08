@@ -1,4 +1,4 @@
-<!-- njnmdoc: menu="MENU" title="Windows"  -->
+<!-- njnmdoc:  title="Windows"  -->
 ## Notes on Windows box
 
 ## Broken chrome

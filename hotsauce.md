@@ -1,4 +1,4 @@
-<!-- njnmdoc: menu="MENU" title="Hot Sauces"  -->
+<!-- njnmdoc:  title="Hot Sauces"  -->
 
 I consider my self a hot-sauce enthusiast.
 

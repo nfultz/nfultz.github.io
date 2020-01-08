@@ -1,4 +1,4 @@
-<!-- njnmdoc: menu="MENU" title="Events"  -->
+<!-- njnmdoc:  title="Events"  -->
 
 ## Jan 2020
 
