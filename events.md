@@ -1,10 +1,23 @@
 <!-- njnmdoc: menu="MENU" title="Events"  -->
 
+## Jan 2020
+
+  * 29 - Customer Data Science (OnePiece Work)
+  * 24 - AppSec LA Day 2
+  * 23 - AppSec LA Day 1
+  * 23 - PyLadies
+
+## Dec 2019
+
+  * 05 - PyData LA Day 3
+  * 04 - PyData LA Day 2
+  * 03 - ReproHacks @ PyData LA
+
 ## Nov 2019
 
   * 23 - Los Angeles R Users All Hands (Warner Bros)
   * 07 - Data Science Salon (East Angel)
-  
+
 ## Oct 2019
 
   * 30 - Customer Data Science (The Lot)
