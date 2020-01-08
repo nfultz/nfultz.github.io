@@ -12,3 +12,9 @@
 > Not sure exactly when this was changed. In version 58 there is a similar option to Open PDF files in the default viewer, but this has the same effect in linux (possibly different on other platforms).
 
 from https://superuser.com/a/1260507/313253 by jonasfh
+
+## IndexedDB Eviction
+
+IndexedDB is interally stored in LevelDB, and subject to the LRU policy when space is low.
+
+If GoToMeeting goes berserk, fills up the disk and then crashes chrome, every single DB will be gone. :(
