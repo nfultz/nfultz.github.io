@@ -56,3 +56,12 @@ journalctl -u NetworkManager --since '2 minutes ago'
       * Add rule *neal-nuc*
   * ssh -D 9999 nfultz@neal.nuc
   * visit http://neal-nuc:8787 from chrome
+
+## Enable Bluetooth at boot
+
+  * From [TomTom](https://unix.stackexchange.com/a/199088/50441):
+  * Add to /etc/udev/rules.d/10-local.rules :
+```
+# Set bluetooth power up
+ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
+```
