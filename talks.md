@@ -10,17 +10,18 @@
 
 ## 2018
 
-  * Oct 20 - IDEAS SoCal Data Science - _Data Science for Good – A Case Study in Wisconsin Higher Ed_
-  * Jul 26 - SoCal Python - _Easy CLI tools with Python Fire_
+  * Oct 20 - IDEAS SoCal Data Science - _Data Science for Good – A Case Study in Wisconsin Higher Ed_ [[slides]](http://bit.ly/2pOGcTt)
+  * Jul 26 - SoCal Python - _Easy CLI tools with Python Fire_ [[slides]](http://bit.ly/2GJYb6c)
 
 ## 2017
 
-  * Oct 22 - IDEAS SoCal Data Science - _Deep Learning for Ad Mix Optimization_
+  * Oct 22 - IDEAS SoCal Data Science - _Deep Learning for Ad Mix Optimization_ [[slides]](http://bit.ly/2GELcmi)
+  * Jul 26 - Big Data Day LA - _Data Augmentation and Disaggregation_ [[slides]](http://bit.ly/2Ohb5g6)
 
 ## 2016
 
-  * Nov 02 - PyData SoCal - _Three Python Projects 😇😈😵_
-  * Sep 25 - IDEAS SoCal Data Science - _Going Bayesian in AdTech_ [[slides]](https://goo.gl/GGef26) [[video]](https://www.youtube.com/watch?v=HqHVPQh2ehg)
+  * Nov 02 - PyData SoCal - _Three Python Projects 😇😈😵_ [[slides]](http://bit.ly/2vxpRbZ)
+  * Sep 25 - IDEAS SoCal Data Science - _Going Bayesian in AdTech_ [[slides]](http://bit.ly/2RLhK4f) [[video]](https://www.youtube.com/watch?v=HqHVPQh2ehg)
   * Feb 19 - CSP - _Statistical Models in Production: A Taxonomy of Deployment Methods_
 
 ## 2014
