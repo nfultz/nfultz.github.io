@@ -22,7 +22,7 @@
 
   * Nov 02 - PyData SoCal - _Three Python Projects 😇😈😵_ [[slides]](http://bit.ly/2vxpRbZ)
   * Sep 25 - IDEAS SoCal Data Science - _Going Bayesian in AdTech_ [[slides]](http://bit.ly/2RLhK4f) [[video]](https://www.youtube.com/watch?v=HqHVPQh2ehg)
-  * Feb 19 - CSP - _Statistical Models in Production: A Taxonomy of Deployment Methods_
+  * Feb 19 - CSP - _Statistical Models in Production: A Taxonomy of Deployment Methods_ [[slides]](http://bit.ly/2Ue0fLJ)
 
 ## 2014
 
