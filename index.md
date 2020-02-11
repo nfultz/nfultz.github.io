@@ -10,4 +10,5 @@ Hello, world!
     * [Hot Sauces](hotsauce.html)
     * [Windows](windows.html)
     * [Linux](linux.html)
+    * [Projects](projects.html)
 

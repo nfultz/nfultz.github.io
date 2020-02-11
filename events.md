@@ -1,11 +1,15 @@
 <!-- njnmdoc:  title="Events"  -->
 
+## Feb 2020
+
+  * 18 - SoCal Python (Oscar Health)
+  * 8 - AI in Research (UCLA)
+
 ## Jan 2020
 
   * 29 - Customer Data Science (OnePiece Work)
-  * 24 - AppSec LA Day 2
-  * 23 - AppSec LA Day 1
-  * 23 - PyLadies
+  * 23 - AppSec LA
+  * 23 - PyLadies (Verizon)
 
 ## Dec 2019
 
