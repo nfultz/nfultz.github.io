@@ -1,14 +1,21 @@
 <!-- njnmdoc:  title="Events"  -->
 
+## Mar 2020
+
+  * 06 - SCALE 18x Day 2
+  * 05 - SCALE 18x Day 1
+  * 04 - Git Merge 2020 (The Majestic)
+
 ## Feb 2020
 
-  * 18 - SoCal Python (Oscar Health)
-  * 8 - AI in Research (UCLA)
+  * 22 - CSP 2020 Day 2
+  * 21 - CSP 2020 Day 1
+  * 08 - AI in Research (UCLA)
 
 ## Jan 2020
 
-  * 29 - Customer Data Science (OnePiece Work)
-  * 23 - AppSec LA
+  * 29 - Customer Data Science (Galvanize)
+  * 23 - AppSec LA (Annenberg Beach House)
   * 23 - PyLadies (Verizon)
 
 ## Dec 2019
