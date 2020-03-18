@@ -64,3 +64,15 @@ journalctl -u NetworkManager --since '2 minutes ago'
  # Set bluetooth power up
 ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
 ```
+
+## Awesome CLI tools
+
+  * epr
+    - An epub reader.
+    - `pip3 install --user git+https://github.com/wustho/epr.git`
+  * ranger
+    - An file browser for the terminal
+    - `pip3 install --user ranger-fm`
+  * pdfbook
+    - convert a pdf into a booklet for (double-sided) printing
+    - `texlive-extra-utils`
