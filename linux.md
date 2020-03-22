@@ -75,4 +75,7 @@ ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
     - `pip3 install --user ranger-fm`
   * pdfbook
     - convert a pdf into a booklet for (double-sided) printing
-    - `texlive-extra-utils`
+    - `apt install texlive-extra-utils`
+  * [savepagenow](https://github.com/pastpages/savepagenow)
+    - saves url to wayback machine
+    - `pip3 install --user savepagenow`
