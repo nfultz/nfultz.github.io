@@ -79,6 +79,9 @@ ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
   * [savepagenow](https://github.com/pastpages/savepagenow)
     - saves url to wayback machine
     - `pip3 install --user savepagenow`
-  * youtube-del
+  * [youtube-dl](https://github.com/ytdl-org/youtube-dl)
     - scrapes video from youtube
     - `pip3 install --user youtube-dl`
+  * [ledger](https://plaintextaccounting.org/)
+    - plain text double-entry accouting
+    - `apt install ledger`
