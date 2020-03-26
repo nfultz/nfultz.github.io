@@ -2,6 +2,8 @@
 
 ## Mar 2020
 
+  * 24 - Pasadena Python (Online)
+  * 19 - West LA R User Group (Online)
   * 06 - SCALE 18x Day 2
   * 05 - SCALE 18x Day 1
   * 04 - Git Merge 2020 (The Majestic)
