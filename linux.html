@@ -87,6 +87,15 @@ journalctl -u NetworkManager --since '2 minutes ago'</code></li>
 <li>Add to /etc/udev/rules.d/10-local.rules :<code># Set bluetooth power up
 ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"</code></li>
 </ul>
+<h2>Fix crackling audio on HDMI</h2>
+<ul>
+<li>From <a href="https://askubuntu.com/questions/405071/static-and-crackling-in-my-hdmi-audio">Gav</a>:</li>
+<li>Edit /etc/pulse/default.pa :```</li>
+</ul>
+<h1>add tsched=0 to udev-detect</h1>
+<p>load-module module-udev-detect tsched=0
+```
+  * Other people indicate this might affect ATI specifically.</p>
 <h2>Awesome CLI tools</h2>
 <ul>
 <li>epr<ul>
