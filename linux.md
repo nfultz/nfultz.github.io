@@ -65,6 +65,15 @@ journalctl -u NetworkManager --since '2 minutes ago'
 ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
 ```
 
+## Fix crackling audio on HDMI
+
+  * From [Gav](https://askubuntu.com/questions/405071/static-and-crackling-in-my-hdmi-audio):
+  * Edit /etc/pulse/default.pa :```
+# add tsched=0 to udev-detect
+load-module module-udev-detect tsched=0
+```
+  * Other people indicate this might affect ATI specifically.
+
 ## Awesome CLI tools
 
   * epr
