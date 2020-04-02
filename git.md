@@ -1,5 +1,7 @@
 <!-- njnmdoc: title="Git Notes"  -->
 
+See also https://www.smashingmagazine.com/make-life-easier-when-using-git/
+
 
 ## Better diff
 https://stackoverflow.com/questions/32365271/whats-the-difference-between-git-diff-patience-and-git-diff-histogram
@@ -12,4 +14,11 @@ git config --global diff.algorithm histogram
 
 ```
 git checkout -
+```
+
+## Sort by commit date
+
+```
+# To sort branches by commit date
+git branch --sort=-committerdate
 ```
