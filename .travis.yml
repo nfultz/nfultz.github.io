@@ -13,7 +13,9 @@ install:
   - wget https://raw.githubusercontent.com/njnmco/njnmdoc/master/njnmdoc
   - pip3 install markdown
 
-script: python3 njnmdoc -r . --lazy mtime
+script:
+  - git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | $SHELL
+  - python3 njnmdoc -r . --lazy mtime
 
 deploy:
   provider: pages
