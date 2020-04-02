@@ -22,3 +22,9 @@ git checkout -
 # To sort branches by commit date
 git branch --sort=-committerdate
 ```
+
+## One-liner to set mtime to last commit time
+
+```
+git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | bash
+```
