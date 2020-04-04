@@ -14,8 +14,7 @@ install:
   - pip3 install markdown
 
 script:
-  - git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | $SHELL
-  - python3 njnmdoc -r . --lazy mtime
+  - python3 njnmdoc -r . --lazy git
 
 deploy:
   provider: pages
