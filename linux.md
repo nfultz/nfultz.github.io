@@ -94,3 +94,19 @@ load-module module-udev-detect tsched=0
   * [ledger](https://plaintextaccounting.org/)
     - plain text double-entry accouting
     - `apt install ledger`
+
+## Openvpn
+
+```
+sudo apt install network-manager-openvpn network-manager-openvpn-gnome
+```
+
+Need to reboot!
+
+## Grepping for user cron
+
+```
+journalctl | grep --line-buffered -Ei "cron\[[0-9]*\]:\s*\($USER\)"
+```
+
+use `--line-buffered` to avoid double-buffer delay.
