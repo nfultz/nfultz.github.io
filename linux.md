@@ -94,6 +94,7 @@ load-module module-udev-detect tsched=0
   * [ledger](https://plaintextaccounting.org/)
     - plain text double-entry accouting
     - `apt install ledger`
+  * [horcrux](https://github.com/jesseduffield/horcrux)
 
 ## Openvpn
 
@@ -110,3 +111,9 @@ journalctl | grep --line-buffered -Ei "cron\[[0-9]*\]:\s*\($USER\)"
 ```
 
 use `--line-buffered` to avoid double-buffer delay.
+
+## Conferences
+
+https://kansaslinuxfest.org/
+
+

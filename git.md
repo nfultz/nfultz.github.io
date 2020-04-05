@@ -28,3 +28,22 @@ git branch --sort=-committerdate
 ```
 git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | bash
 ```
+
+
+## Git for data
+
+https://github.com/koordinates/sno
+
+https://github.com/liquidata-inc/dolt
+
+https://github.com/iterative/dvc
+
+https://opendata.stackexchange.com/questions/748/is-there-a-git-for-data
+
+http://paulfitz.github.io/daff/
+
+http://dat-data.com/
+
+https://git-annex.branchable.com/
+
+https://github.com/terminusdb/terminus-server/tree/dev
