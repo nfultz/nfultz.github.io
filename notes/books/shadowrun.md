@@ -1,0 +1,50 @@
+<!-- njnmdoc: title="Shadowrun"  -->
+
+```
+== Shadowrun Novels ==
+
+
+| r | #  | Title                         | Author                        | Date    |
+| ✓ | 1  | Never Deal with a Dragon      | Robert N. Charrette           | 1990-12 |
+| ✓ | 2  | Choose Your Enemies Carefully | Robert N. Charrette           | 1991-02 |
+| ✓ | 3  | Find Your Own Truth           | Robert N. Charrette           | 1991-06 |
+|   | 4  | 2XS                           | Nigel Findley                 | 1992-02 |
+|   | 5  | Changeling                    | Christopher Kubasik           | 1992-06 |
+|   | 6  | Never Trust an Elf            | Robert N. Charrette           | 1992-08 |
+|   | 7  | Into the Shadows              | Jordan K. Weisman (editor)    | 1992-10 |
+|   | 8  | Streets of Blood              | Carl Sargent & Marc Gascoigne | 1992-12 |
+|   | 9  | Shadowplay                    | Nigel Findley                 | 1993-02 |
+|   | 10 | Night's Pawn                  | Tom Dowd                      | 1993-04 |
+|   | 11 | Striper Assassin              | Nyx Smith                     | 1993-06 |
+|   | 12 | Lone Wolf                     | Nigel Findley                 | 1994-02 |
+|   | 13 | Fade to Black                 | Nyx Smith                     | 1994-04 |
+|   | 14 | Nosferatu                     | Carl Sargent & Marc Gascoigne | 1994-08 |
+|   | 15 | Burning Bright                | Tom Dowd                      | 1994-11 |
+|   | 16 | Who Hunts the Hunter          | Nyx Smith                     | 1995-05 |
+|   | 17 | House of the Sun              | Nigel Findley                 | 1995-07 |
+|   | 18 | Worlds Without End            | Caroline Spector              | 1995-10 |
+|   | 19 | Just Compensation             | Robert N. Charrette           | 1996-01 |
+|   | 20 | Black Madonna                 | Carl Sargent & Marc Gascoigne | 1996-04 |
+|   | 21 | Preying for Keeps             | Mel Odom                      | 1996-07 |
+|   | 22 | Dead Air                      | Jak Koke                      | 1996-10 |
+|   | 23 | The Lucifer Deck              | Lisa Smedman                  | 1997-01 |
+|   | 24 | Steel Rain                    | Nyx Smith                     | 1997-03 |
+|   | 25 | Shadowboxer                   | Nicholas Pollotta             | 1997-05 |
+|   | 26 | Stranger Souls                | Jak Koke                      | 1997-07 |
+|   | 27 | Headhunters                   | Mel Odom                      | 1997-10 |
+|   | 28 | Clockwork Asylum              | Jak Koke                      | 1997-11 |
+|   | 29 | Blood Sport                   | Lisa Smedman                  | 1998-01 |
+|   | 30 | Beyond the Pale               | Jak Koke                      | 1998-03 |
+|   | 31 | Technobabel                   | Stephen Kenson                | 1998-05 |
+|   | 32 | Wolf and Raven                | Michael A. Stackpole          | 1998-07 |
+|   | 33 | Psychotrope                   | Lisa Smedman                  | 1998-10 |
+|   | 34 | The Terminus Experiment       | Jak Koke & Jonathan E. Bond   | 1999-01 |
+|   | 35 | Run Hard, Die Fast            | Mel Odom                      | 1999-02 |
+|   | 36 | Crossroads                    | Stephen Kenson                | 1999-04 |
+|   | 37 | The Forever Drug              | Lisa Smedman                  | 1999-06 |
+|   | 38 | Ragnarock                     | Stephen Kenson                | 2000-02 |
+|   | 39 | Tails You Lose                | Lisa Smedman                  | 2001-02 |
+|   | 40 | The Burning Time              | Stephen Kenson                | 2001-08 |
+```
+
+

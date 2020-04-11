@@ -47,3 +47,10 @@ http://dat-data.com/
 https://git-annex.branchable.com/
 
 https://github.com/terminusdb/terminus-server/tree/dev
+
+## Revert a file to previous version
+
+```
+git checkout $(git rev-list -n 1 HEAD -- "$file")^ -- "$file"
+```
+

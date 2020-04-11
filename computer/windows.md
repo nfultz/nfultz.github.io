@@ -35,3 +35,19 @@ Windows defaults to local time instead of UTC; to use UTC,
 
     [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation]
     "RealTimeIsUniversal"=dword:00000001
+
+
+## Really old windows notes
+
+[Winamp 2.95](http://www.oldversion.com/windows/winamp-2-95) is also still
+good. I still have a little code snippet for controlling it from a Hauppauge
+remote.
+
+Foreign LINUX is a dynamic binary translator and a Linux system call interface
+emulator for the Windows platform. It is capable of running unmodified Linux
+binaries on Windows without any drivers or modifications to the system. This
+provides another way of running Linux applications under Windows in constrast
+to Cygwin and other tools. There is a comparison over existing projects.
+
+ --- [wishstudio/flinux · GitHub](https://github.com/wishstudio/flinux)
+
