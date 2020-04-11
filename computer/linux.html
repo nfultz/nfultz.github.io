@@ -130,6 +130,19 @@ ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"</code></li>
 </li>
 <li><a href="https://github.com/jesseduffield/horcrux">horcrux</a></li>
 </ul>
+<h3>Old awesome commands</h3>
+<ul>
+<li><code>pv -qL #</code>  Plays a pipe at # bps</li>
+<li><code>figlet</code>  Large words</li>
+<li><code>boxes</code></li>
+<li><code>crawl</code>  Better than nethack</li>
+<li><code>mc</code>  Good ole midnight commander file manager</li>
+<li><code>mocp</code>  Midnight commander for music</li>
+<li><code>tidy</code></li>
+<li><code>markdown</code></li>
+<li><code>freecell</code>  http://www.linusakesson.net/software/freecell.php</li>
+<li><code>colorout</code>  http://nojhan.github.io/colout/</li>
+</ul>
 <h2>Openvpn</h2>
 <p><code>sudo apt install network-manager-openvpn network-manager-openvpn-gnome</code></p>
 <p>Need to reboot!</p>
@@ -137,8 +150,193 @@ ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"</code></li>
 <p><code>journalctl | grep --line-buffered -Ei "cron\[[0-9]*\]:\s*\($USER\)"</code></p>
 <p>use <code>--line-buffered</code> to avoid double-buffer delay.</p>
 <h2>Conferences</h2>
-<p>https://kansaslinuxfest.org/</p></article>
+<p>https://kansaslinuxfest.org/</p>
+<h2>Old Crunchbang notes</h2>
+<h3>Creating USB</h3>
+<p>Default "Create startup USB" in ubuntu did not worked,
+installed unetbin, which did.</p>
+<p>Set up on laptop. Flash and wireless worked out of box.</p>
+<h3>Iceweasel</h3>
+<ul>
+<li>Set up quicksearches, changed homepage to ddg,</li>
+<li>get delicious bookmarklet</li>
+<li>Get extensions:</li>
+<li>RightBar</li>
+<li>Scrollbar Anywhere</li>
+<li>TreeStyle Tab</li>
+<li>Tab History Redux
+ in about:config set browser.tabs.loadDivertedInBackground to false.</li>
+<li>Elite proxy switcher is decent too for SOCKS 5 proxy over ssh.</li>
+</ul>
+<h3>SSD Notes</h3>
+<p>Since using an ssd, I did not install a swap partition.</p>
+<ul>
+<li>Therefore, remove the swap line from .conkyrc</li>
+</ul>
+<h3>Wlan tweak</h3>
+<p>Added wlan0 status to conkyrc:</p>
+<pre><code> ESSID: $alignr ${wireless_essid wlan0} ${wireless_link_qual_perc wlan0}%
+</code></pre>
+<h3>Wallpaper Hack</h3>
+<p><code>~/bin/rotate2</code> is a script for switching desktops</p>
+<p><code>#/bin/sh
+     DIR=${1:-~/images/wallpapers}
+     FILE=$DIR/$(ls -1tr $DIR | head -n 1)
+     touch "$FILE"
+     nitrogen --set-zoom-fill "$FILE"</code></p>
+<p><code>nitrogen</code> is obviously the command which does the desktop</p>
+<p>It is invoked by conky:</p>
+<pre><code>${execi 222 ~/bin/rotate2}
+</code></pre>
+<p>10/28 : Need this line for conky for fixing
+background problems.</p>
+<pre><code>own_window_argb_visual yes
+</code></pre>
+<p>Also added battery meter.</p>
+<h4>Minor stuff</h4>
+<ul>
+<li>
+<p>Set panel to autohide:</p>
+<p>edit .config/tint2, set autohide = 1</p>
+</li>
+<li>
+<p>Move notify to bottom right.</p>
+<p>gconftool-2 -s /apps/notify-osd/gravity --type=int 3</p>
+</li>
+</ul>
+<p>then logout and back in.
+  from : http://crunchbanglinux.org/forums/topic/15819/how-to-set-up-notifyosd-in-debian-squeeze-stable/</p>
+<h3>Notes from Setting up desktop</h3>
+<p>Setting up SSD was major pain in the ass, BIOS was defaulting
+to IDE emulation and the drive was failing inconsistently
+eg ldconfig failures (Invalid ELF; missing magic bytes) and
+and segfaulting iceweasel, flash, vim, xterm, everything.</p>
+<p>Went through several reinstalls to get it working right. Trick
+was to switch it to AHCI.</p>
+<h3>Fstab editing</h3>
+<p>Because I wanted to still use my old hard drive, two
+problems came up:</p>
+<p>1) mount it automatically to ~/prev-drive</p>
+<p>2) have #! use the HDD swap partition instead of the SSD</p>
+<p>Both are accomplished by adding the devices to fstab
+along with mount points.</p>
+<p>Since the last time I did this, things have changed, now
+you refer to drives by UUID, which you can get out
+of blkid</p>
+<h3>Grub Editing</h3>
+<p>Also, GRUB added all the old drives Ubuntu entries
+to the the list, there was ~30 of them. To get rid of them
+I commented them out from /boot/grub/grub.cfg; and to make
+sure they don't come back, I removed execute permission from
+/etc/grub.d/30_os_probe</p>
+<pre><code>sudo chmod -x /etc/grub.ed/30_os_probe
+</code></pre>
+<p>There might be a better way to do this. Also, I had to run
+the grub update script once with os probing to get settings
+for windows, which I then copied into a diff file (40_win)</p>
+<h3>Mcabber</h3>
+<p>This didn't seem to work until installing TLS libraries.</p>
+<h3>Latex</h3>
+<p>To install Lecture Notes in CS Springer style, unzip llncs2e.zip to</p>
+<p>/usr/share/texlive/texmf-dist/tex/latex/llncs2e/</p>
+<p>and then rebuild the style database:</p>
+<pre><code>$sudo mktexlsr
+</code></pre>
+<p>I installed the uclathes template there similiarly, by git clone-ing it into
+the above directory and rebuilding.</p>
+<h3>SSH Shared Keys</h3>
+<p>first, generate the key</p>
+<pre><code>$ ssh-keygen
+</code></pre>
+<p>then, add it to ssh-agent</p>
+<pre><code>$ ssh-add
+</code></pre>
+<p>check that it is there</p>
+<pre><code>$ ssh-add -L
+</code></pre>
+<p>finally, send it on over</p>
+<pre><code>$ ssh-copy-id remote
+</code></pre>
+<p>Make sure that .ssh is chmod 700 and .ssh/id_rsa is chmod 66</p>
+<p>Make sure public key auth is turned on in /etc/ssh/sshd_config</p>
+<h3>Text Utils</h3>
+<p>A couple utils I like for text:</p>
+<ul>
+<li>boxes</li>
+<li>figlet</li>
+<li>pv -pipe view</li>
+</ul>
+<h3>Stripping shoutcast streams</h3>
+<pre><code> git://src.thregr.org/fIcy
+</code></pre>
+<p>make and then copy to ~/bin</p>
+<h1>Old SUSE Notes</h1>
+<p>Start with server text only install</p>
+<p>Follow these:</p>
+<p>http://l3net.wordpress.com/2013/04/24/lightweight-opensuse-lxde-desktop-from-scratch/</p>
+<p>```</p>
+<h1>zypper install xorg-x11 xorg-x11-server</h1>
+<h1>startx</h1>
+<h1>zypper install openbox</h1>
+<p>```</p>
+<p>need Mesa-GL, x drivers for ati and evdev, xorg-video-drivers</p>
+<p>http://en.opensuse.org/SDB:Administer_with_sudo</p>
+<p>```</p>
+<h1>zypper in sudo</h1>
+<h1>visudo</h1>
+<p>// add line %sudo ALL=(ALL) ALL</p>
+<h1>groupadd sudo</h1>
+<h1>usermod -a -G sudo neal</h1>
+<p>```</p>
+<p>I don't have man pages, wtf</p>
+<pre><code>sudo zypper in --no-recommends man
+</code></pre>
+<p>apparently man reccomends ghostscript, which is not needed right now.</p>
+<p>```
+zypper ar http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.3/X11:lxde.repo</p>
+<p>zypper in slim</p>
+<p>? reccommends ImageMagic ??</p>
+<p>zypper in yast2-sysconfig yast2-runlevel</p>
+<p>edit /etc/logins.def, remove offending LASTLOG_ENAB</p>
+<p>in yast2-runlevel, enable xdm</p>
+<p>however, changing systemd default runlevel is a bit more involved:</p>
+<p>ln -sf /usr/lib/systemd/system/multi-user.target \
+   /etc/systemd/system/default.target</p>
+<p>zypper in pulseaudio pavucontrol</p>
+<p>zypper in MozillaFirefox
+zypper in flash-player</p>
+<p>zypper in mercurial
+zypper in hg-git</p>
+<p>http://susestarter.blogspot.com/2011/03/get-yer-subpixel-hinted-fonts.html</p>
+<p>htop
+mutt abook
+newsbeuter
+lynx
+moc</p>
+<p>ranger from rpm</p>
+<p>conky</p>
+<p>vlc from videolan.org
+libdvdcss from community repo</p>
+<p>make
+stow from rpm</p>
+<p>ncurses-devel</p>
+<p>yast2-sshd</p>
+<p>autoconf automake</p>
+<p>dependencies for st:
+libX11-devel fontconfig-devel freetype2-devel libXft-devel libXext libXext6 liberation2-fonts</p>
+<p>enable ssh : http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server
+ and firewall in yast</p>
+<p>patch</p>
+<p>screen with caption patch and 256 color patch</p>
+<p>install zathura from github manually, + girara and poppler plugin</p>
+<p>install libwebkit, compile tabbed and surf</p>
+<p>install R from tumbleweed, install colorout</p>
+<p>did a dist upgrade to tumbleweed
+```</p>
+<h3>Make a motd</h3>
+<pre><code>hostname | figlet | boxes | sudo tee /etc/motd
+</code></pre></article>
 <footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
-Last updated on&nbsp;2020-04-05.</footer>
+Last updated on&nbsp;2020-04-11.</footer>
 </body>
 </html>

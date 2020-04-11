@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html><head>
+  <meta name="generator" content="njnmdoc, see http://github.com/njnmco/njnmdoc" />
+  <meta charset="UTF-8"><title>Vim</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1>Vim</h1>
+</header>
+<article><!-- njnmdoc:  title="Vim"  -->
+
+<h1>Vim Cheat Sheet</h1>
+<h2>Modes</h2>
+<ul>
+<li>Normal mode</li>
+<li>Insert mode</li>
+<li>Visual mode</li>
+</ul>
+<h2>Navigation</h2>
+<p>```
+  hjkl          :: left down up right</p>
+<p>wbe           :: next/prev word</p>
+<p>}             :: next chunk
+  {             :: prev chunk</p>
+<p>g##           :: Go to line ##
+  gg            :: Go to line 1
+  GG            :: Go to last line</p>
+<p>/             :: search
+  n             :: next match
+  N             :: prev match
+```</p>
+<h2>Commands</h2>
+<p>```
+  =             :: Indent object</p>
+<p>dd            :: delete line (cut)
+  yy            :: yank line   (copy)
+  p             :: paste</p>
+<p>:e            :: edit
+  :q            :: quit
+  :w            :: write out</p>
+<p>:diffsplit    :: view a diff
+  :diffpatch    :: view a patch (as a diff)
+```</p>
+<h2>Spelling</h2>
+<p>```
+  :set spell    :: Turn on
+  :set nospell  :: Turn off</p>
+<p>zg            :: Add word to list (good)
+  zw            :: Add word to list (wrong)
+  z=            :: Suggest a word       <em>CTRL-X</em>
+```</p>
+<h2>Buffers</h2>
+<p>Buffers are</p>
+<p><code>:ls           :: List open buffers
+  :b#           :: Open buffer #
+  :bd           :: Delete buffer
+  :bn           :: Next buffer
+  :bp           :: Previous buffer</code>
+                :: Switch to last       <em>CTRL-6</em></p>
+<h3>How to read ls</h3>
+<p>```</p>
+<p>| Code | Meaning                  |
+|------|--------------------------|
+| %    | current window           |
+| #    | alternate window for C-^ |
+| a    | active buffer            |
+| h    | hidden buffer            |
+| -    | modifiable off           |
+| =    | readonly                 |
+| +    | modified                 |
+| x    | read errors              |
+```</p>
+<h2>Windows</h2>
+<p>Windows split the screen into regions</p>
+<p>```
+  :sp           :: Split window         <em>CTRL-w s</em>
+  :vs           :: Vertical split       <em>CTRL-w v</em>
+  :clo          :: Close current win    <em>CTRL-w c</em>
+  :q            :: Quit current window  <em>CTRL-w q</em>
+  :on           :: Make current only    <em>CTRL-w o</em></p>
+<p>:res          :: Resize +-N height    <em>CTRL-w +/-</em>
+  :vertical res :: Resize +-N width     <em>CTRL-w </></em>
+                :: Equal size all win   <em>CTRL-w =</em>
+                :: Rotate windows       <em>CTRL-w r</em>
+```</p>
+<h2>Tabs</h2>
+<p>Tabs contain windows.</p>
+<p>```
+  :tabs         :: List tabs
+  :tabe         :: Edit in new tab
+  :tabc         :: Close current tab</p>
+<p>:tabn         :: Next tab             <em>CTRL-PgDn</em>
+  :tabp         :: Prev tab             <em>CTRL-PgUp</em></p>
+<p>```</p>
+<h2>Folding</h2>
+<p>```
+  zo            :: Open one fold
+  zc            :: Close one fold</p>
+<p>zO            :: Open all nested folds
+  zC            :: Close all nested folds
+```</p>
+<h2>Screen</h2>
+<p><code>:ScreenShell  :: Starts a shell below
+  :ScreenQuit   :: Closes it
+  :ScreenSend   :: Sends a selection to the ScreenShell
+%% todo: bind to keys</code></p>
+<h2>File Manager</h2>
+<p><code>:e.   :: Look at current dir
+  :Ve.  :: Look at current in side panel</code></p>
+<h2>Version Control</h2>
+<p><code>\ca           :: Add current file
+  \cb           :: Annotate
+  \cc           :: Commit
+  \cd           :: Diff
+  \cs           :: Status</code></p>
+<h2>VimWiki</h2>
+<p>```
+ =              :: adds a header level to this line
+ -              :: remove a header level</p>
+<p>zr            :: unfold next level (vimwiki)
+  zM            :: fold all (vimwiki)
+```</p>
+<h2>Misc Knowledge</h2>
+<p>How to get vim to open multiple files into tabs at once?</p>
+<p><code>:args *.c
+:tab all</code></p>
+<p>http://superuser.com/questions/171763/how-to-get-vim-to-open-multiple-files-into-tabs-at-once</p>
+<h2>Links</h2>
+<ul>
+<li>http://arstechnica.com/information-technology/2011/11/two-decades-of-productivity-vims-20th-anniversary/</li>
+</ul></article>
+<footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
+Last updated on&nbsp;2020-04-11.</footer>
+</body>
+</html>
