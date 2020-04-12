@@ -133,6 +133,23 @@ https://kansaslinuxfest.org/
 
 ## Old Crunchbang notes
 
+
+
+CrunchBang, at [crunchbang.org](http://crunchbang.org) was a [[Debian]]-based [[Linux]] distribution.
+
+It is built with low overhead in mind, making it ideal for modest PCs such as [[netbooks]].
+
+At it's core, it is really just a debian install with good defaults for
+
+[[OpenBox]] - window manager
+
+[[tint2]] - panel
+
+[[conky]] - system info dashboard - Crunchbang lists the OB shortcuts
+
+[A eulogy to CrunchBang, the Linux distro that time passed by | PCWorld](http://www.pcworld.com/article/2882630/the-death-of-a-linux-distro.html#tk.nl_today)
+
+
 ###Creating USB
 Default "Create startup USB" in ubuntu did not worked,
 installed unetbin, which did.

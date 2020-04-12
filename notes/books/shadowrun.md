@@ -1,5 +1,10 @@
 <!-- njnmdoc: title="Shadowrun"  -->
 
+The Shadowrun series, based of the [[pen-and-paper RPG]] of the same name, ran through most of the nineties.
+
+Although nominally [[cyberpunk]], the series blended in [[Fantasy]] including dragons, elves, magic and [[Bigfoot]].
+
+
 ```
 == Shadowrun Novels ==
 
@@ -47,4 +52,8 @@
 |   | 40 | The Burning Time              | Stephen Kenson                | 2001-08 |
 ```
 
+
+
+
+2XS, Nigel Findley's first entry, is a less epic, street-level noir set in Seattle that introduces Dirk Montgomery. This novel features chipheads, gangs and some mystery solving.
 

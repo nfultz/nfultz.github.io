@@ -9,3 +9,5 @@ Right now I am working on:
 * grant formula calibration for non-profits
 * twitter analytics :|
 
+*This is a now page, and if you have your own site, [you should make one too](https://nownownow.com/about)*
+
