@@ -11,7 +11,7 @@ Hello, world!
   * [Talks](talks.html)
   * [Notes](#)
     * [Hot Sauces](notes/hotsauce.html)
-    * [Linux](computer/linux.html)
-    * [Windows](computer/windows.html)
-    * [Projects](programming/projects.html)
+    * [Linux](notes/computer/linux.html)
+    * [Windows](notes/computer/windows.html)
+    * [Projects](notes/programming/projects.html)
 
