@@ -1,5 +1,9 @@
 <!-- njnmdoc: title="Casca"  -->
 
+The Casca series is adventure novels meet historical fiction, kinda like [[Highlander]].
+The Casca series was written by Barry Sadler, who is notable for writing "Ballad of the Green Berets", murdering a country singer, and was himself murdered in a botched robbery.
+
+
 ```
 == Casca ==
 
