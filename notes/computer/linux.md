@@ -429,4 +429,32 @@ did a dist upgrade to tumbleweed
 ### Make a motd
     hostname | figlet | boxes | sudo tee /etc/motd
 
+### Old Notes
+
+
+[Revisiting How We Put Together Linux Systems](http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html)
+
+[Why do we use the Linux kernel's TCP stack? - Julia Evans](http://jvns.ca/blog/2016/06/30/why-do-we-use-the-linux-kernels-tcp-stack/)
+
+vmtouch - the Virtual Memory Toucher
+
+
+
+Portable file system cache diagnostics and control --- [Hoytech](https://hoytech.com/vmtouch/)
+
+Linux devices manager for the Logitech Unifying Receiver. --- [Solaar](http://pwr.github.io/Solaar/)
+
+[How to switch to Compton for beautiful tear free compositing in XFCE: duncanlock.net](http://duncanlock.net/blog/2013/06/07/how-to-switch-to-compton-for-beautiful-tear-free-compositing-in-xfce/)
+
+[How to Boot Linux ISO Images Directly From Your Hard Drive](http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/)
+
+[smxi sgfxi svmi :: How to Install the Scripts](http://smxi.org/site/install.htm)
+
+IMO Power user = knowledge of differences between consumer distros, desktop
+ricing, and exotic scripts for like media control or home automation Sysadmin =
+could do the above but more likely just drinks in between deployments/ fires/
+paychecks
+  --- [How to tell the level of a Linux book? : linux](http://www.reddit.com/r/linux/comments/2x8rsi/how_to_tell_the_level_of_a_linux_book/)
+
+[The Definitive Guide to Linux System Calls](http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
 
