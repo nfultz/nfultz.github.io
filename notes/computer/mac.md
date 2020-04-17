@@ -16,4 +16,10 @@ Apparently, Apple decided to delete <code>/etc/motd</code> in Leopard.
 
 > First, in terms of iPhone operations and considering nothing else, Jeff Williams has clearly done an amazing job. Apple sold a record 74 million iPhones last quarter, and though the company doesn’t break that down by models for competitive reasons, everyone knows that a huge chunk of those were the brand-new iPhone 6 and 6 Plus. They were supply-constrained on both models, particularly the 6 Plus, but only by a few weeks. Operationally Apple did an incredible job meeting demand for iPhones — they sold more than ever but were less supply-constrained than in the last few launch quarters. For context, in 2008, Apple sold a total 10 million iPhones for the entire year. All credit to the hardware, software, and product marketing teams for the fact that 74 million people wanted to buy an iPhone last quarter. But the credit goes to Williams’s operations team that there were 74 million units available to sell. --- [Daring Fireball: On Jeff Williams and Apple's Executive Team](http://daringfireball.net/2015/01/jeff_williams_apple_executives)
 
+### Newer links
+
+https://ashishb.net/tech/mac-101-migrating-from-gnulinux-to-mac-for-software-engineers/
+
+
+
 
