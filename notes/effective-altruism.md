@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Effective Altruism"  -->
 [Effective Altruism Handbook - Now Online - Effective Altruism Forum](http://effective-altruism.com/ea/hx/effective_altruism_handbook/)
 
 [Effective Altruism and mistakes of globalization | topherhallquist](https://topherhallquist.wordpress.com/2015/09/14/effective-altruism-and-mistakes-of-globalization/)

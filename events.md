@@ -2,6 +2,7 @@
 
 ## Apr 2020
 
+  * 29 - Customer Data Science (Online)
   * 24 - SCASA Applied Stats WS (Online)
   * 23 - West LA R User Group (Online)
   * 22 - USRSE Virtual conference

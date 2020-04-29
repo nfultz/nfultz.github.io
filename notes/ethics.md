@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Ethics"  -->
 [Networked Systems Ethics - Networked Systems Ethics](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics)
 
 [Famine, Affluence, and Morality, by Peter Singer](http://www.utilitarian.net/singer/by/1972----.htm)

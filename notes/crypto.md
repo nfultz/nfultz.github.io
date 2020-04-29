@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Crypto"  -->
 [So you want to be a cryptographer](http://www.windowsecurity.com/uplarticle/4/cryptwant.txt)
 
 [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/)

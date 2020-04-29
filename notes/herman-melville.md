@@ -1,3 +1,5 @@
+<!-- njnmdoc:  title="Herman Melville"  -->
+
 [Herman Melville’s Bartleby, the Scrivener: An interactive, annotated text.](http://www.slate.com/articles/arts/culturebox/2015/10/herman_melville_s_bartleby_the_scrivener_an_interactive_annotated_text.html)
 
 [A Melville Marginalia Mystery | The New York Public Library](http://www.nypl.org/blog/2016/05/05/melville-marginalia-mystery)
