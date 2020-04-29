@@ -1,5 +1,11 @@
 <!-- njnmdoc:  title="Events"  -->
 
+## Apr 2020
+
+  * 24 - SCASA Applied Stats WS (Online)
+  * 23 - West LA R User Group (Online)
+  * 22 - USRSE Virtual conference
+
 ## Mar 2020
 
   * 24 - Pasadena Python (Online)
