@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html><head>
+  <meta name="generator" content="njnmdoc, see http://github.com/njnmco/njnmdoc" />
+  <meta charset="UTF-8"><title></title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1></h1>
+</header>
+<article><p><a href="http://www.deeplearningbook.org/">Deep Learning</a></p>
+<p>So what is the magic that separates deep learning from the rest, and can crack problems for which no group of humans has ever been able to program a solution? The first ingredient, from the early days of neural nets, is a timeless algorithm, rediscovered again and again, known in this field as "back-propagation". It's really just the chain rule—a simple calculus trick—applied in a very elegant way. It's a deep integration of continuous and discrete math, enabling complex families of potential solutions to be autonomously improved with vector calculus.</p>
+<p>The key is to organize the template of potential solutions as a directed graph (e.g., from a photo to a generated caption, with many nodes in between). Traversing this graph in reverse enables the algorithm to automatically compute a "gradient vector," which directs the search for increasingly better solutions. You have to squint at most modern deep learning techniques to see any structural similarity to traditional neural networks, but behind the scenes, this back-propagation algorithm is crucial to both old and new architectures.</p>
+<p>But the original neural networks that used back-propagation fall far short of newer deep learning techniques, even using today's hardware and datasets. The other key piece of magic in every modern architecture is another deceptively simple idea: components of a network can be used in more than one place at the same time. As the network is optimized, every copy of each component is forced to stay identical (this idea is called "weight-tying"). This enforces an additional requirement on weight-tied components: they must learn to be useful in many places all at once, and not specialize to a particular location. Weight-tying causes the network to learn a more generally useful function, since a word might appear at any location in a block of text, or a physical object might appear at any place in an image.</p>
+<p>--- <a href="http://edge.org/response-detail/26794">Edge.org</a></p>
+<p><a href="http://elnn.snucse.org/sandbox/music-rnn/#hn">Extending "Let It Go" with LSTM</a></p>
+<p><a href="http://randomekek.github.io/deep/deeplearning.html">Deep Learning for Beginners</a></p>
+<p><a href="http://blog.webkid.io/neural-networks-in-javascript/">Neural Networks in Javascript</a></p>
+<p><a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks -- colah's blog</a></p>
+<p><a href="http://dmlc.ml/rstats/2015/11/03/training-deep-net-with-R.html">Deep Learning with MXNetR</a></p>
+<p><a href="http://iamtrask.github.io/2015/07/12/basic-python-network/">A Neural Network in 11 lines of Python (Part 1) - i am trask</a></p>
+<p><a href="https://codesachin.wordpress.com/2015/11/28/self-organizing-maps-with-googles-tensorflow/">Self-Organizing Maps with Google’s TensorFlow | Sachin Joglekar's blog</a></p>
+<p>The earliest deep-learning-like algorithms that had multiple layers of non-linear features can be traced back to Ivakhnenko and Lapa in 1965 (Figure 1), who used thin but deep models with polynomial activation functions which they analyzed with statistical methods. In each layer, they selected the best features through statistical methods and forwarded them to the next layer. They did not use backpropagation to train their network end-to-end but used layer-by-layer least squares fitting where previous layers were independently fitted from later layers. --- <a href="http://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-history-training/">Deep Learning in a Nutshell: History and Training | Parallel Forall</a></p>
+<p>LIBFFM is an open source tool for field-aware factorization machines (FFM). For the formulation of FFM, please see this slide. It has been used to win two recent click-through rate prediction competitions (Criteo's and Avazu's).</p>
+<p>It supports</p>
+<pre><code>l2-regularized logistic loss
+</code></pre>
+<p>Main features include</p>
+<pre><code>using SSE instructions to accelerate vector operations
+
+cross validation for parameter selection  --- [LIBFFM: A Library for Field-aware Factorization Machines](http://www.csie.ntu.edu.tw/~r01922136/libffm/)
+</code></pre>
+<p><a href="http://download.tensorflow.org/paper/whitepaper2015.pdf">TensorFlow whitepaper</a></p>
+<p><a href="http://arxiv.org/abs/1510.03009"> Neural Networks with Few Multiplications</a></p>
+<p>Deep learning is part of a broader family of machine learning methods based on learning representations of data. <a href="https://en.wikipedia.org/wiki/Deep_learning">wikipedia</a></p>
+<p><a href="https://blog.wtf.sg/2015/01/15/neural-turing-machines-faq/">Neural Turing Machines FAQ – when trees fall…</a></p>
+<p><a href="http://arxiv.org/abs/1510.04781v1">Time Travel in Deep Learning Space: An Introduction to Deep Learning Models and How Deep Learning Models Evolved from the Initial Ideas</a></p>
+<p><a href="https://avisingh599.github.io/deeplearning/visual-qa/">Deep Learning for Visual Question Answering</a></p>
+<p><a href="http://www.marekrei.com/blog/26-things-i-learned-in-the-deep-learning-summer-school/">26 Things I Learned in the Deep Learning Summer School - Marek Rei</a></p>
+<p><a href="http://deeplearning4j.org/linear-regression.html">Deeplearning4j - Using Neural Networks With Regression</a></p>
+<p><a href="http://arxiv.org/abs/1508.06585"> Towards universal neural nets: Gibbs machines and ACE</a></p>
+<p><a href="https://docs.google.com/file/d/0BxKBnD5y2M8NVHRiVXBnOVpiYUk/view?sle=true">What's Wrong With Deep Learning?</a></p>
+<p>"Realistically, deep learning is only part of the larger challenge of building intelligent machines. Such techniques lack ways of representing causal relationships (...) have no obvious ways of performing logical inferences, and they are also still a long way from integrating abstract knowledge, such as information about what objects are, what they are for, and how they are typically used. The most powerful A.I. systems, like Watson (...) use techniques like deep learning as just one element in a very complicated ensemble of techniques, ranging from the statistical technique of Bayesian inference to deductive reasoning." - Gary Marcus</p>
+<p><a href="http://www.mtgsalvation.com/forums/creativity/custom-card-creation/612057-generating-magic-cards-using-deep-recursive-neural">Generating Magic cards using deep, recursive neural networks - Custom Card Creation - Creativity - MTG Salvation Forums - MTG Salvation</a></p>
+<p>Was deep learning the cause of [[Foul-mouthed Watson]]?</p>
+<p><a href="https://www.youtube.com/watch?v=MVyauNNinC0">Alex Korbonits: Deep Learning with Python: getting started and getting from ideas to insights in mi - YouTube</a></p>
+<p><a href="http://gitxiv.com/posts/v5tX6rgdXs9Fqo63r/deep-learning-via-hessian-free-optimization">Deep Learning via Hessian-free Optimization | GitXiv</a></p>
+<p><a href="https://karpathy.github.io/neuralnets/">Hacker's guide to Neural Networks</a></p>
+<p><a href="http://deeplearning4j.org/restrictedboltzmannmachine.html">Deeplearning4j - Open-source, distributed deep learning for the JVM</a></p>
+<p><a href="http://www-labs.iro.umontreal.ca/~bengioy/dlbook/">DEEP LEARNING</a></p>
+<p><a href="https://plus.google.com/100849856540000067209/posts/9BDtGwCDL7D">Critique of Paper by "Deep Learning Conspiracy" (Nature 521 p 436) Machine…</a></p></article>
+<footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
+Last updated on&nbsp;2020-06-13.</footer>
+</body>
+</html>

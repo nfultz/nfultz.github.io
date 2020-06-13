@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head>
+  <meta name="generator" content="njnmdoc, see http://github.com/njnmco/njnmdoc" />
+  <meta charset="UTF-8"><title></title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1></h1>
+</header>
+<article><p><a href="http://www.stat.berkeley.edu/~ledell/docs/h2o_hpccon_oct2015.pdf">High Performance Machine Learning in R with H2O</a></p>
+<p><a href="http://nojhan.github.io/colout/">Colout by nojhan</a></p>
+<p><a href="http://blagrants.blogspot.com/2015/09/r-my-journey-so-far.html">Blag's bag of rants: R - My journey so far</a></p>
+<p>Wrappers for fork()/waitpid() meant to allow R users to quickly and easily fork child processes and wait for them to finish.</p>
+<p>--- <a href="https://cran.r-project.org/web/packages/bfork/">CRAN - Package bfork</a></p>
+<p>The material is based on the online courses I have been teaching with Mike Love. As we created the course, Mike and I wrote R markdown documents for the students and put them on GitHub. We then used jekyll to create a webpage with html versions of the markdown documents. Jeff then convinced us to publish it on LeanbupLeanpub. So we wrote a shell script that compiled the entire book into a Leanpub directory, and after countless hours of editing and tinkering we have a 450  page book with over 200 exercises. The entire book compiles from scratch in about 20 minutes. We hope you like it. --- <a href="http://simplystatistics.org/2015/09/23/data-analysis-for-the-life-sciences-a-book-completely-written-in-r-markdown/">Data Analysis for the Life Sciences – a book completely written in R markdown | Simply Statistics</a></p>
+<p><a href="http://arrgh.tim-smith.us/">aRrgh: a newcomer's (angry) guide to R</a></p>
+<p><a href="http://xkcd.r-forge.r-project.org/">R package xkcd</a></p>
+<p>The R package ecosystem is one of the cornerstones of the success seen by R. As of this writing, over 6200 are on CRAN, several hundred more at BioConductor and at OmegaHat.</p>
+<p>Support for multiple repositories is built deeply into R; mostly via the (default) package utils. The update.packages function (along with several others from the utils package) can used for these three default repositories as well as many others with ease. But it seemed that support for simple creation and use of local repositories was however missing.</p>
+<p>Drat tries to help here.</p>
+<p>--- <a href="http://dirk.eddelbuettel.com/code/drat.html">drat: drat R Archive Template</a></p>
+<p>tidyr is new package that makes it easy to tidy your data. Tidy data is data that’s easy to work with: it’s easy to munge (with dplyr), visualise (with ggplot2 or ggvis) and model (with R’s hundreds of modelling packages). The two most important properties of tidy data are:</p>
+<ul>
+
+<p><li> Each column is a variable.</p>
+<p><li>  Each row is an observation.</p>
+</ul>
+
+<p>Arranging your data in this way makes it easier to work with because you have a consistent way of referring to variables (as column names) and observations (as row indices). When use tidy data and tidy tools, you spend less time worrying about how to feed the output from one function into the input of another, and more time answering your questions about the data. --- <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">Introducing tidyr | RStudio Blog</a></p>
+<p>The goal of checkpoint is to solve the problem of package reproducibility in R. Specifically, checkpoint allows you to install packages as they existed on CRAN on a specific snapshot date as if you had a CRAN time machine. To achieve reproducibility, the checkpoint() function installs the packages required or called by your project and scripts to a local library exactly as they existed at the specified point in time. Only those packages are available to your project, thereby avoiding any package updates that came later and may have altered your results. In this way, anyone using checkpoint's checkpoint() can ensure the reproducibility of your scripts or projects at any time. To create the snapshot archives, once a day (at midnight UTC) we refresh the Austria CRAN mirror, on the "Managed R...   More»</p>
+<p>--- <a href="http://mran.revolutionanalytics.com/packages/info/?checkpoint">MRAN - Managed R Archive Network · Package Info</a></p>
+<p>This package provides support for randomized software testing for R. Inspired by its influential Haskell namesake, it promotes a style of writing tests where assertions about functions are verified on random inputs. The package provides default generators for most common types but allows users to modify their behavior or even to create new ones based on the needs of a each application. The main advantages over traditional testing are</p>
+<p>--- <a href="https://github.com/RevolutionAnalytics/quickcheck">RevolutionAnalytics/quickcheck · GitHub</a></p>
+<p>The template contains the four usual components of any scientific manuscript:</p>
+<p>equations (using LaTeX syntax)</p>
+<p>table with caption (done by kable package, but you can also use xtable)</p>
+<p>figure with caption</p>
+<p>citations and references (done by knitcitations package)</p>
+<p>--- <a href="http://www.petrkeil.com/?p=2401">» Simple template for scientific manuscripts in R markdown</a></p>
+<p><a href="http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/">The Hitchhiker's Guide to the Hadleyverse – Adolfo Álvarez</a></p>
+<p>opying source code of another student completely makes no sense, as student does not learn, and what is more, he/she gets points for something he/she didn’t make.</p>
+<p>When there are only few homeworks to check, it is easy to do it manually. But what if there is a large number of submissions? Then we need some application to automate the process. There are some known tools for standard programming languages, such as MOSS or JPLAG for e.g. C, C  , C#, Java, Scheme or Javascript.</p>
+<p>But what if we want to automate the process of checking similarity of R source code? Till now there were no such a tool available. But things have changed.</p>
+<p>SimilaR --- <a href="http://www.rexamine.com/2015/03/similar/">SimilaR | Rexamine</a></p>
+<p><a href="https://journal.r-project.org/archive/2015-1/lenth.pdf">Adding estimability checking to a modeling package</a></p>
+<p><a href="http://simplystatistics.org/2015/10/14/minimal-r-package-check-list/">Minimal R Package Check List | Simply Statistics</a></p>
+<p><a href="http://rud.is/b/2015/09/08/roll-your-own-stats-and-geoms-in-ggplot2-part-1-splines/">Roll Your Own Stats and Geoms in ggplot2 (Part 1: Splines!) | rud.is</a></p>
+<p><a href="https://mran.revolutionanalytics.com/package/rpca/">rpca · MRAN</a></p>
+<p><a href="https://gigadom.wordpress.com/2015/07/04/introducing-cricketr-a-r-package-to-analyze-performances-of-cricketers/">Introducing cricketr! : A R package to analyze performances of cricketers | Giga thoughts …</a></p>
+<p><a href="https://mran.revolutionanalytics.com/packages/info/?switchr">Package Info · MRAN</a></p>
+<p><a href="https://www.gastrograph.com/blogs/dev/using-s3-in-r.html">Using S3 buckets in R with RS3 library</a></p></article>
+<footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
+Last updated on&nbsp;2020-06-13.</footer>
+</body>
+</html>
