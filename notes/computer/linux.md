@@ -458,3 +458,6 @@ paychecks
 
 [The Definitive Guide to Linux System Calls](http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
 
+### Links
+
+[A broad overview of how modern Linux systems boot](https://utcc.utoronto.ca/~cks/space/blog/linux/LinuxBootOverview?)
