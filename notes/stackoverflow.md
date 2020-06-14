@@ -102,3 +102,27 @@ ggplot(vegLengths, aes(length, fill = veg))   geom_histogram(alpha = 0.5, aes(y 
 
 [r - How do I turn on function name completion? - Stack Overflow](http://stackoverflow.com/questions/8363900/how-do-i-turn-on-function-name-completion/8363927#8363927)
 
+## SO Blog posts
+
+[The Value of Downvoting, or, How Hacker News Gets It Wrong - Stack Overflow Blog](https://stackoverflow.blog/2009/03/09/the-value-of-downvoting-or-how-hacker-news-gets-it-wrong/)
+
+[A practical guide to writing technical specs - Stack Overflow Blog](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/?&&)
+
+[Podcast Episode 220: Fully Remote - Stack Overflow Blog](https://stackoverflow.blog/2020/03/24/podcast-episode-220-remote-work-lets-encrypt-bug/?&&)
+
+["They Didn't Teach Us This": A Crash Course for Your First Job in Software - Stack Overflow Blog](https://stackoverflow.blog/2019/09/05/they-didnt-teach-us-this-a-crash-course-for-your-first-job-in-software/?cb=1)
+
+[The Stack Overflow Podcast - Episode #125: 'Tilde Club' and Mechanical Keyboards - Stack Overflow Blog](https://stackoverflow.blog/2019/10/22/the-stack-overflow-podcast-episode-125-tilde-club-mechanical-keyboards/)
+
+[How to Make Good Code Reviews Better - Stack Overflow Blog](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/?&&&)
+
+[Introducing The Overflow and Cassidy Williams - Stack Overflow Blog](https://stackoverflow.blog/2019/10/01/introducing-overflow-newsletter-cassidy-williams/?&&&)
+
+[Predicting Stack Overflow Tags with Google's Cloud AI - Stack Overflow Blog](https://stackoverflow.blog/2019/05/06/predicting-stack-overflow-tags-with-googles-cloud-ai/)
+
+[How to Talk About Yourself in an Interview | Stack Overflow](https://stackoverflow.blog/2017/04/27/how-to-talk-about-yourself-in-an-interview/)
+
+[How to Rock a Side Project When You Have No Free Time - Stack Overflow Blog](https://stackoverflow.blog/2017/01/19/how-to-rock-a-side-project-when-you-have-no-free-time/)
+
+[Introducing Stack Overflow Trends - Stack Overflow Blog](https://stackoverflow.blog/2017/05/09/introducing-stack-overflow-trends/?imm_mid=0f18e5&cmp=em-prog-na-na-newsltr_20170513)
+
