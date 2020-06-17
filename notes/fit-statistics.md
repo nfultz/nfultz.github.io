@@ -12,3 +12,8 @@ The traditional F-measure or balanced F-score (F1 score) is the harmonic mean of
 
     F_1 = 2 \cdot \frac{\mathrm{precision} \cdot \mathrm{recall}}{\mathrm{precision}   \mathrm{recall}}. --- [F1 score - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/F1_score)
 
+
+http://sandeeptata.blogspot.com/2015/04/on-dangers-of-auc.html
+https://www2.unil.ch/biomapper/Download/Lobo-GloEcoBioGeo-2007.pdf
+
+

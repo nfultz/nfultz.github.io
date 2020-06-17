@@ -6,3 +6,6 @@ This notebook demonstrates how to use the rich display system in IPerl and how i
 
 [IBash Notebook‽](http://jeroenjanssens.com/2015/02/19/ibash-notebook.html)
 
+https://analyticsindiamag.com/top-8-extensions-for-your-jupyter-notebook/
+
+

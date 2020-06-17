@@ -20,9 +20,9 @@ Graphics are provided by [[ggplot2]] and [[lattice]] packages in addition to [[b
 
 Also be sure to install <code><pre>apt-get install texinfo texlive-fonts-extra</pre></code> to build package manauls cleanly. --- [Diagnosing R package build warning: "LaTeX errors when creating PDF version" - Stack Overflow](http://stackoverflow.com/questions/10819959/diagnosing-r-package-build-warning-latex-errors-when-creating-pdf-version)
 
- 
 
- 
+
+
 
 [[RStudio]] is a p solid IDE for R.
 
@@ -56,3 +56,6 @@ Both R and distributed programming rank highly on my list of good things, so ima
 
 [swirl: Learn R, in R.](http://swirlstats.com/)
 
+[simdesign](https://github.com/philchalmers/SimDesign/wiki)
+
+[SO Salary case study](https://tomazweiss.github.io/blog/r_stackoverflow_survey/)
