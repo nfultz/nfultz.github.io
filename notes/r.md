@@ -59,3 +59,6 @@ Both R and distributed programming rank highly on my list of good things, so ima
 [simdesign](https://github.com/philchalmers/SimDesign/wiki)
 
 [SO Salary case study](https://tomazweiss.github.io/blog/r_stackoverflow_survey/)
+
+https://cran.r-project.org/web/packages/clusterPower/index.html
+

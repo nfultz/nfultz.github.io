@@ -9,3 +9,4 @@ This notebook demonstrates how to use the rich display system in IPerl and how i
 https://analyticsindiamag.com/top-8-extensions-for-your-jupyter-notebook/
 
 
+https://carreau.gitbooks.io/jupyter-book/content/notebook-extensions.html
