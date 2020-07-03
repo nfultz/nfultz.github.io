@@ -63,4 +63,9 @@ Wishlist:
   * https://treatyourmeat.com/product/gator-bait-hot-sauce/
 
 
+https://www.bonappetit.com/story/how-to-choose-the-right-hot
+
+
+
 [Hot Ones]: https://www.youtube.com/playlist?list=PLAzrgbu8gEMIwGmZWJLVbu0BmoEhVMQMw
+

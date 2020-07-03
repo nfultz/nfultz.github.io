@@ -6,5 +6,20 @@ https://www.protocol.com/hey-email
 http://www.lennyrachitsky.com/
 https://insidebigdata.com/newsletter/
 
+https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it
+
+
+https://vectrix.io/
+
+https://www.ben-evans.com/benedictevans/2020/6/22/zoom-and-the-next-video
+
+#
+https://www.justsecurity.org/
+ ://www.tabletmag.com/newsletter
+
+https://pragmaticpineapple.com/how-did-vim-become-so-popular/
+https://mailman.stanford.edu/mailman/listinfo/chamberlainseminar
+
+https://landing.mailerlite.com/webforms/landing/a7z2o2
 
 https://www.i-programmer.info/register.html
