@@ -27,6 +27,10 @@ https://timesofindia.indiatimes.com/most-searched-products/books/time-management
 
 https://analyticsindiamag.com/top-habits-for-data-analysts-to-help-them-become-successful-data-scientists/
 
+https://news.ycombinator.com/item?id=12786935
+
+https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives
+
 
 ## Todo lists
 

@@ -21,5 +21,7 @@ https://pragmaticpineapple.com/how-did-vim-become-so-popular/
 https://mailman.stanford.edu/mailman/listinfo/chamberlainseminar
 
 https://landing.mailerlite.com/webforms/landing/a7z2o2
+https://www.safeparkingla.org/contact
+https://groups.io/g/datasciencesection/join
 
 https://www.i-programmer.info/register.html
