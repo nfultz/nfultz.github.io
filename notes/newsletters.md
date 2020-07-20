@@ -30,3 +30,7 @@ https://www.alr-music.com/
 
 https://celadonbooks.com/
 https://andrewsullivan.substack.com/subscribe
+
+https://www.smashingmagazine.com/the-smashing-newsletter/
+
+https://www.datascienceportugal.com/jobs/
