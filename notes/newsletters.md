@@ -24,4 +24,8 @@ https://landing.mailerlite.com/webforms/landing/a7z2o2
 https://www.safeparkingla.org/contact
 https://groups.io/g/datasciencesection/join
 
+https://streamndestroy.substack.com/
 https://www.i-programmer.info/register.html
+https://www.alr-music.com/
+
+https://celadonbooks.com/
