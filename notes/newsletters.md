@@ -29,3 +29,4 @@ https://www.i-programmer.info/register.html
 https://www.alr-music.com/
 
 https://celadonbooks.com/
+https://andrewsullivan.substack.com/subscribe
