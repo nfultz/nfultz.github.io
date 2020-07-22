@@ -34,3 +34,7 @@ https://andrewsullivan.substack.com/subscribe
 https://www.smashingmagazine.com/the-smashing-newsletter/
 
 https://www.datascienceportugal.com/jobs/
+https://nathantankus.substack.com/
+https://thelandofrandom.crd.co/
+https://www.failory.com/interview/scout
+https://stay-saasy-signup.ck.page/1cc4343737
