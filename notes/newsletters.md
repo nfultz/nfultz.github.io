@@ -38,3 +38,14 @@ https://nathantankus.substack.com/
 https://thelandofrandom.crd.co/
 https://www.failory.com/interview/scout
 https://stay-saasy-signup.ck.page/1cc4343737
+https://www.adexchanger.com/newsletter/
+https://mynewsletters.fortune.com/data-sheet
+
+https://hackshackers.com/
+https://www.washingtonpost.com/business/2020/07/24/substack-email-newsletter-journalism/
+
+https://commoncog.com/blog/subscribe-to-the-commonplace-newsletter/
+https://inews.co.uk/
+https://underjord.io/five-buck-fatigue.html
+https://mailchi.mp/45668e72578c/yc
+https://danielbmarkham.locals.com/post/93376/theory-tuesdays-the-secret-of-programming
