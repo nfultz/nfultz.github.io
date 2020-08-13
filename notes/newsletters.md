@@ -49,3 +49,4 @@ https://inews.co.uk/
 https://underjord.io/five-buck-fatigue.html
 https://mailchi.mp/45668e72578c/yc
 https://danielbmarkham.locals.com/post/93376/theory-tuesdays-the-secret-of-programming
+https://www.failory.com/
