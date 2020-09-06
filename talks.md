@@ -1,5 +1,10 @@
 <!-- njnmdoc: title="Talks"  -->
 
+## 2020
+
+  * Aug 25 - _Intro to Decomps and Duetos_ [[slides]](https://nfultz.github.io/Intro_Dueto/)
+
+
 ## 2019
 
   * Oct 26 - IDEAS - _RAs and Response Times_ [[slides]](http://bit.ly/2krKa5q)

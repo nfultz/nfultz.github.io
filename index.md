@@ -4,7 +4,7 @@ Hello, world!
 
 
 
-  * [About Me](about)
+  * [About This Site](about)
   * [Contact Info](contact)
   * [Now](now)
   * [Event Log](events.html)

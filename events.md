@@ -1,16 +1,9 @@
 <!-- njnmdoc:  title="Events"  -->
 
-## Apr 2020
-
-  * 29 - Customer Data Science (Online)
-  * 24 - SCASA Applied Stats WS (Online)
-  * 23 - West LA R User Group (Online)
-  * 22 - USRSE Virtual conference
+## Pandemic Hiatus, Apr 2020 - Present
 
 ## Mar 2020
 
-  * 24 - Pasadena Python (Online)
-  * 19 - West LA R User Group (Online)
   * 06 - SCALE 18x Day 2
   * 05 - SCALE 18x Day 1
   * 04 - Git Merge 2020 (The Majestic)

@@ -50,3 +50,11 @@ https://underjord.io/five-buck-fatigue.html
 https://mailchi.mp/45668e72578c/yc
 https://danielbmarkham.locals.com/post/93376/theory-tuesdays-the-secret-of-programming
 https://www.failory.com/
+https://www.12coffee.me/
+https://www.foxandhoundsdaily.com/about-foxhounds/
+https://usafacts.org/
+lapl.org
+https://www.whistleblowersblog.org/2020/08/articles/editorial/support-national-whistleblower-day/
+https://business.insurance.thehartford.com/sbasubscribe
+https://medium.com/one-zero/newsletters/pattern-matching
+https://ajot.com/newsletter/signup
