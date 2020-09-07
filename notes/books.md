@@ -1,18 +1,7 @@
 I'm always going through several books at once.
 
-For nonfiction, I like pop-history and philosophy, as well as assorted [[thingographies]].
-
-I enjoy most genre fiction, including [[Adventure]], [[Fantasy]], [[SciFi]], [[Mystery]], [[Thriller]] and [[Horror]].
-
-
-
-And, of course [[comics]].
-
-Currently, my fun reading includes [[The Executioner]] series by Don Pendleton, the old [[Shadowrun]] series put out by Roc, and the [[Casca]] series, among others.
-
 [[Middlebrow Cannon]] - the top 100 books on Facebook.
 
-I'll be attempting the [[2015 Reading Challenge]].
 
 [The list « A year of reading the world](http://ayearofreadingtheworld.com/thelist/)
 
