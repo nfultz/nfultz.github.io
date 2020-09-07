@@ -8,3 +8,6 @@
 
 [Five principles for applying data science for social good - O'Reilly Media](https://www.oreilly.com/ideas/five-principles-for-applying-data-science-for-social-good)
 
+
+[Reddit AMA](https://www.reddit.com/r/datascience/comments/3zq4s6/ama_data_scientist_jake_porway_of_datakind/)
+
