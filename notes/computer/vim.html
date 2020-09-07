@@ -17,49 +17,60 @@
 <li>Visual mode</li>
 </ul>
 <h2>Navigation</h2>
-<p>```
-  hjkl          :: left down up right</p>
-<p>wbe           :: next/prev word</p>
-<p>}             :: next chunk
-  {             :: prev chunk</p>
-<p>g##           :: Go to line ##
+<pre class="highlight"><code>  hjkl          :: left down up right
+
+  wbe           :: next/prev word
+
+  }             :: next chunk
+  {             :: prev chunk
+
+
+  g##           :: Go to line ##
   gg            :: Go to line 1
-  GG            :: Go to last line</p>
-<p>/             :: search
+  GG            :: Go to last line
+
+  /             :: search
   n             :: next match
-  N             :: prev match
-```</p>
+  N             :: prev match</code></pre>
+
+
 <h2>Commands</h2>
-<p>```
-  =             :: Indent object</p>
-<p>dd            :: delete line (cut)
+<pre class="highlight"><code>  =             :: Indent object
+
+  dd            :: delete line (cut)
   yy            :: yank line   (copy)
-  p             :: paste</p>
-<p>:e            :: edit
+  p             :: paste
+
+  :e            :: edit
   :q            :: quit
-  :w            :: write out</p>
-<p>:diffsplit    :: view a diff
-  :diffpatch    :: view a patch (as a diff)
-```</p>
+  :w            :: write out
+
+  :diffsplit    :: view a diff
+  :diffpatch    :: view a patch (as a diff)</code></pre>
+
+
 <h2>Spelling</h2>
-<p>```
-  :set spell    :: Turn on
-  :set nospell  :: Turn off</p>
-<p>zg            :: Add word to list (good)
+<pre class="highlight"><code>  :set spell    :: Turn on
+  :set nospell  :: Turn off
+
+  zg            :: Add word to list (good)
   zw            :: Add word to list (wrong)
-  z=            :: Suggest a word       <em>CTRL-X</em>
-```</p>
+  z=            :: Suggest a word       *CTRL-X*</code></pre>
+
+
 <h2>Buffers</h2>
 <p>Buffers are</p>
-<p><code>:ls           :: List open buffers
+<pre class="highlight"><code>  :ls           :: List open buffers
   :b#           :: Open buffer #
   :bd           :: Delete buffer
   :bn           :: Next buffer
-  :bp           :: Previous buffer</code>
-                :: Switch to last       <em>CTRL-6</em></p>
+  :bp           :: Previous buffer</code></pre>
+
+
+<pre><code>            :: Switch to last       *CTRL-6*
+</code></pre>
 <h3>How to read ls</h3>
-<p>```</p>
-<p>| Code | Meaning                  |
+<pre class="highlight"><code>| Code | Meaning                  |
 |------|--------------------------|
 | %    | current window           |
 | #    | alternate window for C-^ |
@@ -68,68 +79,81 @@
 | -    | modifiable off           |
 | =    | readonly                 |
 | +    | modified                 |
-| x    | read errors              |
-```</p>
+| x    | read errors              |</code></pre>
+
+
 <h2>Windows</h2>
 <p>Windows split the screen into regions</p>
-<p>```
-  :sp           :: Split window         <em>CTRL-w s</em>
-  :vs           :: Vertical split       <em>CTRL-w v</em>
-  :clo          :: Close current win    <em>CTRL-w c</em>
-  :q            :: Quit current window  <em>CTRL-w q</em>
-  :on           :: Make current only    <em>CTRL-w o</em></p>
-<p>:res          :: Resize +-N height    <em>CTRL-w +/-</em>
-  :vertical res :: Resize +-N width     <em>CTRL-w </></em>
-                :: Equal size all win   <em>CTRL-w =</em>
-                :: Rotate windows       <em>CTRL-w r</em>
-```</p>
+<pre class="highlight"><code>  :sp           :: Split window         *CTRL-w s*
+  :vs           :: Vertical split       *CTRL-w v*
+  :clo          :: Close current win    *CTRL-w c*
+  :q            :: Quit current window  *CTRL-w q*
+  :on           :: Make current only    *CTRL-w o*
+
+  :res          :: Resize +-N height    *CTRL-w +/-*
+  :vertical res :: Resize +-N width     *CTRL-w &lt;/&gt;*
+                :: Equal size all win   *CTRL-w =*
+                :: Rotate windows       *CTRL-w r*</code></pre>
+
+
 <h2>Tabs</h2>
 <p>Tabs contain windows.</p>
-<p>```
-  :tabs         :: List tabs
+<pre class="highlight"><code>  :tabs         :: List tabs
   :tabe         :: Edit in new tab
-  :tabc         :: Close current tab</p>
-<p>:tabn         :: Next tab             <em>CTRL-PgDn</em>
-  :tabp         :: Prev tab             <em>CTRL-PgUp</em></p>
-<p>```</p>
+  :tabc         :: Close current tab
+
+  :tabn         :: Next tab             *CTRL-PgDn*
+  :tabp         :: Prev tab             *CTRL-PgUp*</code></pre>
+
+
 <h2>Folding</h2>
-<p>```
-  zo            :: Open one fold
-  zc            :: Close one fold</p>
-<p>zO            :: Open all nested folds
-  zC            :: Close all nested folds
-```</p>
+<pre class="highlight"><code>  zo            :: Open one fold
+  zc            :: Close one fold
+
+  zO            :: Open all nested folds
+  zC            :: Close all nested folds</code></pre>
+
+
 <h2>Screen</h2>
-<p><code>:ScreenShell  :: Starts a shell below
+<pre class="highlight"><code>  :ScreenShell  :: Starts a shell below
   :ScreenQuit   :: Closes it
   :ScreenSend   :: Sends a selection to the ScreenShell
-%% todo: bind to keys</code></p>
+%% todo: bind to keys</code></pre>
+
+
 <h2>File Manager</h2>
-<p><code>:e.   :: Look at current dir
-  :Ve.  :: Look at current in side panel</code></p>
+<pre class="highlight"><code>  :e.   :: Look at current dir
+  :Ve.  :: Look at current in side panel</code></pre>
+
+
 <h2>Version Control</h2>
-<p><code>\ca           :: Add current file
+<pre class="highlight"><code>  \ca           :: Add current file
   \cb           :: Annotate
   \cc           :: Commit
   \cd           :: Diff
-  \cs           :: Status</code></p>
+  \cs           :: Status</code></pre>
+
+
 <h2>VimWiki</h2>
-<p>```
- =              :: adds a header level to this line
- -              :: remove a header level</p>
-<p>zr            :: unfold next level (vimwiki)
-  zM            :: fold all (vimwiki)
-```</p>
+<pre class="highlight"><code> =              :: adds a header level to this line
+ -              :: remove a header level
+
+  zr            :: unfold next level (vimwiki)
+  zM            :: fold all (vimwiki)</code></pre>
+
+
 <h2>Misc Knowledge</h2>
 <p>How to get vim to open multiple files into tabs at once?</p>
-<p><code>:args *.c
-:tab all</code></p>
-<p>http://superuser.com/questions/171763/how-to-get-vim-to-open-multiple-files-into-tabs-at-once</p>
+<pre class="highlight"><code>:args *.c
+:tab all</code></pre>
+
+
+<p><a href="http://superuser.com/questions/171763/how-to-get-vim-to-open-multiple-files-into-tabs-at-once">http://superuser.com/questions/171763/how-to-get-vim-to-open-multiple-files-into-tabs-at-once</a></p>
 <h2>Links</h2>
 <ul>
-<li>http://arstechnica.com/information-technology/2011/11/two-decades-of-productivity-vims-20th-anniversary/</li>
+<li><a href="http://arstechnica.com/information-technology/2011/11/two-decades-of-productivity-vims-20th-anniversary/">http://arstechnica.com/information-technology/2011/11/two-decades-of-productivity-vims-20th-anniversary/</a></li>
 </ul></article>
 <footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
-Last updated on&nbsp;2020-06-13.</footer>
+Last updated on&nbsp;2020-09-07.</footer>
 </body>
 </html>
