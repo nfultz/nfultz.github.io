@@ -7,7 +7,6 @@ Hello, world!
   * [About This Site](about)
   * [Contact Info](contact)
   * [Now](now)
-  * [Event Log](events.html)
   * [Talks](talks.html)
   * [Notes](#)
     * [Hot Sauces](notes/hotsauce.html)
