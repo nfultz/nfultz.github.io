@@ -58,3 +58,6 @@ https://www.whistleblowersblog.org/2020/08/articles/editorial/support-national-w
 https://business.insurance.thehartford.com/sbasubscribe
 https://medium.com/one-zero/newsletters/pattern-matching
 https://ajot.com/newsletter/signup
+https://whistleblowersblog.org/
+https://medium.com/towards-data-science/newsletters/the-daily-pick
+https://www.softwareheritage.org/newsletter/
