@@ -61,3 +61,5 @@ https://ajot.com/newsletter/signup
 https://whistleblowersblog.org/
 https://medium.com/towards-data-science/newsletters/the-daily-pick
 https://www.softwareheritage.org/newsletter/
+https://datakind.org.uk/enewsletter/?utm_source=Twitter&utm_medium=social_media&utm_campaign=Enewsletter_signup
+https://riggraz.dev/stack-overflow-antipattern.html
