@@ -504,7 +504,7 @@ We can glean some extra information by checking WHOIS on the domain:
 
 ![whois][whois]
 
-Sadly, NameCheap provides free
+Sadly, NameCheap provides free proxy registration, so no contact info is available.
 
 ## Timeline
 
