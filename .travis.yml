@@ -10,7 +10,7 @@ branches:
 
 install:
   - wget https://raw.githubusercontent.com/njnmco/njnmdoc/master/njnmdoc
-  - pip3 install markdown py-gfm
+  - pip3 install markdown==3.2.2 py-gfm
 
 script:
   - python3 njnmdoc -e css=https://unpkg.com/sakura.css/css/sakura.css -r . --lazy git
