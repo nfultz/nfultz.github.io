@@ -63,282 +63,349 @@
 <ul>
 <li><code>sudo apt install network-manager-openconnect-gnome</code></li>
 <li>Start <code>nm-applet</code> - this may require the gnome-tweak to show indicators<ul>
-<li>https://bugzilla.redhat.com/show_bug.cgi?id=1394977</li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1394977">https://bugzilla.redhat.com/show_bug.cgi?id=1394977</a></li>
 </ul>
 </li>
-<li>Better debugging: <code>sudo nmcli general logging level TRACE
-journalctl -u NetworkManager --since '2 minutes ago'</code></li>
+<li>Better debugging: ```<br />
+sudo nmcli general logging level TRACE<br />
+journalctl -u NetworkManager --since '2 minutes ago'</li>
 </ul>
-<h2>FoxyProxy config</h2>
-<ul>
-<li>Add New Proxy<ul>
-<li>host - "localhost"</li>
-<li>port - 9999</li>
-<li>Socks Proxy checked, SOCKS v5 selected</li>
-<li>Add rule <em>neal-nuc</em></li>
-</ul>
-</li>
-<li>ssh -D 9999 nfultz@neal.nuc</li>
-<li>visit http://neal-nuc:8787 from chrome</li>
-</ul>
-<h2>Enable Bluetooth at boot</h2>
-<ul>
-<li>From <a href="https://unix.stackexchange.com/a/199088/50441">TomTom</a>:</li>
-<li>Add to /etc/udev/rules.d/10-local.rules :<code># Set bluetooth power up
-ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"</code></li>
-</ul>
+<pre class="highlight"><code>## FoxyProxy config
+
+  * Add New Proxy
+      * host - &quot;localhost&quot;
+      * port - 9999
+      * Socks Proxy checked, SOCKS v5 selected
+      * Add rule *neal-nuc*
+  * ssh -D 9999 nfultz@neal.nuc
+  * visit http://neal-nuc:8787 from chrome
+
+## Enable Bluetooth at boot
+
+  * From [TomTom](https://unix.stackexchange.com/a/199088/50441):
+  * Add to /etc/udev/rules.d/10-local.rules :```
+ # Set bluetooth power up
+ACTION==&quot;add&quot;, KERNEL==&quot;hci0&quot;, RUN+=&quot;/usr/bin/hciconfig hci0 up&quot;</code></pre>
+
+
 <h2>Fix crackling audio on HDMI</h2>
 <ul>
 <li>From <a href="https://askubuntu.com/questions/405071/static-and-crackling-in-my-hdmi-audio">Gav</a>:</li>
 <li>Edit /etc/pulse/default.pa :```</li>
 </ul>
 <h1>add tsched=0 to udev-detect</h1>
-<p>load-module module-udev-detect tsched=0
-```
-  * Other people indicate this might affect ATI specifically.</p>
-<h2>Awesome CLI tools</h2>
-<ul>
-<li>epr<ul>
-<li>An epub reader.</li>
-<li><code>pip3 install --user git+https://github.com/wustho/epr.git</code></li>
-</ul>
-</li>
-<li>ranger<ul>
-<li>An file browser for the terminal</li>
-<li><code>pip3 install --user ranger-fm</code></li>
-</ul>
-</li>
-<li>pdfbook<ul>
-<li>convert a pdf into a booklet for (double-sided) printing</li>
-<li><code>apt install texlive-extra-utils</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/pastpages/savepagenow">savepagenow</a><ul>
-<li>saves url to wayback machine</li>
-<li><code>pip3 install --user savepagenow</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a><ul>
-<li>scrapes video from youtube</li>
-<li><code>pip3 install --user youtube-dl</code></li>
-</ul>
-</li>
-<li><a href="https://plaintextaccounting.org/">ledger</a><ul>
-<li>plain text double-entry accouting</li>
-<li><code>apt install ledger</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/jesseduffield/horcrux">horcrux</a></li>
-</ul>
-<h3>Old awesome commands</h3>
-<ul>
-<li><code>pv -qL #</code>  Plays a pipe at # bps</li>
-<li><code>figlet</code>  Large words</li>
-<li><code>boxes</code></li>
-<li><code>crawl</code>  Better than nethack</li>
-<li><code>mc</code>  Good ole midnight commander file manager</li>
-<li><code>mocp</code>  Midnight commander for music</li>
-<li><code>tidy</code></li>
-<li><code>markdown</code></li>
-<li><code>freecell</code>  http://www.linusakesson.net/software/freecell.php</li>
-<li><code>colorout</code>  http://nojhan.github.io/colout/</li>
-</ul>
-<h2>Openvpn</h2>
-<p><code>sudo apt install network-manager-openvpn network-manager-openvpn-gnome</code></p>
-<p>Need to reboot!</p>
-<h2>Grepping for user cron</h2>
-<p><code>journalctl | grep --line-buffered -Ei "cron\[[0-9]*\]:\s*\($USER\)"</code></p>
-<p>use <code>--line-buffered</code> to avoid double-buffer delay.</p>
-<h2>Conferences</h2>
-<p>https://kansaslinuxfest.org/</p>
-<h2>Old Crunchbang notes</h2>
-<p>CrunchBang, at <a href="http://crunchbang.org">crunchbang.org</a> was a [[Debian]]-based [[Linux]] distribution.</p>
-<p>It is built with low overhead in mind, making it ideal for modest PCs such as [[netbooks]].</p>
-<p>At it's core, it is really just a debian install with good defaults for</p>
-<p>[[OpenBox]] - window manager</p>
-<p>[[tint2]] - panel</p>
-<p>[[conky]] - system info dashboard - Crunchbang lists the OB shortcuts</p>
-<p><a href="http://www.pcworld.com/article/2882630/the-death-of-a-linux-distro.html#tk.nl_today">A eulogy to CrunchBang, the Linux distro that time passed by | PCWorld</a></p>
-<h3>Creating USB</h3>
-<p>Default "Create startup USB" in ubuntu did not worked,
-installed unetbin, which did.</p>
-<p>Set up on laptop. Flash and wireless worked out of box.</p>
-<h3>Iceweasel</h3>
-<ul>
-<li>Set up quicksearches, changed homepage to ddg,</li>
-<li>get delicious bookmarklet</li>
-<li>Get extensions:</li>
-<li>RightBar</li>
-<li>Scrollbar Anywhere</li>
-<li>TreeStyle Tab</li>
-<li>Tab History Redux
- in about:config set browser.tabs.loadDivertedInBackground to false.</li>
-<li>Elite proxy switcher is decent too for SOCKS 5 proxy over ssh.</li>
-</ul>
-<h3>SSD Notes</h3>
-<p>Since using an ssd, I did not install a swap partition.</p>
-<ul>
-<li>Therefore, remove the swap line from .conkyrc</li>
-</ul>
-<h3>Wlan tweak</h3>
-<p>Added wlan0 status to conkyrc:</p>
-<pre><code> ESSID: $alignr ${wireless_essid wlan0} ${wireless_link_qual_perc wlan0}%
+<p>load-module module-udev-detect tsched=0</p>
+<pre class="highlight"><code>  * Other people indicate this might affect ATI specifically.
+
+## Awesome CLI tools
+
+  * epr
+    - An epub reader.
+    - `pip3 install --user git+https://github.com/wustho/epr.git`
+  * ranger
+    - An file browser for the terminal
+    - `pip3 install --user ranger-fm`
+  * pdfbook
+    - convert a pdf into a booklet for (double-sided) printing
+    - `apt install texlive-extra-utils`
+  * [savepagenow](https://github.com/pastpages/savepagenow)
+    - saves url to wayback machine
+    - `pip3 install --user savepagenow`
+  * [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+    - scrapes video from youtube
+    - `pip3 install --user youtube-dl`
+  * [ledger](https://plaintextaccounting.org/)
+    - plain text double-entry accouting
+    - `apt install ledger`
+  * [horcrux](https://github.com/jesseduffield/horcrux)
+
+### Old awesome commands
+
+* `pv -qL #`  Plays a pipe at # bps
+* `figlet`  Large words
+* `boxes`
+* `crawl`  Better than nethack
+* `mc`  Good ole midnight commander file manager
+* `mocp`  Midnight commander for music
+* `tidy`
+* `markdown`
+* `freecell`  http://www.linusakesson.net/software/freecell.php
+* `colorout`  http://nojhan.github.io/colout/
+
+
+## Openvpn</code></pre>
+
+
+<p>sudo apt install network-manager-openvpn network-manager-openvpn-gnome</p>
+<pre class="highlight"><code>Need to reboot!
+
+## Grepping for user cron</code></pre>
+
+
+<p>journalctl | grep --line-buffered -Ei "cron[[0-9]<em>]:\s</em>($USER)"</p>
+<pre class="highlight"><code>use `--line-buffered` to avoid double-buffer delay.
+
+## Conferences
+
+https://kansaslinuxfest.org/
+
+
+## Old Crunchbang notes
+
+
+
+CrunchBang, at [crunchbang.org](http://crunchbang.org) was a [[Debian]]-based [[Linux]] distribution.
+
+It is built with low overhead in mind, making it ideal for modest PCs such as [[netbooks]].
+
+At it's core, it is really just a debian install with good defaults for
+
+[[OpenBox]] - window manager
+
+[[tint2]] - panel
+
+[[conky]] - system info dashboard - Crunchbang lists the OB shortcuts
+
+[A eulogy to CrunchBang, the Linux distro that time passed by | PCWorld](http://www.pcworld.com/article/2882630/the-death-of-a-linux-distro.html#tk.nl_today)
+
+
+###Creating USB
+Default &quot;Create startup USB&quot; in ubuntu did not worked,
+installed unetbin, which did.
+
+Set up on laptop. Flash and wireless worked out of box.
+
+### Iceweasel
+* Set up quicksearches, changed homepage to ddg,
+* get delicious bookmarklet
+* Get extensions:
+  * RightBar
+  * Scrollbar Anywhere
+  * TreeStyle Tab
+  * Tab History Redux
+ in about:config set browser.tabs.loadDivertedInBackground to false.
+* Elite proxy switcher is decent too for SOCKS 5 proxy over ssh.
+
+
+### SSD Notes
+
+Since using an ssd, I did not install a swap partition.
+
+* Therefore, remove the swap line from .conkyrc
+
+### Wlan tweak
+
+Added wlan0 status to conkyrc:
+
+     ESSID: $alignr ${wireless_essid wlan0} ${wireless_link_qual_perc wlan0}%
+
+
+
+### Wallpaper Hack
+
+`~/bin/rotate2` is a script for switching desktops</code></pre>
+
+
+<pre><code> #/bin/sh
+ DIR=${1:-~/images/wallpapers}
+ FILE=$DIR/$(ls -1tr $DIR | head -n 1)
+ touch "$FILE"
+ nitrogen --set-zoom-fill "$FILE"
 </code></pre>
-<h3>Wallpaper Hack</h3>
-<p><code>~/bin/rotate2</code> is a script for switching desktops</p>
-<p><code>#/bin/sh
-     DIR=${1:-~/images/wallpapers}
-     FILE=$DIR/$(ls -1tr $DIR | head -n 1)
-     touch "$FILE"
-     nitrogen --set-zoom-fill "$FILE"</code></p>
-<p><code>nitrogen</code> is obviously the command which does the desktop</p>
-<p>It is invoked by conky:</p>
-<pre><code>${execi 222 ~/bin/rotate2}
-</code></pre>
-<p>10/28 : Need this line for conky for fixing
-background problems.</p>
-<pre><code>own_window_argb_visual yes
-</code></pre>
-<p>Also added battery meter.</p>
-<h4>Minor stuff</h4>
-<ul>
-<li>
-<p>Set panel to autohide:</p>
-<p>edit .config/tint2, set autohide = 1</p>
-</li>
-<li>
-<p>Move notify to bottom right.</p>
-<p>gconftool-2 -s /apps/notify-osd/gravity --type=int 3</p>
-</li>
-</ul>
-<p>then logout and back in.
-  from : http://crunchbanglinux.org/forums/topic/15819/how-to-set-up-notifyosd-in-debian-squeeze-stable/</p>
-<h3>Notes from Setting up desktop</h3>
-<p>Setting up SSD was major pain in the ass, BIOS was defaulting
+<pre class="highlight"><code>`nitrogen` is obviously the command which does the desktop
+
+It is invoked by conky:
+
+    ${execi 222 ~/bin/rotate2}
+
+10/28 : Need this line for conky for fixing
+background problems.
+
+    own_window_argb_visual yes
+
+Also added battery meter.
+
+#### Minor stuff
+
+* Set panel to autohide:
+
+    edit .config/tint2, set autohide = 1
+
+* Move notify to bottom right.
+
+    gconftool-2 -s /apps/notify-osd/gravity --type=int 3
+
+  then logout and back in.
+  from : http://crunchbanglinux.org/forums/topic/15819/how-to-set-up-notifyosd-in-debian-squeeze-stable/
+
+
+
+
+### Notes from Setting up desktop
+
+Setting up SSD was major pain in the ass, BIOS was defaulting
 to IDE emulation and the drive was failing inconsistently
 eg ldconfig failures (Invalid ELF; missing magic bytes) and
-and segfaulting iceweasel, flash, vim, xterm, everything.</p>
-<p>Went through several reinstalls to get it working right. Trick
-was to switch it to AHCI.</p>
-<h3>Fstab editing</h3>
-<p>Because I wanted to still use my old hard drive, two
-problems came up:</p>
-<p>1) mount it automatically to ~/prev-drive</p>
-<p>2) have #! use the HDD swap partition instead of the SSD</p>
-<p>Both are accomplished by adding the devices to fstab
-along with mount points.</p>
-<p>Since the last time I did this, things have changed, now
+and segfaulting iceweasel, flash, vim, xterm, everything.
+
+Went through several reinstalls to get it working right. Trick
+was to switch it to AHCI.
+
+
+### Fstab editing
+  Because I wanted to still use my old hard drive, two
+problems came up:
+
+1) mount it automatically to ~/prev-drive
+
+2) have #! use the HDD swap partition instead of the SSD
+
+Both are accomplished by adding the devices to fstab
+along with mount points.
+
+  Since the last time I did this, things have changed, now
 you refer to drives by UUID, which you can get out
-of blkid</p>
-<h3>Grub Editing</h3>
-<p>Also, GRUB added all the old drives Ubuntu entries
+of blkid
+
+### Grub Editing
+
+  Also, GRUB added all the old drives Ubuntu entries
 to the the list, there was ~30 of them. To get rid of them
 I commented them out from /boot/grub/grub.cfg; and to make
 sure they don't come back, I removed execute permission from
-/etc/grub.d/30_os_probe</p>
-<pre><code>sudo chmod -x /etc/grub.ed/30_os_probe
-</code></pre>
-<p>There might be a better way to do this. Also, I had to run
+/etc/grub.d/30_os_probe
+
+    sudo chmod -x /etc/grub.ed/30_os_probe
+
+There might be a better way to do this. Also, I had to run
 the grub update script once with os probing to get settings
-for windows, which I then copied into a diff file (40_win)</p>
-<h3>Mcabber</h3>
-<p>This didn't seem to work until installing TLS libraries.</p>
-<h3>Latex</h3>
-<p>To install Lecture Notes in CS Springer style, unzip llncs2e.zip to</p>
-<p>/usr/share/texlive/texmf-dist/tex/latex/llncs2e/</p>
-<p>and then rebuild the style database:</p>
-<pre><code>$sudo mktexlsr
-</code></pre>
-<p>I installed the uclathes template there similiarly, by git clone-ing it into
-the above directory and rebuilding.</p>
-<h3>SSH Shared Keys</h3>
-<p>first, generate the key</p>
-<pre><code>$ ssh-keygen
-</code></pre>
-<p>then, add it to ssh-agent</p>
-<pre><code>$ ssh-add
-</code></pre>
-<p>check that it is there</p>
-<pre><code>$ ssh-add -L
-</code></pre>
-<p>finally, send it on over</p>
-<pre><code>$ ssh-copy-id remote
-</code></pre>
-<p>Make sure that .ssh is chmod 700 and .ssh/id_rsa is chmod 66</p>
-<p>Make sure public key auth is turned on in /etc/ssh/sshd_config</p>
-<h3>Text Utils</h3>
-<p>A couple utils I like for text:</p>
-<ul>
-<li>boxes</li>
-<li>figlet</li>
-<li>pv -pipe view</li>
-</ul>
-<h3>Stripping shoutcast streams</h3>
-<pre><code> git://src.thregr.org/fIcy
-</code></pre>
-<p>make and then copy to ~/bin</p>
-<h1>Old SUSE Notes</h1>
-<p>Start with server text only install</p>
-<p>Follow these:</p>
-<p>http://l3net.wordpress.com/2013/04/24/lightweight-opensuse-lxde-desktop-from-scratch/</p>
-<p>```</p>
+for windows, which I then copied into a diff file (40_win)
+
+###Mcabber
+
+This didn't seem to work until installing TLS libraries.
+
+
+###Latex
+
+To install Lecture Notes in CS Springer style, unzip llncs2e.zip to
+
+/usr/share/texlive/texmf-dist/tex/latex/llncs2e/
+
+and then rebuild the style database:
+
+    $sudo mktexlsr
+
+I installed the uclathes template there similiarly, by git clone-ing it into
+the above directory and rebuilding.
+
+
+###SSH Shared Keys
+
+first, generate the key
+
+    $ ssh-keygen
+
+then, add it to ssh-agent
+
+    $ ssh-add
+
+check that it is there
+
+    $ ssh-add -L
+
+finally, send it on over
+
+    $ ssh-copy-id remote
+
+Make sure that .ssh is chmod 700 and .ssh/id_rsa is chmod 66
+
+Make sure public key auth is turned on in /etc/ssh/sshd_config
+
+
+### Text Utils
+
+A couple utils I like for text:
+
+  * boxes
+  * figlet
+  * pv -pipe view
+
+### Stripping shoutcast streams
+
+     git://src.thregr.org/fIcy
+
+ make and then copy to ~/bin
+
+# Old SUSE Notes
+
+Start with server text only install
+
+Follow these:
+
+http://l3net.wordpress.com/2013/04/24/lightweight-opensuse-lxde-desktop-from-scratch/</code></pre>
+
+
 <h1>zypper install xorg-x11 xorg-x11-server</h1>
 <h1>startx</h1>
 <h1>zypper install openbox</h1>
-<p>```</p>
-<p>need Mesa-GL, x drivers for ati and evdev, xorg-video-drivers</p>
-<p>http://en.opensuse.org/SDB:Administer_with_sudo</p>
-<p>```</p>
+<pre class="highlight"><code>need Mesa-GL, x drivers for ati and evdev, xorg-video-drivers
+
+
+http://en.opensuse.org/SDB:Administer_with_sudo</code></pre>
+
+
 <h1>zypper in sudo</h1>
 <h1>visudo</h1>
 <p>// add line %sudo ALL=(ALL) ALL</p>
 <h1>groupadd sudo</h1>
 <h1>usermod -a -G sudo neal</h1>
-<p>```</p>
-<p>I don't have man pages, wtf</p>
-<pre><code>sudo zypper in --no-recommends man
-</code></pre>
-<p>apparently man reccomends ghostscript, which is not needed right now.</p>
-<p>```
-zypper ar http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.3/X11:lxde.repo</p>
+<pre class="highlight"><code>I don't have man pages, wtf
+
+    sudo zypper in --no-recommends man
+
+apparently man reccomends ghostscript, which is not needed right now.</code></pre>
+
+
+<p>zypper ar <a href="http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.3/X11:lxde.repo">http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.3/X11:lxde.repo</a></p>
 <p>zypper in slim</p>
 <p>? reccommends ImageMagic ??</p>
 <p>zypper in yast2-sysconfig yast2-runlevel</p>
 <p>edit /etc/logins.def, remove offending LASTLOG_ENAB</p>
 <p>in yast2-runlevel, enable xdm</p>
 <p>however, changing systemd default runlevel is a bit more involved:</p>
-<p>ln -sf /usr/lib/systemd/system/multi-user.target \
+<p>ln -sf /usr/lib/systemd/system/multi-user.target \<br />
    /etc/systemd/system/default.target</p>
 <p>zypper in pulseaudio pavucontrol</p>
-<p>zypper in MozillaFirefox
+<p>zypper in MozillaFirefox<br />
 zypper in flash-player</p>
-<p>zypper in mercurial
+<p>zypper in mercurial<br />
 zypper in hg-git</p>
-<p>http://susestarter.blogspot.com/2011/03/get-yer-subpixel-hinted-fonts.html</p>
-<p>htop
-mutt abook
-newsbeuter
-lynx
+<p><a href="http://susestarter.blogspot.com/2011/03/get-yer-subpixel-hinted-fonts.html">http://susestarter.blogspot.com/2011/03/get-yer-subpixel-hinted-fonts.html</a></p>
+<p>htop<br />
+mutt abook<br />
+newsbeuter<br />
+lynx<br />
 moc</p>
 <p>ranger from rpm</p>
 <p>conky</p>
-<p>vlc from videolan.org
+<p>vlc from videolan.org<br />
 libdvdcss from community repo</p>
-<p>make
+<p>make<br />
 stow from rpm</p>
 <p>ncurses-devel</p>
 <p>yast2-sshd</p>
 <p>autoconf automake</p>
-<p>dependencies for st:
+<p>dependencies for st:<br />
 libX11-devel fontconfig-devel freetype2-devel libXft-devel libXext libXext6 liberation2-fonts</p>
-<p>enable ssh : http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server
+<p>enable ssh : <a href="http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server">http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server</a><br />
  and firewall in yast</p>
 <p>patch</p>
 <p>screen with caption patch and 256 color patch</p>
 <p>install zathura from github manually, + girara and poppler plugin</p>
 <p>install libwebkit, compile tabbed and surf</p>
 <p>install R from tumbleweed, install colorout</p>
-<p>did a dist upgrade to tumbleweed
+<p>did a dist upgrade to tumbleweed<br />
 ```</p>
 <h3>Make a motd</h3>
 <pre><code>hostname | figlet | boxes | sudo tee /etc/motd
@@ -352,16 +419,16 @@ libX11-devel fontconfig-devel freetype2-devel libXft-devel libXext libXext6 libe
 <p><a href="http://duncanlock.net/blog/2013/06/07/how-to-switch-to-compton-for-beautiful-tear-free-compositing-in-xfce/">How to switch to Compton for beautiful tear free compositing in XFCE: duncanlock.net</a></p>
 <p><a href="http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/">How to Boot Linux ISO Images Directly From Your Hard Drive</a></p>
 <p><a href="http://smxi.org/site/install.htm">smxi sgfxi svmi :: How to Install the Scripts</a></p>
-<p>IMO Power user = knowledge of differences between consumer distros, desktop
-ricing, and exotic scripts for like media control or home automation Sysadmin =
-could do the above but more likely just drinks in between deployments/ fires/
-paychecks
+<p>IMO Power user = knowledge of differences between consumer distros, desktop<br />
+ricing, and exotic scripts for like media control or home automation Sysadmin =<br />
+could do the above but more likely just drinks in between deployments/ fires/<br />
+paychecks<br />
   --- <a href="http://www.reddit.com/r/linux/comments/2x8rsi/how_to_tell_the_level_of_a_linux_book/">How to tell the level of a Linux book? : linux</a></p>
 <p><a href="http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/">The Definitive Guide to Linux System Calls</a></p>
 <h3>Links</h3>
 <p><a href="https://utcc.utoronto.ca/~cks/space/blog/linux/LinuxBootOverview?">A broad overview of how modern Linux systems boot</a></p>
 <p>Theme generator - <a href="https://github.com/deviantfero/wpgtk">wpgtk</a></p></article>
 <footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
-Last updated on&nbsp;2020-06-17.</footer>
+Last updated on&nbsp;2020-10-17.</footer>
 </body>
 </html>
