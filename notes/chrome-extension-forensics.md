@@ -1,16 +1,11 @@
 <!-- njnmdoc:  title="Chrome Extension Forensics"  -->
 
 
-On Oct 16, I got a strange popup in Chrome, saying the User Agent Switcher
-extension had been removed as malware. I decided to investigate a bit, to
-see how bad this actually was. Since I've written a few extensions before,
-I had some ideas of where to start.
+On Oct 16, I got a strange popup in Chrome, saying the User Agent Switcher extension had been removed as malware. I decided to investigate a bit, to see how bad this actually was. Since I've written a few extensions before, I had some ideas of where to start.
 
 # Background
 
-Although the extension page on the Chrome Store has been pulled down,
-the text still exists in on Google Search's cached version. I reproduce it
-here, to save you the legwork:
+Although the extension page on the Chrome Store has been pulled down, the text still exists in on Google Search's cached version. I reproduce it here, to save you the legwork:
 
 > Chrome Web Store
 > User-Agent Switcher
@@ -36,27 +31,16 @@ here, to save you the legwork:
 
 100k+ users would generally be considered a sign of trustworthiness.
 
-Google offers an [official UA switcher extension](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=en-US)
-but it only changes UA in HTTP requests, and not on the `navigator` JS object, which
-makes it effectively useless for testing. For example, many web applications use
-[bowser](https://github.com/lancedikson/bowser) for mobile-only feature flags, and
-jquery uses it to detect and work around browser quirks
-and incompatibilities; modifying the HTTP headers only does not allow you to test mobile-only
-features, for example. That's why I downloaded it.
+Google offers an [official UA switcher extension](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=en-US) but it only changes UA in HTTP requests, and not on the `navigator` JS object, which makes it effectively useless for testing. For example, many web applications use [bowser](https://github.com/lancedikson/bowser) for mobile-only feature flags, and jquery uses it to detect and work around browser quirks and incompatibilities; modifying the HTTP headers only does not allow you to test mobile-only features, for example. That's why I downloaded it.
 
-Also, this is not the first time a UA extension has been a malware vector - eg
-[this HN thread](https://news.ycombinator.com/item?id=14889619).
+Also, this is not the first time a UA extension has been a malware vector - eg [this HN thread](https://news.ycombinator.com/item?id=14889619).
 
 
 ## Getting the code
 
-Because the extension has already been deleted from the Chrome Store, you will have to
-already have a copy to look at it.
+Because the extension has already been deleted from the Chrome Store, you will have to already have a copy to look at it.
 
-Chrome extensions are stored (on linux) in `~/.config/google-chrome/Profile 2/Extensions`,
-to grab a backup copy of the code. You can also debug the background script user the
-normal developer tools via the link on the Manage Extensions page if you have the extension
-running.
+Chrome extensions are stored (on linux) in `~/.config/google-chrome/Profile 2/Extensions`, to grab a backup copy of the code. You can also debug the background script user the normal developer tools via the link on the Manage Extensions page if you have the extension running.
 
 It contains this:
 
@@ -91,8 +75,7 @@ nfultz@neal-nuc:useragent_$tree
 └── popup.html
 ```
 
-jquery and bootstrap are bundled libraries.  Here's their checksums,
-in case anyone knows how to match them up to actual releases:
+jquery and bootstrap are bundled libraries.  Here's their checksums, in case anyone knows how to match them up to actual releases:
 
 ```
 035a9e6a763abbeb361038c43e2695f5  js/bootstrap.min.js
@@ -110,8 +93,7 @@ for i in `find js -name '*.js'` ; do
 done
 ```
 
-Special thanks to [Shape Security](https://github.com/shapesecurity/unminify/)
-for the great tool.
+Special thanks to [Shape Security](https://github.com/shapesecurity/unminify/) for the great tool.
 
 ## The manifest
 
@@ -153,10 +135,7 @@ In it's entirity:
 }
 ```
 
-The important thing to note here is that there is a content script
-that runs on every single page, and that there is a background
-page which has permission to any cross origin resource on both http and
-https, and can hook in to the [webRequest API](https://developer.chrome.com/extensions/webRequest).
+The important thing to note here is that there is a content script that runs on every single page, and that there is a background page which has permission to any cross origin resource on both http and https, and can hook in to the [webRequest API](https://developer.chrome.com/extensions/webRequest).
 
 Per the manual,
 
@@ -343,10 +322,7 @@ async function createFetch(e) {
 }
 ```
 
-Mysterious helper function? Note that fetch init options are being
-passed in; this lets the caller modify the cookie policy to
-send cross-origin - in the context of an extension, all requests
-outside the extension are COR.
+Mysterious helper function? Note that fetch init options are being passed in; this lets the caller modify the cookie policy to send cross-origin - in the context of an extension, all requests outside the extension are COR.
 
 ```
 function setIconAndText() {
@@ -371,11 +347,9 @@ userAgentSwitch.on("createFetch", async function(e) {
     userAgentSwitch.emit(e.callBack, t)
 });
 ```
-!? userAgentSwitch will listen events, perform the fetch, then
-return the results?
+!? userAgentSwitch will listen events, perform the fetch, then return the results?
 
-This allows a third party to make arbitrary requests from my
-browser; eg impersonate me.
+This allows a third party to make arbitrary requests from my browser; eg impersonate me.
 
 
 ```
@@ -409,8 +383,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(handler, {
 }, ["blocking", "requestHeaders"]),
 ```
 
-This actually sets the User agent in the http header. The whole
-raison d'etre of this extension.
+This actually sets the User agent in the http header. The whole raison d'etre of this extension.
 
 ```
 chrome.runtime.onMessage.addListener(function(e, t, s) {
@@ -420,8 +393,7 @@ chrome.runtime.onMessage.addListener(function(e, t, s) {
 });
 ```
 
-This is how the content script retrieves the selectedUserAgent,
-because it can't access the extension's local storage directly.
+This is how the content script retrieves the selectedUserAgent, because it can't access the extension's local storage directly.
 
 
 ```
@@ -448,12 +420,9 @@ chrome.webRequest.onBeforeSendHeaders.addListener(handler2, {
 }, ["requestHeaders", "blocking", "extraHeaders"]),
 ```
 
-whoa - this checks every single web request against patterns
-provided  in handlerData (sent from the server, remember?) ,
-and if they match, forwards the entire request along.
+whoa - this checks every single web request against patterns provided  in handlerData (sent from the server, remember?), and if they match, forwards the entire request along.
 
-Note that if handlerData is not previously set by the remote server,
-the if statement branches around, and nothing happens.
+Note that if handlerData is not previously set by the remote server, the if statement branches around, and nothing happens.
 
 Here is an example of what's in handlerData right now:
 
@@ -465,25 +434,23 @@ What is included in the web request object? Here is an example from Amazon.com:
 
 ![handler][handler]
 
-Note that this includes all the headers, including the cookie - this
-could potentially open up spoofing sessions depending on the target.
+Note that this includes all the headers, including the cookie - this could potentially open up spoofing sessions depending on the target.
 
 Thankfully, they can't read the actual data of a POST. [Yet](https://bugs.chromium.org/p/chromium/issues/detail?id=91191)
 
-On the other hand, the full URL is there, which means they could
-record HTTP basic auth, and GET based queries (web searches, etc).
+On the other hand, the full URL is there, which means they could record HTTP basic auth, and GET based queries (web searches, etc).
 
 
 ```
 runAppStart(),
 setIconAndText();
 ```
+
 sets up the UI.
 
 ## JsonValues.js
 
-This file begins with an object containing the User Agent strings
-of most popular browsers. Generally, it looks like this:
+This file begins with an object containing the User Agent strings of most popular browsers. Generally, it looks like this:
 
 ```
       {
@@ -504,8 +471,7 @@ We can glean some extra information by checking WHOIS on the domain:
 
 Sadly, NameCheap provides free proxy registration, so no contact info is available.
 
-Currently the website is counting down to Sun, Nov 22. You can also sign up for their
-email list.
+Currently the website is counting down to Sun, Nov 22. You can also sign up for their email list if you like.
 
 ## Timeline
 
@@ -515,9 +481,7 @@ email list.
 
 ## Recommendations for Users
 
-  * Run extensions, especially developer tools, under a seperate chrome
-    profile instead of your main one. This will limit your exposure
-    if they go rogue.
+  * Run extensions, especially developer tools, under a seperate chrome profile instead of your main one. This will limit your exposure if they go rogue.
   * If UAS is a once-and-awhile use-case, try using the CLI argument instead of an extension.
 
 ## Recommendations for Chrome Store
@@ -525,23 +489,32 @@ email list.
 If I were king of the chrome store, I would take the following steps:
 
   * Ban the use of minified JS in extensions
-  * Mirror the source code of all extensions on [Gerrit](https://gerrit.googlesource.com/gerrit/)
-    for public code review and commenting.
-  * When extensions updates are submitted, create a patch on Gerrit
-    so that those inclined may review the diff.
+  * Mirror the source code of all extensions on [Gerrit](https://gerrit.googlesource.com/gerrit/) for public code review and commenting.
+  * When extensions updates are submitted, create a patch on Gerrit so that those inclined may review the diff.
   * Stage the rollout of extension updates to beta/dev/canary channels just like Chrome itself.
   * Verify checksums on bundled libraries.
 
-As a bonus, I think those steps would take some of the load off the (severely) backlogged internal
-extension review group at Google.
+As a bonus, I think those steps would take some of the load off the (severely) backlogged internal extension review group at Google.
 
 ## Next steps for me
 
   * Because I need this functionality, I'll write my own extension at some point. Can't be that hard.
-  * I'd like to do some more detective work - who wrote this thing? Was it hijacked by a third party in August,
-    or did the original author decide to cash out? How would they monetize this - there's no obvious code
-    for injecting ads, for example.
+  * I'd like to do some more detective work - who wrote this thing? Was it hijacked by a third party in August, or did the original author decide to cash out? How would they monetize this - there's no obvious code for injecting ads, for example.
   * Who found this had gone rogue? Instagram or Google? A dev channel user?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

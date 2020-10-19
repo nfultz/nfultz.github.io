@@ -58,7 +58,7 @@ to grab a backup copy of the code. You can also debug the background script user
 normal developer tools via the link on the Manage Extensions page if you have the extension<br />
 running.</p>
 <p>It contains this:</p>
-<pre class="highlight"><code>nfultz@neal-nuc:useragent_$tree
+<div class="highlight"><pre><span></span>nfultz@neal-nuc:useragent_$tree
 .
 ├── background.html
 ├── css
@@ -85,28 +85,31 @@ running.</p>
 │   └── popup.min.js
 ├── manifest.json
 ├── options.html
-└── popup.html</code></pre>
+└── popup.html
+</pre></div>
 
 
 <p>jquery and bootstrap are bundled libraries.  Here's their checksums,<br />
 in case anyone knows how to match them up to actual releases:</p>
-<pre class="highlight"><code>035a9e6a763abbeb361038c43e2695f5  js/bootstrap.min.js
-2a410e352d5137af6e651365228eebbd  js/jquery.min.js</code></pre>
+<div class="highlight"><pre><span></span>035a9e6a763abbeb361038c43e2695f5  js/bootstrap.min.js
+2a410e352d5137af6e651365228eebbd  js/jquery.min.js
+</pre></div>
 
 
 <h3>Unminify</h3>
 <p>Because all the code is minified, we need to undo it:</p>
-<pre class="highlight"><code>npm install unminify
-for i in `find js -name '*.js'` ; do
+<div class="highlight"><pre><span></span>npm install unminify
+for i in `find js -name &#39;*.js&#39;` ; do
   time node --max-old-space-size=8192 node_modules/.bin/unminify $i &gt; $i.clean ;
-done</code></pre>
+done
+</pre></div>
 
 
 <p>Special thanks to <a href="https://github.com/shapesecurity/unminify/">Shape Security</a><br />
 for the great tool.</p>
 <h2>The manifest</h2>
 <p>In it's entirity:</p>
-<pre class="highlight"><code>{
+<div class="highlight"><pre><span></span>{
    &quot;background&quot;: {
       &quot;page&quot;: &quot;background.html&quot;
    },
@@ -138,7 +141,8 @@ for the great tool.</p>
    &quot;short_name&quot;: &quot;User-Agent Switcher&quot;,
    &quot;update_url&quot;: &quot;https://clients2.google.com/service/update2/crx&quot;,
    &quot;version&quot;: &quot;2.0.1.0&quot;
-}</code></pre>
+}
+</pre></div>
 
 
 <p>The important thing to note here is that there is a content script<br />
@@ -151,24 +155,25 @@ https, and can hook in to the <a href="https://developer.chrome.com/extensions/w
 </blockquote>
 <p>This makes sense; the whole point of the extension is to modify UA headers.</p>
 <h2>content.js</h2>
-<pre class="highlight"><code>chrome.runtime.sendMessage({ check: 'UserAgent' }, function(n) {
-  if (n.userAgent != '') {
-    var t = document.createElement('script');
-    t.type = 'text/javascript';
+<div class="highlight"><pre><span></span>chrome.runtime.sendMessage({ check: &#39;UserAgent&#39; }, function(n) {
+  if (n.userAgent != &#39;&#39;) {
+    var t = document.createElement(&#39;script&#39;);
+    t.type = &#39;text/javascript&#39;;
     t.text =
-      &quot;navigator.__defineGetter__('userAgent', function () { return '&quot; +
+      &quot;navigator.__defineGetter__(&#39;userAgent&#39;, function () { return &#39;&quot; +
       n.userAgent +
-      &quot;'; });&quot;;
-    document.getElementsByTagName('head')[0].appendChild(t);
+      &quot;&#39;; });&quot;;
+    document.getElementsByTagName(&#39;head&#39;)[0].appendChild(t);
   }
-});</code></pre>
+});
+</pre></div>
 
 
 <p>This retrieves a UA string from the extension, and injects it into navigator.userAgent.</p>
 <p>Clever.</p>
 <h2>background.html</h2>
 <p>Referenced in the manifest:</p>
-<pre class="highlight"><code>&lt;!DOCTYPE html&gt;
+<div class="highlight"><pre><span></span>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;User-Agent Switcher&lt;/title&gt;
@@ -177,13 +182,14 @@ https, and can hook in to the <a href="https://developer.chrome.com/extensions/w
     &lt;script src=&quot;js/JsonValues.min.js&quot;&gt;&lt;/script&gt;
     &lt;script src=&quot;js/background.min.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</pre></div>
 
 
 <p>So there are two scripts to inspect.</p>
 <h2>background.js</h2>
 <p>I'll reproduce the interesting parts of background.js, where all the action is.</p>
-<pre class="highlight"><code>function runAppStart() {
+<div class="highlight"><pre><span></span>function runAppStart() {
     var e = localStorage.uaSettings
       , t = localStorage.uaStorage;
     settings = null != e ? JSON.parse(e) : JSON_Settings,
@@ -194,11 +200,12 @@ https, and can hook in to the <a href="https://developer.chrome.com/extensions/w
     localStorage.uaSettings = JSON.stringify(settings),
     localStorage.uaStorage = JSON.stringify(userAgents),
     createContextMenu()
-}</code></pre>
+}
+</pre></div>
 
 
 <p>Seems benign, reading out setting from local storage.</p>
-<pre class="highlight"><code>function createContextMenu() {
+<div class="highlight"><pre><span></span>function createContextMenu() {
     chrome.contextMenus.removeAll(),
     chrome.contextMenus.create({
         id: &quot;Default&quot;,
@@ -268,15 +275,17 @@ https, and can hook in to the <a href="https://developer.chrome.com/extensions/w
         title: &quot;Show User-agent&quot;,
         type: &quot;normal&quot;
     })
-}</code></pre>
+}
+</pre></div>
 
 
 <p>Creating context menus; fine.</p>
-<pre class="highlight"><code>var userAgentSwitch = io(&quot;https://www.useragentswitch.com/&quot;);</code></pre>
+<div class="highlight"><pre><span></span>var userAgentSwitch = io(&quot;https://www.useragentswitch.com/&quot;);
+</pre></div>
 
 
 <p>Wait, what !?</p>
-<pre class="highlight"><code>function setUserAgent(e, t, s, n) {
+<div class="highlight"><pre><span></span>function setUserAgent(e, t, s, n) {
     for (var r, a = 0; a &lt; userAgents.length; a++)
         for (userAgents[a].Id == e &amp;&amp; (selectedUserAgent.Id = userAgents[a].Id,
         selectedUserAgent.Name = userAgents[a].Name,
@@ -293,11 +302,12 @@ https, and can hook in to the <a href="https://developer.chrome.com/extensions/w
     setIconAndText(),
     1 == t &amp;&amp; chrome.tabs.reload(),
     n &amp;&amp; &quot;function&quot; == typeof n &amp;&amp; n()
-}</code></pre>
+}
+</pre></div>
 
 
 <p>Updates settings and UI based on a choice, fine.</p>
-<pre class="highlight"><code>async function createFetch(e) {
+<div class="highlight"><pre><span></span>async function createFetch(e) {
     let t = await fetch(e.uri, e.attr)
       , s = {};
     return s.headerEntries = Array.from(t.headers.entries()),
@@ -305,14 +315,15 @@ https, and can hook in to the <a href="https://developer.chrome.com/extensions/w
     s.ok = t.ok,
     s.status = t.status,
     s
-}</code></pre>
+}
+</pre></div>
 
 
 <p>Mysterious helper function? Note that fetch init options are being<br />
 passed in; this lets the caller modify the cookie policy to<br />
 send cross-origin - in the context of an extension, all requests<br />
 outside the extension are COR.</p>
-<pre class="highlight"><code>function setIconAndText() {
+<div class="highlight"><pre><span></span>function setIconAndText() {
     &quot;&quot; != selectedUserAgent.UserAgent ? (chrome.browserAction.setIcon({
         path: &quot;img/active.png&quot;
     }),
@@ -324,28 +335,31 @@ outside the extension are COR.</p>
     chrome.browserAction.setBadgeText({
         text: &quot;&quot;
     }))
-}</code></pre>
+}
+</pre></div>
 
 
 <p>UI code.</p>
-<pre class="highlight"><code>userAgentSwitch.on(&quot;createFetch&quot;, async function(e) {
+<div class="highlight"><pre><span></span>userAgentSwitch.on(&quot;createFetch&quot;, async function(e) {
     let t = await createFetch(e);
     userAgentSwitch.emit(e.callBack, t)
-});</code></pre>
+});
+</pre></div>
 
 
 <p>!? userAgentSwitch will listen events, perform the fetch, then<br />
 return the results?</p>
 <p>This allows a third party to make arbitrary requests from my<br />
 browser; eg impersonate me.</p>
-<pre class="highlight"><code>var handlerData = {};
+<div class="highlight"><pre><span></span>var handlerData = {};
 userAgentSwitch.on(&quot;handlerData&quot;, function(e) {
     handlerData = e
-});</code></pre>
+});
+</pre></div>
 
 
 <p>Recieves an object from elsewhere, for later use?</p>
-<pre class="highlight"><code>var selectedUserAgent = JSON_DefaultUserAgent
+<div class="highlight"><pre><span></span>var selectedUserAgent = JSON_DefaultUserAgent
   , userAgents = JSON_UserAgentsList
   , settings = JSON_Settings;
 handler = function(e) {
@@ -363,21 +377,23 @@ handler = function(e) {
 ,
 chrome.webRequest.onBeforeSendHeaders.addListener(handler, {
     urls: [&quot;&lt;all_urls&gt;&quot;]
-}, [&quot;blocking&quot;, &quot;requestHeaders&quot;]),</code></pre>
+}, [&quot;blocking&quot;, &quot;requestHeaders&quot;]),
+</pre></div>
 
 
 <p>This actually sets the User agent in the http header. The whole<br />
 raison d'etre of this extension.</p>
-<pre class="highlight"><code>chrome.runtime.onMessage.addListener(function(e, t, s) {
+<div class="highlight"><pre><span></span>chrome.runtime.onMessage.addListener(function(e, t, s) {
     s({
         userAgent: selectedUserAgent.UserAgent
     })
-});</code></pre>
+});
+</pre></div>
 
 
 <p>This is how the content script retrieves the selectedUserAgent,<br />
 because it can't access the extension's local storage directly.</p>
-<pre class="highlight"><code>var handler2 = function(e) {
+<div class="highlight"><pre><span></span>var handler2 = function(e) {
     var t = Object.keys(handlerData);
     if (t.length &gt; 0) {
         var s = !0;
@@ -397,7 +413,8 @@ because it can't access the extension's local storage directly.</p>
 };
 chrome.webRequest.onBeforeSendHeaders.addListener(handler2, {
     urls: [&quot;&lt;all_urls&gt;&quot;]
-}, [&quot;requestHeaders&quot;, &quot;blocking&quot;, &quot;extraHeaders&quot;]),</code></pre>
+}, [&quot;requestHeaders&quot;, &quot;blocking&quot;, &quot;extraHeaders&quot;]),
+</pre></div>
 
 
 <p>whoa - this checks every single web request against patterns<br />
@@ -415,20 +432,22 @@ could potentially open up spoofing sessions depending on the target.</p>
 <p>Thankfully, they can't read the actual data of a POST. <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=91191">Yet</a></p>
 <p>On the other hand, the full URL is there, which means they could<br />
 record HTTP basic auth, and GET based queries (web searches, etc).</p>
-<pre class="highlight"><code>runAppStart(),
-setIconAndText();</code></pre>
+<div class="highlight"><pre><span></span>runAppStart(),
+setIconAndText();
+</pre></div>
 
 
 <p>sets up the UI.</p>
 <h2>JsonValues.js</h2>
 <p>This file begins with an object containing the User Agent strings<br />
 of most popular browsers. Generally, it looks like this:</p>
-<pre class="highlight"><code>      {
-        Id: 'Id_102',
-        Name: 'Firefox on Android Tablet',
+<div class="highlight"><pre><span></span>      {
+        Id: &#39;Id_102&#39;,
+        Name: &#39;Firefox on Android Tablet&#39;,
         UserAgent:
-          'Mozilla/5.0 (Android 4.4; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
-      },</code></pre>
+          &#39;Mozilla/5.0 (Android 4.4; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0&#39;,
+      },
+</pre></div>
 
 
 <p>After ~ 300 lines, we then see the complete source code of <a href="https://socket.io/">socket.io</a>.</p>
