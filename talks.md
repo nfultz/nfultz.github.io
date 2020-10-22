@@ -2,6 +2,7 @@
 
 ## 2020
 
+  * Oct 18 - _(Personalized) News is Hard_ [[slides]](http://bit.ly/ideas20_news)
   * Aug 25 - _Intro to Decomps and Duetos_ [[slides]](https://nfultz.github.io/Intro_Dueto/)
 
 
