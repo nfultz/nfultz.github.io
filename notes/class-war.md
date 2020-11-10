@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Class War"  -->
 Storrar asked a question about Scott Morrison’s budget measures. I’ve got a disability and a low education, that means I’ve spent my whole life working for minimum wage. You’re gonna lift the tax-free threshold for rich people, he pointed out to Assistant Treasurer Kelly O’Dwyer.
 
 
