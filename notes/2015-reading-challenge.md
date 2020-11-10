@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="2015 Reading Challenge"  -->
 52 books in one year.
 
 <small>
