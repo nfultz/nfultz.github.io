@@ -3,7 +3,7 @@
 ## 2020
 
   * Oct 18 - IDEAS - _(Personalized) News is Hard_ [[slides]](http://bit.ly/ideas20_news)
-  * Aug 25 - ~PyData LA~ - _Intro to Decomps and Duetos_ [[slides]](https://nfultz.github.io/Intro_Dueto/)
+  * Aug 25 - ~~PyData LA~~ System1 - _Intro to Decomps and Duetos_ [[slides]](https://nfultz.github.io/Intro_Dueto/)
 
 ## 2019
 
