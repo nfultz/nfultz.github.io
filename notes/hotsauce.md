@@ -55,6 +55,8 @@ And truffle hot sauce, thanks Mom!
   * Truff
   * Trufflin Sriracha
 
+Finally scored some Old Bay Hot Sauce (limited edition)! w00t!
+
 Wishlist:
 
   * https://www.amazon.com/Yellowbird-Hot-Sauce-Combo-3-Pack/dp/B07BRRVBRQ/
