@@ -3,3 +3,4 @@ Why do we believe, that everyone in our industry wants to constantly talk to peo
 
 [Why Agile and especially Scrum are terrible | Michael O. Church](https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/)
 
+[xpdx.org](https://xpdx.org) - A collection of complementary, low ceremony, XP patterns and practices for developing useful software.
