@@ -69,4 +69,4 @@ https://www.resilience.org/stories/2020-10-30/einsteins-take-on-capitalism-socia
 cr.org/newsletters
 
 https://digmeout.substack.com/
-
+https://avo-magazine.nl/en/t/weekly-mv/
