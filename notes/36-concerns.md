@@ -1,3 +1,0 @@
-<!-- njnmdoc:  title="36 PIs Share their Concerns about the Profession"  -->
-<iframe src="//www.slideshare.net/slideshow/embed_code/37521662" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/lawgical/36-private-investigators-share-their-concerns-about-the-industry-37521662" title="36 Private Investigators Share Their Concerns About the Industry" target="_blank">36 Private Investigators Share Their Concerns About the Industry</a> </strong> from <strong><a href="http://www.slideshare.net/lawgical" target="_blank">Lawgical</a></strong> </div>
-
