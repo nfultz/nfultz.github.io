@@ -67,3 +67,6 @@ https://riggraz.dev/stack-overflow-antipattern.html
 https://www.resilience.org/stories/2020-10-30/einsteins-take-on-capitalism-socialism-and-a-new-kind-of-business/
 
 cr.org/newsletters
+
+https://digmeout.substack.com/
+

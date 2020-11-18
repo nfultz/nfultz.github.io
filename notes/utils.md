@@ -22,6 +22,17 @@ For gTalk, you need to add a jabber account. If the account is a hosted Google  
 
 [Bug 1179](http://bugs.bitlbee.org/bitlbee/ticket/1179) explains a workaround if the gTalk connection is flaky.
 
+# Quick encryption {:#ssh_key_encrypt}
+
+If you have someone's ssh public key, and need to send them a small message (eg password)
+
+Note need to convert pubkey to PKCS8 format for compatibility with openssl rasutl
+
+```
+ssh-keygen -e -f $HOME/.ssh/id_rsa.pub -m PKCS8 > ~/.ssh/id_rsa.pem.pub
+openssl rsautl -raw -pubin -inkey /home/nfultz/.ssh/id_rsa.pem.pub  -in foo >foo.enc
+openssl rsautl -decrypt -raw -inkey ~/.ssh/id_rsa -in foo.enc -out -
+```
 
 # Misc
 
