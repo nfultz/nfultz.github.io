@@ -22,7 +22,7 @@ For gTalk, you need to add a jabber account. If the account is a hosted Google  
 
 [Bug 1179](http://bugs.bitlbee.org/bitlbee/ticket/1179) explains a workaround if the gTalk connection is flaky.
 
-# Quick encryption {:#ssh_key_encrypt}
+# <a id=ssh_key_encrypt>Quick encryption</a>
 
 If you have someone's ssh public key, and need to send them a small message (eg password)
 
