@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html><head>
   <meta name="generator" content="njnmdoc, see http://github.com/njnmco/njnmdoc" />
-  <meta charset="UTF-8"><title></title>
+  <meta charset="UTF-8"><title>Ad Blocking</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1></h1>
+    onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1>Ad Blocking</h1>
 </header>
-<article><blockquote>"All mail clients suck. This one just sucks less."</blockquote>
-
-<p><cite>Mutt Homepage</cite></p>
-<p>mutt is a no-frills, [[suckless]] email client for the terminal.</p>
-<p>One solution is to set up [[DavMail]], which will proxy exchange. It works but it's slow.</p>
-<h1>Assumming davmail is running locally</h1>
-<p>mailboxes imap://nfultz@localhost:49156/</p>
-<p>set smtp_url = smtp://nfultz@localhost:49153</p>
-<p>set from = <a href="mailto:nfultz@Mega.corp">nfultz@Mega.corp</a></p>
-<p>Gmail is easy enough to set up since it supports IMAP. However, be careful when you google for mutt config tips, a lot of info is out of date.</p>
-<p>mailboxes imaps://<a href="mailto:nfultz@imap.gmail.com">nfultz@imap.gmail.com</a>/</p>
-<p>set smtp_url = smtps://<a href="mailto:nfultz@smtp.gmail.com">nfultz@smtp.gmail.com</a></p>
-<p>set from = <a href="mailto:nfultz@gmail.com">nfultz@gmail.com</a></p>
-<p>Google appears to be <a href="http://googleonlinesecurity.blogspot.co.uk/2014/04/new-security-measures-will-affect-older.html">ramping up security</a>, which breaks the config above.</p>
-<p>To fix it, we will have to set up OAuth using <a href="https://github.com/simmel/saslxoauth">SASL-XOAuth</a>.</p>
-<p>First, you will have to generate a token:</p>
-<p>$ wget <a href="http://google-mail-xoauth-tools.googlecode.com/svn/trunk/python/xoauth.py">http://google-mail-xoauth-tools.googlecode.com/svn/trunk/python/xoauth.py</a></p>
-<p>$ python xoauth.py --generate_oauth_token --user=<a href="mailto:nfultz@gmail.com">nfultz@gmail.com</a></p>
-<p>Copy and paste the token info into <code>~/.xoauthrc</code></p>
-<p>You may also need to install libsasl2-dev and liboauth-dev</p>
-<p>Then download and install the XOAuth library from github:</p>
-<p>$ git clone <a href="https://github.com/simmel/saslxoauth.git">https://github.com/simmel/saslxoauth.git</a></p>
-<p>$ cd saslxoauth</p>
-<p>$ make</p>
-<p>$ checkinstall</p>
-<p>$ sudo dpkg -i *.deb</p>
-<p>Finally, set the auth measure in mutt's config:</p>
-<p>set imap_authenticators="XOAUTH"</p>
-<p>set smtp_authenticators="XOAUTH"</p>
-<p>On SUSE, you may need to install to <code>/usr/lib64</code> instead of <code>/usr/lib</code></p></article>
+<article><!-- njnmdoc:  title="Ad Blocking"  -->
+<blockquote>"All mail clients suck. This one just sucks less."</blockquote><cite>Mutt Homepage</cite>
+<p>mutt is a no-frills email client for the terminal.</p>
+<p>The default build assumes you are using a MTA / MDA (traditional UNIX setup). To build with IMAP / POP / SMTP support,
+use:</p>
+<pre><code>./configure --enable-imap --enable-smtp --with-ssl
+</code></pre>
+<h2>Using with MS Exchange</h2>
+<p>One solution is to set up DavMail, which will proxy Exchange. It works but it's slow.</p>
+<pre><code>#Assumming davmail is running locally
+mailboxes imap://nfultz@localhost:49156/
+set smtp_url = smtp://nfultz@localhost:49153
+set from = nfultz@Mega.corp
+</code></pre>
+<h2 id=gmail> Using with Gmail </h2>
+<p>Gmail is easy enough to set up since it supports IMAP.</p>
+<p>However, be careful when you google for mutt config tips, a lot of info is out of date.</p>
+<p>Since 2014, google has been
+<a href="http://googleonlinesecurity.blogspot.co.uk/2014/04/new-security-measures-will-affect-older.html">ramping up security</a>,
+which includes disabling password logins via IMAP and POP.</p>
+<p>If you are an admin, you can reenable password logins on the <a href="https://myaccount.google.com/lesssecureapps">less secure apps settings</a>.</p>
+<p>The recommended approach is to create a &quot;secure app&quot; which authenticates using OAuth2. This is a bit involved:</p>
+<ol>
+<li>Create a new project on the <a href="https://console.developers.google.com/">Google Developer Console</a></li>
+<li>Create a &quot;OAuth 2.0 Client ID&quot;</li>
+</ol>
+<p>Then you need to get the actual token:</p>
+<ol>
+<li>copy <code>src/contrib/mutt_oauth2.py</code></li>
+</ol>
+<ul>
+<li>edit encrypt / decrypt pipeline</li>
+<li>edit client id and secret (from google developer console)</li>
+<li>chmod +x</li>
+</ul>
+<ol start="2">
+<li><code>mutt_oauth2.py .cache/mutt_token --verbose --authorize</code>
+3  <code>mutt_oauth2.py .cache/mutt_token --verbose --test</code></li>
+</ol>
+<p>Finally, update your <code>.muttrc</code> to use the new features:</p>
+<pre><code>set imap_authenticators=&quot;oauthbearer:xoauth2&quot;
+set imap_oauth_refresh_command=&quot;mutt_oauth2.py ~/.cache/mutt_token&quot;
+set smtp_authenticators=${imap_authenticators}
+set smtp_oauth_refresh_command=${imap_oauth_refresh_command}
+</code></pre>
+</article>
 <footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
-Last updated on&nbsp;2020-10-18.</footer>
+Last updated on&nbsp;2020-11-18.</footer>
 </body>
 </html>
