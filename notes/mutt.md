@@ -41,11 +41,11 @@ The recommended approach is to create a "secure app" which authenticates using O
 Then you need to get the actual token:
 
 1.  copy `src/contrib/mutt_oauth2.py`
-  * edit encrypt / decrypt pipeline
-  * edit client id and secret (from google developer console)
-  * chmod +x
+    * edit encrypt / decrypt pipeline
+    * edit client id and secret (from google developer console)
+    * chmod +x
 2. `mutt_oauth2.py .cache/mutt_token --verbose --authorize`
-3  `mutt_oauth2.py .cache/mutt_token --verbose --test`
+3.  `mutt_oauth2.py .cache/mutt_token --verbose --test`
 
 
 Finally, update your `.muttrc` to use the new features:

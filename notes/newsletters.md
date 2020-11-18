@@ -70,3 +70,4 @@ cr.org/newsletters
 
 https://digmeout.substack.com/
 https://avo-magazine.nl/en/t/weekly-mv/
+https://datanatives.io/magazine/
