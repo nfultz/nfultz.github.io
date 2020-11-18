@@ -1,58 +1,59 @@
+<!-- njnmdoc:  title="Ad Blocking"  -->
+
 <blockquote>"All mail clients suck. This one just sucks less."</blockquote><cite>Mutt Homepage</cite>
 
-mutt is a no-frills, [[suckless]] email client for the terminal.
+mutt is a no-frills email client for the terminal.
 
-One solution is to set up [[DavMail]], which will proxy exchange. It works but it's slow.
+The default build assumes you are using a MTA / MDA (traditional UNIX setup). To build with IMAP / POP / SMTP support,
+use:
 
+```
+./configure --enable-imap --enable-smtp --with-ssl
+```
+
+## Using with MS Exchange
+One solution is to set up DavMail, which will proxy Exchange. It works but it's slow.
+
+```
 #Assumming davmail is running locally
-
 mailboxes imap://nfultz@localhost:49156/
-
 set smtp_url = smtp://nfultz@localhost:49153
-
 set from = nfultz@Mega.corp
+```
 
-Gmail is easy enough to set up since it supports IMAP. However, be careful when you google for mutt config tips, a lot of info is out of date.
+<h2 id=gmail> Using with Gmail </h2>
 
-mailboxes imaps://nfultz@imap.gmail.com/
+Gmail is easy enough to set up since it supports IMAP.
 
-set smtp_url = smtps://nfultz@smtp.gmail.com
+However, be careful when you google for mutt config tips, a lot of info is out of date.
 
-set from = nfultz@gmail.com
+Since 2014, google has been
+[ramping up security](http://googleonlinesecurity.blogspot.co.uk/2014/04/new-security-measures-will-affect-older.html),
+which includes disabling password logins via IMAP and POP.
 
-Google appears to be [ramping up security](http://googleonlinesecurity.blogspot.co.uk/2014/04/new-security-measures-will-affect-older.html), which breaks the config above.
+If you are an admin, you can reenable password logins on the [less secure apps settings](https://myaccount.google.com/lesssecureapps).
 
-To fix it, we will have to set up OAuth using [SASL-XOAuth](https://github.com/simmel/saslxoauth).
+The recommended approach is to create a "secure app" which authenticates using OAuth2. This is a bit involved:
 
-First, you will have to generate a token:
+1. Create a new project on the [Google Developer Console](https://console.developers.google.com/)
+2. Create a "OAuth 2.0 Client ID"
 
-$ wget http://google-mail-xoauth-tools.googlecode.com/svn/trunk/python/xoauth.py
+Then you need to get the actual token:
 
-$ python xoauth.py --generate_oauth_token --user=nfultz@gmail.com
+1.  copy `src/contrib/mutt_oauth2.py`
+  * edit encrypt / decrypt pipeline
+  * edit client id and secret (from google developer console)
+  * chmod +x
+2. `mutt_oauth2.py .cache/mutt_token --verbose --authorize`
+3  `mutt_oauth2.py .cache/mutt_token --verbose --test`
 
 
+Finally, update your `.muttrc` to use the new features:
 
-Copy and paste the token info into <code>~/.xoauthrc</code>
-
-You may also need to install libsasl2-dev and liboauth-dev
-
-Then download and install the XOAuth library from github:
-
-$ git clone https://github.com/simmel/saslxoauth.git
-
-$ cd saslxoauth
-
-$ make
-
-$ checkinstall
-
-$ sudo dpkg -i *.deb
-
-Finally, set the auth measure in mutt's config:
-
-set imap_authenticators="XOAUTH"
-
-set smtp_authenticators="XOAUTH"
-
-On SUSE, you may need to install to <code>/usr/lib64</code> instead of <code>/usr/lib</code>
+```
+set imap_authenticators="oauthbearer:xoauth2"
+set imap_oauth_refresh_command="mutt_oauth2.py ~/.cache/mutt_token"
+set smtp_authenticators=${imap_authenticators}
+set smtp_oauth_refresh_command=${imap_oauth_refresh_command}
+```
 
