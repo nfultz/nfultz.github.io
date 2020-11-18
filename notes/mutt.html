@@ -35,16 +35,15 @@ which includes disabling password logins via IMAP and POP.</p>
 </ol>
 <p>Then you need to get the actual token:</p>
 <ol>
-<li>copy <code>src/contrib/mutt_oauth2.py</code></li>
-</ol>
+<li>copy <code>src/contrib/mutt_oauth2.py</code>
 <ul>
 <li>edit encrypt / decrypt pipeline</li>
 <li>edit client id and secret (from google developer console)</li>
 <li>chmod +x</li>
 </ul>
-<ol start="2">
-<li><code>mutt_oauth2.py .cache/mutt_token --verbose --authorize</code>
-3  <code>mutt_oauth2.py .cache/mutt_token --verbose --test</code></li>
+</li>
+<li><code>mutt_oauth2.py .cache/mutt_token --verbose --authorize</code></li>
+<li><code>mutt_oauth2.py .cache/mutt_token --verbose --test</code></li>
 </ol>
 <p>Finally, update your <code>.muttrc</code> to use the new features:</p>
 <pre><code>set imap_authenticators=&quot;oauthbearer:xoauth2&quot;
