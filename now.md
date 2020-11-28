@@ -4,7 +4,8 @@ Right now I am working on:
 
 * consulting
 * wiki gardening
-* HDR estimation
+* spam trapping
+* learning Zig
 
 *This is a now page, and if you have your own site, [you should make one too](https://nownownow.com/about)*
 

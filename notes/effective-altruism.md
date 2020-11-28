@@ -7,3 +7,5 @@
 
 [The Awesome Foundation : Los Angeles, CA](http://www.awesomefoundation.org/en/chapters/los-angeles)
 
+http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
+

@@ -1,4 +1,4 @@
-<!-- njnmdoc:  title="Ad Blocking"  -->
+<!-- njnmdoc:  title="Mutt Email Client"  -->
 
 <blockquote>"All mail clients suck. This one just sucks less."</blockquote><cite>Mutt Homepage</cite>
 

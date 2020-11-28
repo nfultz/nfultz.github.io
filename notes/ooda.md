@@ -1,3 +1,12 @@
+* Observe
+* Orient
+* Decide
+* Act
+
+
+
+This model, although designed for dogfighting (airplanes not animals), is sufficiently general to also apply at other levels. Boyd is perhaps the "American Sun-Tzu".
+
 
 https://ia903106.us.archive.org/30/items/DTIC_ADA391774/DTIC_ADA391774.pdf
 

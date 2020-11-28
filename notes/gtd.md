@@ -1,6 +1,17 @@
 <!-- njnmdoc: title="GTD Notes"  -->
 
 
+https://www.metafilter.com/189438/Someday-Maybe
+
+https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
+
+https://www.calnewport.com/blog/2020/11/17/when-did-productivity-become-personal/
+
+
+# Old
+
+
+
 http://gtd.marvelz.com/blog/2008/03/06/10-useful-tips-for-optimizing-ubiquitous-capture/
 
 https://courses.harmonenterprises.com/p/everdone-book-club-gtd

@@ -162,7 +162,8 @@ Tabs contain windows.
   zM            :: fold all (vimwiki)
 ```
 
-##Misc Knowledge
+## Misc Knowledge
+
 How to get vim to open multiple files into tabs at once?
 
 ```
