@@ -7,23 +7,25 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1>Linux Notes</h1>
 </header>
-<article><!-- njnmdoc: title="Linux Notes"  -->
-
+<article><!-- raw HTML omitted -->
 <h2>Mirroring from s3 to ftp</h2>
 <ul>
-<li>Launch ec2 node<ul>
+<li>Launch ec2 node
+<ul>
 <li>in same region as bucket, for free transfer</li>
 <li>Need not be too large, this will be IO/network bound</li>
 </ul>
 </li>
-<li>Mount s3 bucket using s3fs<ul>
+<li>Mount s3 bucket using s3fs
+<ul>
 <li>Tricky if there is a dot in the bucket name, must <code>use_path_request_style</code></li>
 <li>If not in us-east-1, most override region</li>
 <li>Set umask or only root will have permissions</li>
 <li><code>s3fs -o use_path_request_style -o iam_role -o url=https://s3-us-west-2.amazonaws.com -o umask=022 -o endpoint=us-west-2 &lt;bucketname&gt; &lt;mountpoint&gt;</code></li>
 </ul>
 </li>
-<li>recursive copy using <code>ncftp</code><ul>
+<li>recursive copy using <code>ncftp</code>
+<ul>
 <li><code>mput -R .</code></li>
 </ul>
 </li>
@@ -32,7 +34,8 @@
 <ul>
 <li><code>sudo apt install guvcview</code></li>
 <li><code>guvcview</code> to start video capture</li>
-<li>For audio, there seems to be quite a bit of lag when muxing with video. Instead, open the two streams independently.<ul>
+<li>For audio, there seems to be quite a bit of lag when muxing with video. Instead, open the two streams independently.
+<ul>
 <li>Find source in <code>pactl list sources | grep name</code></li>
 <li>Open pulse audio stream in VLC: <code>vlc pulse://alsa_input.usb-VXIS_Inc_FHD_Capture-02.iec958-stereo</code></li>
 </ul>
@@ -40,18 +43,21 @@
 </ul>
 <h2>ClamAV from source</h2>
 <ul>
-<li>Get tarball and install:<ul>
+<li>Get tarball and install:
+<ul>
 <li><code>./configure</code></li>
 <li><code>make</code></li>
 <li><code>sudo checkinstall</code> - choose 'don't copy' for files in build and home dir</li>
 </ul>
 </li>
 <li><code>sudo ldconfig /usr/local/lib</code></li>
-<li><code>sudo cp /usr/local/etc/freshclam.conf{.sample,}</code><ul>
+<li><code>sudo cp /usr/local/etc/freshclam.conf{.sample,}</code>
+<ul>
 <li>Edit</li>
 </ul>
 </li>
-<li>make shared folder:<ul>
+<li>make shared folder:
+<ul>
 <li><code>sudo mkdir /usr/local/share/clamav</code></li>
 <li><code>sudo chgrp 130 /usr/local/share/clamav</code></li>
 <li><code>sudo chmod 776 /usr/local/share/clamav</code></li>
@@ -62,15 +68,17 @@
 <h2>Cisco AnyConnect VPN</h2>
 <ul>
 <li><code>sudo apt install network-manager-openconnect-gnome</code></li>
-<li>Start <code>nm-applet</code> - this may require the gnome-tweak to show indicators<ul>
+<li>Start <code>nm-applet</code> - this may require the gnome-tweak to show indicators
+<ul>
 <li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1394977">https://bugzilla.redhat.com/show_bug.cgi?id=1394977</a></li>
 </ul>
 </li>
-<li>Better debugging: ```<br />
-sudo nmcli general logging level TRACE<br />
+<li>Better debugging: ```
+sudo nmcli general logging level TRACE
 journalctl -u NetworkManager --since '2 minutes ago'</li>
 </ul>
-<pre class="highlight"><code>## FoxyProxy config
+<pre><code>
+## FoxyProxy config
 
   * Add New Proxy
       * host - &quot;localhost&quot;
@@ -85,9 +93,8 @@ journalctl -u NetworkManager --since '2 minutes ago'</li>
   * From [TomTom](https://unix.stackexchange.com/a/199088/50441):
   * Add to /etc/udev/rules.d/10-local.rules :```
  # Set bluetooth power up
-ACTION==&quot;add&quot;, KERNEL==&quot;hci0&quot;, RUN+=&quot;/usr/bin/hciconfig hci0 up&quot;</code></pre>
-
-
+ACTION==&quot;add&quot;, KERNEL==&quot;hci0&quot;, RUN+=&quot;/usr/bin/hciconfig hci0 up&quot;
+</code></pre>
 <h2>Fix crackling audio on HDMI</h2>
 <ul>
 <li>From <a href="https://askubuntu.com/questions/405071/static-and-crackling-in-my-hdmi-audio">Gav</a>:</li>
@@ -95,7 +102,7 @@ ACTION==&quot;add&quot;, KERNEL==&quot;hci0&quot;, RUN+=&quot;/usr/bin/hciconfig
 </ul>
 <h1>add tsched=0 to udev-detect</h1>
 <p>load-module module-udev-detect tsched=0</p>
-<pre class="highlight"><code>  * Other people indicate this might affect ATI specifically.
+<pre><code>  * Other people indicate this might affect ATI specifically.
 
 ## Awesome CLI tools
 
@@ -133,17 +140,19 @@ ACTION==&quot;add&quot;, KERNEL==&quot;hci0&quot;, RUN+=&quot;/usr/bin/hciconfig
 * `colorout`  http://nojhan.github.io/colout/
 
 
-## Openvpn</code></pre>
+## Openvpn
 
-
+</code></pre>
 <p>sudo apt install network-manager-openvpn network-manager-openvpn-gnome</p>
-<pre class="highlight"><code>Need to reboot!
+<pre><code>
+Need to reboot!
 
-## Grepping for user cron</code></pre>
+## Grepping for user cron
 
-
-<p>journalctl | grep --line-buffered -Ei "cron[[0-9]<em>]:\s</em>($USER)"</p>
-<pre class="highlight"><code>use `--line-buffered` to avoid double-buffer delay.
+</code></pre>
+<p>journalctl | grep --line-buffered -Ei &quot;cron[[0-9]<em>]:\s</em>($USER)&quot;</p>
+<pre><code>
+use `--line-buffered` to avoid double-buffer delay.
 
 ## Conferences
 
@@ -203,16 +212,17 @@ Added wlan0 status to conkyrc:
 
 ### Wallpaper Hack
 
-`~/bin/rotate2` is a script for switching desktops</code></pre>
+`~/bin/rotate2` is a script for switching desktops
 
-
+</code></pre>
 <pre><code> #/bin/sh
  DIR=${1:-~/images/wallpapers}
  FILE=$DIR/$(ls -1tr $DIR | head -n 1)
- touch "$FILE"
- nitrogen --set-zoom-fill "$FILE"
+ touch &quot;$FILE&quot;
+ nitrogen --set-zoom-fill &quot;$FILE&quot;
 </code></pre>
-<pre class="highlight"><code>`nitrogen` is obviously the command which does the desktop
+<pre><code>
+`nitrogen` is obviously the command which does the desktop
 
 It is invoked by conky:
 
@@ -343,30 +353,32 @@ Start with server text only install
 
 Follow these:
 
-http://l3net.wordpress.com/2013/04/24/lightweight-opensuse-lxde-desktop-from-scratch/</code></pre>
+http://l3net.wordpress.com/2013/04/24/lightweight-opensuse-lxde-desktop-from-scratch/
 
-
+</code></pre>
 <h1>zypper install xorg-x11 xorg-x11-server</h1>
 <h1>startx</h1>
 <h1>zypper install openbox</h1>
-<pre class="highlight"><code>need Mesa-GL, x drivers for ati and evdev, xorg-video-drivers
+<pre><code>
+need Mesa-GL, x drivers for ati and evdev, xorg-video-drivers
 
 
-http://en.opensuse.org/SDB:Administer_with_sudo</code></pre>
+http://en.opensuse.org/SDB:Administer_with_sudo
 
-
+</code></pre>
 <h1>zypper in sudo</h1>
 <h1>visudo</h1>
 <p>// add line %sudo ALL=(ALL) ALL</p>
 <h1>groupadd sudo</h1>
 <h1>usermod -a -G sudo neal</h1>
-<pre class="highlight"><code>I don't have man pages, wtf
+<pre><code>
+I don't have man pages, wtf
 
     sudo zypper in --no-recommends man
 
-apparently man reccomends ghostscript, which is not needed right now.</code></pre>
+apparently man reccomends ghostscript, which is not needed right now.
 
-
+</code></pre>
 <p>zypper ar <a href="http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.3/X11:lxde.repo">http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.3/X11:lxde.repo</a></p>
 <p>zypper in slim</p>
 <p>? reccommends ImageMagic ??</p>
@@ -374,61 +386,80 @@ apparently man reccomends ghostscript, which is not needed right now.</code></pr
 <p>edit /etc/logins.def, remove offending LASTLOG_ENAB</p>
 <p>in yast2-runlevel, enable xdm</p>
 <p>however, changing systemd default runlevel is a bit more involved:</p>
-<p>ln -sf /usr/lib/systemd/system/multi-user.target \<br />
-   /etc/systemd/system/default.target</p>
+<p>ln -sf /usr/lib/systemd/system/multi-user.target <br />
+/etc/systemd/system/default.target</p>
 <p>zypper in pulseaudio pavucontrol</p>
-<p>zypper in MozillaFirefox<br />
+<p>zypper in MozillaFirefox
 zypper in flash-player</p>
-<p>zypper in mercurial<br />
+<p>zypper in mercurial
 zypper in hg-git</p>
 <p><a href="http://susestarter.blogspot.com/2011/03/get-yer-subpixel-hinted-fonts.html">http://susestarter.blogspot.com/2011/03/get-yer-subpixel-hinted-fonts.html</a></p>
-<p>htop<br />
-mutt abook<br />
-newsbeuter<br />
-lynx<br />
+<p>htop
+mutt abook
+newsbeuter
+lynx
 moc</p>
 <p>ranger from rpm</p>
 <p>conky</p>
-<p>vlc from videolan.org<br />
+<p>vlc from videolan.org
 libdvdcss from community repo</p>
-<p>make<br />
+<p>make
 stow from rpm</p>
 <p>ncurses-devel</p>
 <p>yast2-sshd</p>
 <p>autoconf automake</p>
-<p>dependencies for st:<br />
+<p>dependencies for st:
 libX11-devel fontconfig-devel freetype2-devel libXft-devel libXext libXext6 liberation2-fonts</p>
-<p>enable ssh : <a href="http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server">http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server</a><br />
- and firewall in yast</p>
+<p>enable ssh : <a href="http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server">http://en.opensuse.org/SDB:Configure_openSSH#SSHD_.E2.80.93_The_server</a>
+and firewall in yast</p>
 <p>patch</p>
 <p>screen with caption patch and 256 color patch</p>
 <p>install zathura from github manually, + girara and poppler plugin</p>
 <p>install libwebkit, compile tabbed and surf</p>
 <p>install R from tumbleweed, install colorout</p>
-<p>did a dist upgrade to tumbleweed<br />
-```</p>
-<h3>Make a motd</h3>
-<pre><code>hostname | figlet | boxes | sudo tee /etc/motd
+<p>did a dist upgrade to tumbleweed</p>
+<pre><code>
+
+### Make a motd
+    hostname | figlet | boxes | sudo tee /etc/motd
+
+### Old Notes
+
+
+[Revisiting How We Put Together Linux Systems](http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html)
+
+[Why do we use the Linux kernel's TCP stack? - Julia Evans](http://jvns.ca/blog/2016/06/30/why-do-we-use-the-linux-kernels-tcp-stack/)
+
+vmtouch - the Virtual Memory Toucher
+
+
+
+Portable file system cache diagnostics and control --- [Hoytech](https://hoytech.com/vmtouch/)
+
+Linux devices manager for the Logitech Unifying Receiver. --- [Solaar](http://pwr.github.io/Solaar/)
+
+[How to switch to Compton for beautiful tear free compositing in XFCE: duncanlock.net](http://duncanlock.net/blog/2013/06/07/how-to-switch-to-compton-for-beautiful-tear-free-compositing-in-xfce/)
+
+[How to Boot Linux ISO Images Directly From Your Hard Drive](http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/)
+
+[smxi sgfxi svmi :: How to Install the Scripts](http://smxi.org/site/install.htm)
+
+IMO Power user = knowledge of differences between consumer distros, desktop
+ricing, and exotic scripts for like media control or home automation Sysadmin =
+could do the above but more likely just drinks in between deployments/ fires/
+paychecks
+  --- [How to tell the level of a Linux book? : linux](http://www.reddit.com/r/linux/comments/2x8rsi/how_to_tell_the_level_of_a_linux_book/)
+
+[The Definitive Guide to Linux System Calls](http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
+
+### Links
+
+[A broad overview of how modern Linux systems boot](https://utcc.utoronto.ca/~cks/space/blog/linux/LinuxBootOverview?)
+
+Theme generator - [wpgtk](https://github.com/deviantfero/wpgtk)
 </code></pre>
-<h3>Old Notes</h3>
-<p><a href="http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html">Revisiting How We Put Together Linux Systems</a></p>
-<p><a href="http://jvns.ca/blog/2016/06/30/why-do-we-use-the-linux-kernels-tcp-stack/">Why do we use the Linux kernel's TCP stack? - Julia Evans</a></p>
-<p>vmtouch - the Virtual Memory Toucher</p>
-<p>Portable file system cache diagnostics and control --- <a href="https://hoytech.com/vmtouch/">Hoytech</a></p>
-<p>Linux devices manager for the Logitech Unifying Receiver. --- <a href="http://pwr.github.io/Solaar/">Solaar</a></p>
-<p><a href="http://duncanlock.net/blog/2013/06/07/how-to-switch-to-compton-for-beautiful-tear-free-compositing-in-xfce/">How to switch to Compton for beautiful tear free compositing in XFCE: duncanlock.net</a></p>
-<p><a href="http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/">How to Boot Linux ISO Images Directly From Your Hard Drive</a></p>
-<p><a href="http://smxi.org/site/install.htm">smxi sgfxi svmi :: How to Install the Scripts</a></p>
-<p>IMO Power user = knowledge of differences between consumer distros, desktop<br />
-ricing, and exotic scripts for like media control or home automation Sysadmin =<br />
-could do the above but more likely just drinks in between deployments/ fires/<br />
-paychecks<br />
-  --- <a href="http://www.reddit.com/r/linux/comments/2x8rsi/how_to_tell_the_level_of_a_linux_book/">How to tell the level of a Linux book? : linux</a></p>
-<p><a href="http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/">The Definitive Guide to Linux System Calls</a></p>
-<h3>Links</h3>
-<p><a href="https://utcc.utoronto.ca/~cks/space/blog/linux/LinuxBootOverview?">A broad overview of how modern Linux systems boot</a></p>
-<p>Theme generator - <a href="https://github.com/deviantfero/wpgtk">wpgtk</a></p></article>
+</article>
 <footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
-Last updated on&nbsp;2020-10-17.</footer>
+Last updated on&nbsp;2020-12-03.</footer>
 </body>
 </html>

@@ -1,4 +1,3 @@
-<!-- njnmdoc: title="roguelikes" -->
 [CEGC 2015 #2 - Roguelike Lessons in Design - YouTube](https://www.youtube.com/watch?v=5Bl1mTE5jFM)
 
 [Gamasutra: A Adonaac's Blog - Procedural Dungeon Generation Algorithm](http://www.gamasutra.com/blogs/AAdonaac/20150903/252889/Procedural_Dungeon_Generation_Algorithm.php)
