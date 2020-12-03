@@ -94,4 +94,5 @@ https://www.occrp.org/en/daily/13455-organized-crime-has-a-new-tool-in-its-belts
 https://krebsonsecurity.com/
 https://alexw.substack.com/p/hire
 https://moneylaundering.substack.com/
+https://www.gradientmetrics.com/about
 

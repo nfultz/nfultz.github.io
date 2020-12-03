@@ -1,4 +1,0 @@
-The Curses interface is an alternate text-mode interface for NetHack using high-level curses routines to control the display. The curses interface has additional features compared to the traditional tty interface, such as dynamic window resizing, dynamic configurable placement of status and message windows, and mouse support.  --- [Curses interface - NetHackWiki, the NetHack Wiki](http://nethackwiki.com/wiki/Curses_interface)
-
-I would like to share my excitement about the fact that after almost a year of development, an instance of my NetHack bot has finally managed to ascend a game for the first time without human interventions, wizard mode cheats or bones stuffing, and did so at the public server at acehack.de --- [YAAP: full-auto bot ascension (BotHack) : nethack](https://www.reddit.com/r/nethack/comments/2tluxv/yaap_fullauto_bot_ascension_bothack)
-

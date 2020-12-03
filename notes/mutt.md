@@ -21,7 +21,7 @@ set smtp_url = smtp://nfultz@localhost:49153
 set from = nfultz@Mega.corp
 ```
 
-<h2 id=gmail> Using with Gmail </h2>
+##  Using with Gmail
 
 Gmail is easy enough to set up since it supports IMAP.
 
