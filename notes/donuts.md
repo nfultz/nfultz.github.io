@@ -43,7 +43,12 @@
 * Ester Derby
 * Writing a newsletter
 
+## Andrew Mao
+### 2020-12-01
+### Via Springboard
+### https://www.linkedin.com/in/thatandrewmao/
 
-
-
+* Works for cryptocurrency subsidiary of BitTorrent
+* Sole Prop vs LLC
+* Discussed covid impact on job market
 
