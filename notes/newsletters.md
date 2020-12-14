@@ -98,3 +98,6 @@ https://www.gradientmetrics.com/about
 https://www.accountingweb.com/tax/business-tax/who-gets-the-qualified-business-income-deduction
 https://www.cpomagazine.com/cyber-security/googles-chrome-web-store-security-is-successful-but-a-bigger-storm-is-brewing/
 
+https://newsletter.firmlearning.com/
+https://www.dailydot.com/
+https://visualizevalue.substack.com/archive
