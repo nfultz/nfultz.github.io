@@ -101,3 +101,5 @@ https://www.cpomagazine.com/cyber-security/googles-chrome-web-store-security-is-
 https://newsletter.firmlearning.com/
 https://www.dailydot.com/
 https://visualizevalue.substack.com/archive
+https://www.centreforpublicimpact.org/?source=post_page-----fe95886d3df6--------------------------------#subscribe
+https://www.quietrev.com/forget-mentors-find-an-accountability-partner/
