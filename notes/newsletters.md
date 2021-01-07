@@ -103,3 +103,336 @@ https://www.dailydot.com/
 https://visualizevalue.substack.com/archive
 https://www.centreforpublicimpact.org/?source=post_page-----fe95886d3df6--------------------------------#subscribe
 https://www.quietrev.com/forget-mentors-find-an-accountability-partner/
+
+
+daily bruin
+startup ucla
+thread reader
+tech jobs for good
+microconf
+scrolls of the bard
+tjcx
+old bay
+hiring for tech
+leanpub
+bits on disk
+100 dollar micro grant
+20th century marc
+2000 books
+80000 Hours
+6 by Charlie Lloyd
+acams
+Acing AI
+AILA
+Alan Alda Center
+All Things Open
+alta
+Analysis Factor
+andrew ng
+AngelList Weekly
+Annenberg Space for Photography
+Atlas Obscura
+Authoritarian Tech
+the avocado
+Axios Pro Rata
+BackgroundBuzz
+baffler
+want to know
+Bayesia Labs
+Basecamp
+Behavioral Economics
+Berkeley D-Lab
+BetterDev
+coursehero
+zero equals false
+Better Explained
+Benedict Evans
+Better Scientific Software
+Betancourt, Michael
+BIG
+Big Data Day
+black lab
+blackrock
+Bleeping Computer
+Bloomberg
+BookBub
+Book Soup
+Breaking Smart
+British Library Newsletter
+Bruce Springsteen
+Brydge
+Bubblin.io
+Built in LA
+Burtch Works
+redecentralize
+Business Science
+CAN
+Carryology
+CascadiaRConf
+Center for Data Innovation
+chargeback911
+citysourced
+coding it forward
+CFP Land
+chain reaction
+Chalkdust Magazine
+Charles Chu Polymath Project
+chrome unboxed
+cloud irregular
+Coalition to Preserve LA
+Coda
+Code District
+Code For America
+Code of Conduct Book
+CodeShip
+compelling python
+computing reviews
+codewithoutrules
+Coffee House Press
+Pandamonium
+Community Broadband Project
+Compelling Science Fiction
+Drew Cordell
+Cornell StatNews
+creative.ai
+cron.weekly
+CTOVision
+Cubicle Bliss
+Daily Skimm
+Daily Stoic
+Dan Abramov
+Dark Reading Daily
+Data:LA
+Data & Society
+data donuts
+Data Elixir
+Data Engineering Weekly
+Data for Breakfast
+dataiku
+Data Incubator
+Data is Plural
+dataquest.io
+Data School
+DataScience.com
+Data Science for Social Good
+Data Science Fundamentals
+Data Science Dream Job
+Data Science Salon
+Data Stax
+deciding project
+deeplearning.ai
+derek sivers
+DevOps'ish
+DevRelWeekly
+Digital Ocean / Hacktoberfest
+Dillan's Dillanspiration Newsletter
+DocumentJournal
+Domino Data Labs
+donut
+doug toft
+Drive it like you stole it
+Electric Eel
+Elevator
+Esotouric
+Everyday Carry
+Evonomics
+Exception Not Found
+Fathom Events
+Financial Times
+Finimize
+First Resonance
+First Round Review
+Five Books
+tiny spells
+Harvard Data Science Review
+fiverr
+fwiw
+Gavin De Becker & Associates
+General Assembley
+Gretchen Rubin
+Grid 110
+Grit
+gwern
+Hacker Bits
+Hacker Newsletter
+Hyperallergic
+harnam
+Harper Collins BookPerk
+Haruki Murakami
+The Hustle
+I ❤️ E-Poetry
+IDEAS
+imaginary cloud
+Increment
+Indie Hackers
+Instar Books
+Interview Cake
+IPAM
+James Altucher
+Jacobin
+jfla
+Jean Hannah Edelstein
+Jeopardy
+js.la
+JSomers
+JS Weekly
+Julia Evans
+Jung Institute
+KC Alexander
+KDnuggets
+Key Values
+Laemmle Theaters
+LA Cryptoparty
+LAIAD
+LAist
+LAPL
+LARB
+LA Times Book Club
+LA Zine Festival
+Last Bookstore
+lavaflows
+Legal NewsLine
+Lindsey Tabas
+Logic Magazine
+Marcus Blankenship
+mark manson
+Mattermore
+mattermost
+pynchon-l
+Matt Pond
+matt taibbi
+the memo
+MemSQL
+Rachel Stephen
+Retina.ai
+ryannjohnson
+Metafoundry / Deb Cachra
+Metal Sucks
+metis DS
+Mike Vardy
+mln.io
+MIT Deep Learning
+Modeling Agency
+Modern SQL
+Morning Brew
+Morning Paper
+MTP
+The Muse
+New Stack
+n+1
+National Academies Press
+nixers
+NumFocus
+ODSC
+Omega Statistics
+OmniFocus
+One Day University
+OR books
+Oracle
+Orbit Books
+Order o chaos
+O'reilly
+Panda Planner
+Patrick O'Shaughnessy
+Perl Weekly
+PETITION
+Pew Research
+Philosophie
+Philisophical Research Society
+Phoenix Planner
+PHP weekly
+Physical World Tech Newsletter
+Podcast Notes
+PyCoders Weekly
+Point Break Live
+Poisoned Pen Press
+Politico
+Polygraph
+Pome
+PrettySweet Planner
+Progressive Data Jobs
+Project Evo
+Popular Information
+Product Hunt Weekly
+socaltech
+Pursuit Magazine
+Psychic High School
+Quake
+Quanta Magazine
+QZ Daily Brief
+raptitude
+Redhat Openshift
+read like the devil
+Read to Rethink
+refinery.news
+Rescue Time
+Right Richter
+RISKS digest
+Roden
+Roman Vitae
+roosterteeth
+ROpenSci
+Rstudio
+rum rebellion
+Ryan Holiday
+RWeekly
+Sara's Bookshelf
+Scout Report
+Sean Bonner
+Second City
+section 4
+Security Newsletter
+Silicon Beach Report
+Singularity University
+Skirball
+Skylight Books
+Small Business Administration
+smartbear
+software heritage
+Software Improvement Group
+Sourcerer
+SpaceNews
+sql cards
+starminder
+Stan this month
+Stats Camp
+stratfor
+Subterranean Press
+TDWI
+TechDay LA
+Technoccult
+Tech People Leadership
+Technically Speaking
+Threatcare
+TLDR
+Toby
+TopCoder
+Tor
+Transcending Waves Planner
+TU Delft
+Twelve Books
+UAW
+UCI Center for Digital Transformation
+UCLA Anderson Forecast
+UCLA Easton
+uncubed
+Uncommon Goods
+Undark
+United Lodge of Theosophists Los Angeles
+Unwinnable
+Visit Topeka
+Vladislav Supalov
+Watson Adventures
+weekly cfp
+West Hollywood
+Winkies
+We Like LA
+Wirecutter
+Writer's Bloc
+written out
+ZDnet Innovation
+https://hereticalupdate.substack.com/p/book-review-archeofuturism-g-faye
+https://www.valuewalk.com/
+https://markcrispinmiller.com/category/nfu/
+https://markmanson.net/newsletters?utm_source=youtube&utm_medium=social&utm_campaign=channel-links
+https://www.nytimes.com/newsletters/signup/OT

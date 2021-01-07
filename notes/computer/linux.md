@@ -1,6 +1,24 @@
 <!-- njnmdoc: title="Linux Notes"  -->
 
 
+## Configuring a monitor with non-standard resolutions
+
+First, use `gtf` to calculate the mode line
+
+```
+gtf 1024 600 60
+```
+
+Then, create a new mode, add it to the output device, and activate it.
+
+
+```
+xrandr --newmode "1024x600_60.00"  48.96  1024 1064 1168 1312  600 601 604 622  -HSync +Vsync
+xrandr --addmode HDMI-A-0 "1024x600_60.00"
+xrandr --output HDMI-A-0 --mode "1024x600_60.00"
+```
+
+
 ## Mirroring from s3 to ftp
 
   * Launch ec2 node
@@ -150,7 +168,7 @@ At it's core, it is really just a debian install with good defaults for
 [A eulogy to CrunchBang, the Linux distro that time passed by | PCWorld](http://www.pcworld.com/article/2882630/the-death-of-a-linux-distro.html#tk.nl_today)
 
 
-###Creating USB
+### Creating USB
 Default "Create startup USB" in ubuntu did not worked,
 installed unetbin, which did.
 
