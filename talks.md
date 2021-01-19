@@ -2,6 +2,10 @@
 
 ## 2020
 
+  * Jan 29 - DataKind - _DS Work Patterns in Prior Engagements_ [[slides]](http://bit.ly/dk_repos)
+
+## 2020
+
   * Oct 18 - IDEAS - _(Personalized) News is Hard_ [[slides]](http://bit.ly/ideas20_news) [[video]](https://www.youtube.com/watch?v=IaOPxCBcn7g)
   * Aug 25 - ~~PyData LA~~ System1 - _Intro to Decomps and Duetos_ [[slides]](https://nfultz.github.io/Intro_Dueto/)
 

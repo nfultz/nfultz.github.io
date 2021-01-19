@@ -436,3 +436,9 @@ https://www.valuewalk.com/
 https://markcrispinmiller.com/category/nfu/
 https://markmanson.net/newsletters?utm_source=youtube&utm_medium=social&utm_campaign=channel-links
 https://www.nytimes.com/newsletters/signup/OT
+https://popehat.substack.com/
+https://thecatalyst.org.uk/blog/a-data-community-for-the-social-sector-whats-needed
+https://cleansoftware.net/#join
+
+https://www.npr.org/newsletter/money
+https://www.wired.com/newsletter
