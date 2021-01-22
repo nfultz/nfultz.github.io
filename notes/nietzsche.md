@@ -1,4 +1,5 @@
-Friedrich Wilhelm Nietzsche was a German philosopher, cultural critic, poet, composer, and Latin and Greek scholar. 
+<!-- njnmdoc:  title="Nietzsche"  -->
+Friedrich Wilhelm Nietzsche was a German philosopher, cultural critic, poet, composer, and Latin and Greek scholar.
 
 He wrote several critical texts on religion, morality, contemporary culture, philosophy, and science, displaying a fondness for [[Metaphor and Irony]] - [wikipedia](https://en.wikipedia.org/wiki/Friedrich_Nietzsche)
 

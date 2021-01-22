@@ -1,7 +1,5 @@
 R is the hottest stat package now.
 
-[[R Eat-This-Not-That]]
-
 The most important feature R provides is extensibility. Most of the major improvements it offers over other competitors are not in base R, but rather are developed by third parties in industry or academia.
 
 Although not on CRAN, [colorout](http://www.lepem.ufc.br/jaa/colorout.html) is a sweet package that will colorize your output. Although not on CRAN, you can still install it with a one-liner:
