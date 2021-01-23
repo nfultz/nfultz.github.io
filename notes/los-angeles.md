@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Los Angeles"  -->
 [Books about Los Angeles: readers' picks | Books | The Guardian](http://www.theguardian.com/books/booksblog/2015/mar/23/books-about-los-angeles-readers-picks)
 
 [$15 California Minimum Wage: Democratic Party Is Abandoning Economics - Fortune](http://fortune.com/2016/04/07/where-the-fight-for-15-went-wrong/)

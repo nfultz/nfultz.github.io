@@ -1,4 +1,4 @@
-[[How to hire data scientists]]
+<!-- njnmdoc:  title="Hiring"  -->
 
 [How to Consistently Hire Remarkable Data Scientists - First Round Review](http://firstround.com/review/how-to-consistently-hire-remarkable-data-scientists/)
 
