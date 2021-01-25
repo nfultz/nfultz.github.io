@@ -5,6 +5,8 @@
 
 https://soundcloud.com/monsterlandband
 
+Interview: https://www.mixcloud.com/Sugarblast/signal-to-noise-22217-monsterland-interview/
+
 
 ### Youtube
 
@@ -34,9 +36,14 @@ http://wilfullyobscure.blogspot.com/2011/02/monsterland-smile-tape-1990.html
 http://wilfullyobscure.blogspot.com/2008/08/monsterland-loser-friendly-ep-1992-at.html
 https://ihatethe90s.blogspot.com/search/label/monsterland
 
+https://bigtakeover.com/news/monsterland-to-reunite-february-24-for-benefit-show
+
 https://archive.org/details/ConnecticutRocksOnWpkn-27-sept-2010-InterviewWithPabloXOfSkratch
 https://archive.org/details/ConnecticutRocksOnWpkn-26-july-2010-FeatureOnTheVibes
 
+https://trouserpress.com/reviews/monsterland/
 
+
+http://www.intermixx.com/webzine/pdfmags/InterMixxWebzine_100.pdf
 
 
