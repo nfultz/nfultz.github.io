@@ -445,3 +445,4 @@ https://www.wired.com/newsletter
 https://thecatalyst.org.uk/
 https://points.datasociety.net/
 https://www.pachamama.org/ # economic hitman?
+https://www.theregister.com/

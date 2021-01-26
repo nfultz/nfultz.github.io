@@ -1,3 +1,5 @@
+<!-- njnmdoc:  title="OODA Loop"  -->
+
 * Observe
 * Orient
 * Decide
