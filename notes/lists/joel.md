@@ -1,6 +1,6 @@
 <!-- njnmdoc: title="Joel Test"  -->
 
-OThe [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) is an enumeration of
+The [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) is an enumeration of
 best practices for software engineering, in questionaire format.
 
 Original:

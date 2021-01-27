@@ -6,8 +6,8 @@ Hello, world!
 
   * [About This Site](about)
   * [Contact Info](contact)
-  * [Now](now)
-  * [Talks](talks.html)
+  * [Now](now) & [Feeds](feeds)
+  * [Talks](talks)
   * [Notes](#)
     * [Hot Sauces](notes/hotsauce.html)
     * [Linux](notes/computer/linux.html)

@@ -1,3 +1,4 @@
+<!-- njnmdoc: title="Nine Pitfalls of Data Science"  -->
 Smith Cordes 2019
 
 1. Using bad data
