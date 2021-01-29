@@ -2,5 +2,5 @@
 
 [Data Science workflow with reproducible research - Another Life Form](http://mfactor.sdf.org/data-science-workflow-with-reproducible-research.html)
 
-[An extension of the Data Science process – OSEMIC | Models are illuminating and wrong](https://peadarcoyle.wordpress.com/2015/03/22/an-extension-of-the-data-science-process-osemic/)
+[An extension of the Data Science process - OSEMIC | Models are illuminating and wrong](https://peadarcoyle.wordpress.com/2015/03/22/an-extension-of-the-data-science-process-osemic/)
 

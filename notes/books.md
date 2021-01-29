@@ -1,8 +1,6 @@
 <!-- njnmdoc:  title="Books"  -->
 I'm always going through several books at once.
 
-[[Middlebrow Cannon]] - the top 100 books on Facebook.
-
 
 [The list « A year of reading the world](http://ayearofreadingtheworld.com/thelist/)
 

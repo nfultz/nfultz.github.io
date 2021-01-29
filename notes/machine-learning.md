@@ -1,4 +1,4 @@
-[An executive’s guide to machine learning | McKinsey   Company](http://www.mckinsey.com/Insights/High_Tech_Telecoms_Internet/An_executives_guide_to_machine_learning)
+[An executive's guide to machine learning | McKinsey   Company](http://www.mckinsey.com/Insights/High_Tech_Telecoms_Internet/An_executives_guide_to_machine_learning)
 
 Machine learning offers a fantastically powerful toolkit for building useful complex
 

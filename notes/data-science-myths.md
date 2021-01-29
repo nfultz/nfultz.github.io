@@ -1,6 +1,6 @@
 [Haunted By Data](http://idlewords.com/talks/haunted_by_data.htm)
 
-[Richie | Data is not an asset, it’s a liability](https://www.richie.fi/blog/data-is-a-liability.html)
+[Richie | Data is not an asset, it's a liability](https://www.richie.fi/blog/data-is-a-liability.html)
 
 [The Model Complexity Myth](https://jakevdp.github.io/blog/2015/07/06/model-complexity-myth/)
 

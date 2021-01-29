@@ -446,3 +446,4 @@ https://thecatalyst.org.uk/
 https://points.datasociety.net/
 https://www.pachamama.org/ # economic hitman?
 https://www.theregister.com/
+https://lyzlenz.com/newsletter
