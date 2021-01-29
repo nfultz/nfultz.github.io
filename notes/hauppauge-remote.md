@@ -7,10 +7,10 @@ This is very old, but maybe still works? It was my most popular blog post ever.
 Here’s some code for controlling Winamp with the remote that comes with a
 Hauppauge TV tuner card. Since this uses the winamp API, winamp does not need
 to have focus in order to receive commands. Open up
-<code>C:\windows\irremote.ini</code>, and edit these lines into the [Default]
+`C:\windows\irremote.ini`, and edit these lines into the [Default]
 section:
 
-<pre><code>
+```
 1={FindWnd(Winamp v1.x,)}{cmd(40059)}
 2={FindWnd(Winamp v1.x,)}{cmd(40040)}
 3={FindWnd(Winamp v1.x,)}{cmd(40058)}
@@ -20,7 +20,7 @@ section:
 7={FindWnd(Winamp v1.x,)}{cmd(40192)}
 8={FindWnd(Winamp v1.x,)}{cmd(40047)}
 9={FindWnd(Winamp v1.x,)}{cmd(40046)}
-</code></pre>
+```
 
 
 The keys are:

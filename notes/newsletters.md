@@ -447,3 +447,7 @@ https://points.datasociety.net/
 https://www.pachamama.org/ # economic hitman?
 https://www.theregister.com/
 https://lyzlenz.com/newsletter
+https://fintechtoday.substack.com/
+https://www.readthegeneralist.com/
+https://www.amediaoperator.com/newsletter/why-i-decided-to-leave-substack/
+https://discourseblog.substack.com/p/begin-again

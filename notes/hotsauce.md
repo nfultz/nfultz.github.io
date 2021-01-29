@@ -57,9 +57,15 @@ And truffle hot sauce, thanks Mom!
 
 Finally scored some Old Bay Hot Sauce (limited edition)! w00t!
 
+For Christmas 21, my mom got me:
+
+  * Yellowbird
+  * Kuman Avocado Sauce
+
+Thanks Mom!
+
 Wishlist:
 
-  * https://www.amazon.com/Yellowbird-Hot-Sauce-Combo-3-Pack/dp/B07BRRVBRQ/
   * https://dandidosauce.com/collections/dandido-hot-sauce/products/dandido-sauce
   * https://www.evilcowboy.com/collections/retail-products
   * https://treatyourmeat.com/product/gator-bait-hot-sauce/
