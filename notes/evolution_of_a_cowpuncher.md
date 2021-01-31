@@ -1,5 +1,10 @@
 <!-- njnmdoc: title="Evolution of the Cow-Puncher by Own Wister"  -->
 
+## Notes
+
+The below is a foundational document of the Cowboy Mythos. Owen
+Wister later authored The Virginian.
+
 ## Citation
 
 *Evolution of the Cow-Puncher*
@@ -642,3 +647,9 @@ good soldier, from his tournament days down.  And if our nation in its growth
 have no worse distemper than the Populist to weather through, there is hope
 for us, even though present signs disincline us to make much noise upon the
 Fourth of July.
+
+## Links
+
+https://inwardempirepodcast.wordpress.com/2017/07/02/images-for-episode-7-from-camelot-to-abilene/
+
+
