@@ -451,3 +451,5 @@ https://fintechtoday.substack.com/
 https://www.readthegeneralist.com/
 https://www.amediaoperator.com/newsletter/why-i-decided-to-leave-substack/
 https://discourseblog.substack.com/p/begin-again
+https://medium.com/one-zero/newsletters/pattern-matching
+https://singularityhub.com/
