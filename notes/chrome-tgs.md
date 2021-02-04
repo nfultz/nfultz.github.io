@@ -133,4 +133,5 @@ While I was waiting for the money to roll in, I wrote an MVP using Manifest 3
 and posted it on Github. When Chrome 90 actually ships, maybe I'll upload it to the
 Chrome Store just to see if there's interest.
 
-In the meantime, I wish the TMS fork's maintainer luck and figures out a way to make it work.
+In the meantime, I wish the new fork's maintainer luck and I hope he figures
+out a way to make it work.
