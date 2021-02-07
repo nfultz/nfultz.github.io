@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="devops"  -->
 [How Weird Twitter's @fart became a DevOps idol](http://www.dailydot.com/technology/devops-jon-hendren-fart/)
 
 [The sad state of sysadmin in the age of containers](http://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html)
