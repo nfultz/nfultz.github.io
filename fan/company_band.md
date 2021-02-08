@@ -11,6 +11,11 @@ A notable side project of Neil Fallon (of Clutch).
 3.	"Spellbinder"	4:13
 4.	"Heartache & Misery"
 
+### 2009 - It's a Confusing World (Single)
+
+1.  It's A Confusing World 03:28
+2.  Not Fragile (BTO Cover) 03:20
+
 ### 2009 - Company Band
 
 1.	"Zombie Barricades"	3:40
@@ -23,12 +28,6 @@ A notable side project of Neil Fallon (of Clutch).
 8.	"CDANDW"	3:16
 9.	"Love Means Never Having To Say You're Ugly"	3:55
 10.	"Lethe Waters"	4:10
-
-### 2009 - It's a Confusing World (Single)
-
-1.  It's A Confusing World 03:28
-2.  Not Fragile (BTO Cover) 03:20
-
 
 ### 2012 - Pros & Cons
 
