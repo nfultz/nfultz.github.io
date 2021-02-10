@@ -15,6 +15,7 @@
   * Aug 28 - Customer Data Science - _Forecasting over Funnels_ [[slides]](http://bit.ly/2ZtpBIv) [[video]](https://www.youtube.com/watch?v=-0NVk4cqgPs)
   * Aug 10 - Kansas Linux Fest - _Dotfiles: A Survey_ [[slides]](http://bit.ly/2NVyiXu) [[video]](https://youtu.be/cwy9hrVvdnY)
   * Apr 06 - satRDay LA - _Better Research Planning Through Simulation_ [[slides]](http://bit.ly/2OLIvCt) [[video]](https://www.youtube.com/watch?v=WZLc0bqmOEw)
+  * Mar 05 - General Assembly DTLA - _A Day in the Life of a DS_
   * Feb 15 - CSP - _Better Research Planning Through Simulation_
 
 ## 2018
