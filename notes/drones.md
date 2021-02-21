@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Drones"  -->
 [Paint remover: Mexico activists attempt to drone out beleaguered president | Sam Jones | Global development | The Guardian](http://www.theguardian.com/global-development/2015/oct/15/mexico-droncita-rexiste-collective-president-enrique-pena-nieto)
 
 China's biggest internet retailer says it has begun testing drone-based deliveries to hundreds of customers.
