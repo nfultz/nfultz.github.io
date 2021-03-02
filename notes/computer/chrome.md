@@ -23,8 +23,6 @@ If GoToMeeting goes berserk, fills up the disk and then crashes chrome, every si
 
   - [ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 All around awesome ad blocker.
-  - [Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
-Hibernates unused tabs automatically, freeing up resources for other things.
   - [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd)
 Highly function SSH client with terminal.
   - [Picture-in-Picture](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg)
@@ -41,4 +39,9 @@ Does one thing well.
 No more `file(1)(1)(1)`
   - [Disable HTML5 Autoplay](https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai) i
 Can break video-conferencing, but overall a net win.
+
+## Disable Tab Hover Cards
+
+> Alternatively, you can paste chrome://flags/#tab-hover-cards  into the Omnibox, and then press the “Enter” key to go directly to the flag.
+
 
