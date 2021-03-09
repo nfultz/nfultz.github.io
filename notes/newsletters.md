@@ -24,12 +24,10 @@ https://landing.mailerlite.com/webforms/landing/a7z2o2
 https://www.safeparkingla.org/contact
 https://groups.io/g/datasciencesection/join
 
-https://streamndestroy.substack.com/
 https://www.i-programmer.info/register.html
 https://www.alr-music.com/
 
 https://celadonbooks.com/
-https://andrewsullivan.substack.com/subscribe
 
 https://www.smashingmagazine.com/the-smashing-newsletter/
 
@@ -68,13 +66,10 @@ https://www.resilience.org/stories/2020-10-30/einsteins-take-on-capitalism-socia
 
 cr.org/newsletters
 
-https://digmeout.substack.com/
-https://avo-magazine.nl/en/t/weekly-mv/
 https://datanatives.io/magazine/
 https://www.profgalloway.com/
 https://electricliterature.com/review-morte-by-robert-repino/
 
-https://artofgig.substack.com/
 https://www.ribbonfarm.com/
 https://www.ourcommunity.com.au/
 https://www.zerohedge.com/
@@ -89,7 +84,6 @@ https://devrelweekly.com/
 https://www.all-story.com/
 https://www.law.com/legaltechnews/2020/11/23/kira-wants-to-facilitate-machine-learning-model-sharing-through-differential-privacy/?slreturn=20201025004646
 http://aiweekly.co/
-https://russellpollari.substack.com/
 https://www.occrp.org/en/daily/13455-organized-crime-has-a-new-tool-in-its-belts-artificial-intelligence
 https://krebsonsecurity.com/
 https://alexw.substack.com/p/hire
@@ -105,8 +99,6 @@ https://www.centreforpublicimpact.org/?source=post_page-----fe95886d3df6--------
 https://www.quietrev.com/forget-mentors-find-an-accountability-partner/
 
 
-daily bruin
-startup ucla
 thread reader
 tech jobs for good
 microconf
@@ -436,7 +428,6 @@ https://www.valuewalk.com/
 https://markcrispinmiller.com/category/nfu/
 https://markmanson.net/newsletters?utm_source=youtube&utm_medium=social&utm_campaign=channel-links
 https://www.nytimes.com/newsletters/signup/OT
-https://popehat.substack.com/
 https://thecatalyst.org.uk/blog/a-data-community-for-the-social-sector-whats-needed
 https://cleansoftware.net/#join
 
@@ -447,13 +438,11 @@ https://points.datasociety.net/
 https://www.pachamama.org/ # economic hitman?
 https://www.theregister.com/
 https://lyzlenz.com/newsletter
-https://fintechtoday.substack.com/
 https://www.readthegeneralist.com/
 https://www.amediaoperator.com/newsletter/why-i-decided-to-leave-substack/
 https://discourseblog.substack.com/p/begin-again
 https://medium.com/one-zero/newsletters/pattern-matching
 https://singularityhub.com/
-https://www.todayintabs.com/p/what-was-tabs
 https://thenewstack.io/
 https://www.upturn.org/
 
