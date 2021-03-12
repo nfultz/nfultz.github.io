@@ -2,6 +2,7 @@
 
 ## 2020
 
+  * Feb 26 - Women in Big Data LA - _GRPC in/to/from R_ [[slides]](http://bit.ly/wibdla-grpc)
   * Jan 29 - DataKind - _DS Work Patterns in Prior Engagements_ [[slides]](http://bit.ly/dk_repos)
 
 ## 2020
