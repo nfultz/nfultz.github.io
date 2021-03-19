@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head>
+  <meta name="generator" content="njnmdoc, see http://github.com/njnmco/njnmdoc" />
+  <meta charset="UTF-8"><title>Database papers</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script><link rel='stylesheet' type='text/css' href='https://unpkg.com/sakura.css/css/sakura.css' /></head><body><header><h1>Database papers</h1>
+</header>
+<article><!-- raw HTML omitted -->
+<p>I think main consequence of that is that databases are going to get easier to manage. Probably at a cost of internal complexity, but even there I don't expect too much trouble. It sort of boils down to figuring out parameters that work best for specific scenarios, and switching between them, which all can (and probably should) be done through testing / fuzzing.I recommend checking out the following publications if you have further interest:</p>
+<ul>
+<li>Immanuel Trummer, Junxiong Wang, Deepak Maram, Samuel Moseley, Saehan Jo, and Joseph Antonakakis. 2019. SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning. In Proceedings of the 2019 International Conference on Management of Data (SIGMOD '19). Association for Computing Machinery, New York, NY, USA, 1153--1170.</li>
+<li>Dimitrije Jankov, Shangyu Luo, Binhang Yuan, Zhuhua Cai, Jia Zou, Chris Jermaine, and Zekai J. Gao. 2019. Declarative recursive computation on an RDBMS: or, why you should use a database for distributed machine learning. Proc. VLDB Endow. 12, 7 (March 2019), 822--835.</li>
+<li>Ryan Marcus and Olga Papaemmanouil. Towards a Hands-Free Query Optimizer through Deep Learning.</li>
+<li>A. Pavlo, M. Butrovich, A. Joshi, L. Ma, P. Menon, D. V. Aken, L. Lee, and R. Salakhutdinov, &quot;External vs. Internal: An Essay on Machine Learning Agents for Autonomous Database Management Systems,&quot; IEEE Data Engineering Bulletin, pp. 32-46, 2019. [PDF] [BIBTEX]</li>
+<li>B. Zhang, D. V. Aken, J. Wang, T. Dai, S. Jiang, J. Lao, S. Sheng, A. Pavlo, and G. J. Gordon, &quot;A Demonstration of the OtterTune Automatic Database Management System Tuning Service,&quot; PVLDB, vol. 11, iss. 12, pp. 1910-1913, 2018.</li>
+<li>D. Van Aken, A. Pavlo, G. J. Gordon, and B. Zhang, &quot;Automatic Database Management System Tuning Through Large-scale Machine Learning,&quot; in Proceedings of the 2017 ACM International Conference on Management of Data, 2017, pp. 1009-1024. [PDF] [BIBTEX]</li>
+<li>D. Van Aken, D. E. Difallah, A. Pavlo, C. Curino, and P. Cudré-Mauroux, &quot;BenchPress: Dynamic Workload Control in the OLTP-Bench Testbed,&quot; in Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data, 2015, pp. 1069-1073. [PDF] [BIBTEX]</li>
+</ul>
+<p>Another awesome paper is System R: Relational Approach to Database Management. Many things have changed since then, but not enough to make any of what it says less relevant. You can't get rid of transaction/recovery management, query optimizer, etc. <a href="https://www.seas.upenn.edu/~zives/cis650/papers/System-R.PDF">https://www.seas.upenn.edu/~zives/cis650/papers/System-R.PDF</a> (edited) </p>
+<p>Even though indexing and storage is important, I still think ARIES, describing interactions of WAL and transaction processing engine is one of the most important ones: <a href="https://people.eecs.berkeley.edu/~brewer/cs262/Aries.pdf">https://people.eecs.berkeley.edu/~brewer/cs262/Aries.pdf</a> it really helps you to understand recovery mechanism and notion of time. I think <a href="https://datatalks-club.slack.com/team/U01QTG9137E">@Nikolay</a> will like it a lot, judging form the questions about zookeeper. It unveils what really happens when two or more transactions actually collide and do override each other's effects, or what happens during recovery: which records are persisted and which are discarded.</p>
+<p><a href="https://www.snowflake.com/wp-content/uploads/2019/06/Snowflake_SIGMOD.pdf">https://www.snowflake.com/wp-content/uploads/2019/06/Snowflake_SIGMOD.pdf</a></p>
+<p><a href="https://www.allthingsdistributed.com/files/p1041-verbitski.pdf">https://www.allthingsdistributed.com/files/p1041-verbitski.pdf</a></p>
+<p>Next one is Principles of Transaction-Oriented Database Recovery, or &quot;ACID Paper&quot; that &quot;establishes adequate and precise terminology for a topic in which confusion of concepts and implementation aspects imposes a lot of problems&quot;: <a href="https://sites.fas.harvard.edu/~cs265/papers/haerder-1983.pdf">https://sites.fas.harvard.edu/~cs265/papers/haerder-1983.pdf</a></p>
+</article>
+<footer>Page generated by <a href="https://github.com/njnmco/njnmdoc" target="blank">njnmdoc</a>.
+Last updated on&nbsp;2021-03-19.</footer>
+</body>
+</html>
