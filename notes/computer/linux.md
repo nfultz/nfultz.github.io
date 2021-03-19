@@ -1,5 +1,41 @@
 <!-- njnmdoc: title="Linux Notes"  -->
 
+How to Fix "Authentication is required to create a color profile/managed device"
+--------------------------------------------------------------------------------
+
+from https://devanswers.co/how-to-fix-authentication-is-required-to-create-a-color-profile-managed-device-on-ubuntu-20-04-20-10/
+
+The safest fix to get rid of these popups is to create a new configuration file in `/etc/polkit-1/localauthority.conf.d/02-allow-colord.conf`.
+
+```
+sudo nano /etc/polkit-1/localauthority.conf.d/02-allow-colord.conf
+```
+
+Paste in the following:
+
+/etc/polkit-1/localauthority.conf.d/02-allow-colord.conf
+
+```
+polkit.addRule(function(action, subject) {
+ if ((action.id == "org.freedesktop.color-manager.create-device" ||
+ action.id == "org.freedesktop.color-manager.create-profile" ||
+ action.id == "org.freedesktop.color-manager.delete-device" ||
+ action.id == "org.freedesktop.color-manager.delete-profile" ||
+ action.id == "org.freedesktop.color-manager.modify-device" ||
+ action.id == "org.freedesktop.color-manager.modify-profile") &&
+ subject.isInGroup("{users}")) {
+ return polkit.Result.YES;
+ }
+});
+```
+
+Save and exit (press `CTRL` + `X`, press `Y` and then press `ENTER`)
+
+This tells Polkit to continue without requiring the authentication prompt over RDP.
+
+Now reboot Ubuntu and try logging in again over RDP / Windows Remote Desktop and the popups should be gone.
+
+
 
 ## Configuring a monitor with non-standard resolutions
 
