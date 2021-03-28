@@ -1,3 +1,5 @@
+<!-- njnmdoc:  title="Economic Collapse"  -->
+
 [Out from under | Local News | Detroit Metro Times](http://www.metrotimes.com/detroit/one-family-fights-to-win-its-house-back-in-the-wayne-county-foreclosure-auction-after-being-scammed-by-a-sub-subprime-entrepreneur/Content?oid=2379234)
 
 [Will Blexting Help With Detroit Blight? – Next City](https://nextcity.org/daily/entry/detroit-blight-blexting-houses-motor-city-mapping)

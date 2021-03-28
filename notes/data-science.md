@@ -83,3 +83,9 @@ The self-service movement has not replaced the need for data scientists, but ins
 
 [An extension of the Data Science process - OSEMIC | Models are illuminating and wrong](https://peadarcoyle.wordpress.com/2015/03/22/an-extension-of-the-data-science-process-osemic/)
 
+## Big Data
+
+> The thing that separates a potentially new crisis in the area of so-called Big-Data from these earlier ones is that, literally overnight, we have reconstructed much of our economy, national security infrastructure and in the process of eroding our ancient right privacy on it’s yet to be proven premises. Now, we are on the verge of changing not just the nature of the science upon which we all depend, but nearly every other field of human intellectual endeavor. And we’ve done and are doing this despite the fact that the the most over the top promises of Big Data are about as epistemologically grounded as divining the future by looking at goat entrails. --- [Big Data as statistical masturbation](http://ieet.org/index.php/IEET/more/searle20150208)
+
+[How big data is unfair — Medium](https://medium.com/@mrtz/how-big-data-is-unfair-9aa544d739de)
+
