@@ -2,6 +2,7 @@
 
 ## 2020
 
+  * Mar 24 - LA R User Group- _R in the Terminal_ [[slides]](hthttps://bit.ly/larug-terminal)
   * Feb 26 - Women in Big Data LA - _GRPC in/to/from R_ [[slides]](http://bit.ly/wibdla-grpc)
   * Jan 29 - DataKind - _DS Work Patterns in Prior Engagements_ [[slides]](http://bit.ly/dk_repos)
 

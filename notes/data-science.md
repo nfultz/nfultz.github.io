@@ -1,3 +1,4 @@
+<!-- njnmdoc:  title="Data Science"  -->
 [The Beginners Guide to Predictive Workforce Analytics](http://www.kdnuggets.com/2015/10/beginners-guide-predictive-workforce-analytics.html)
 
 [Slides for Stockholm | mathbabe](http://mathbabe.org/2015/10/30/slides-for-stockholm/)
@@ -35,4 +36,50 @@ TL;DR Yes, to remain relevant. --- [William Chen's answer to Is statistics in ne
 [Data Engineer vs Data Scientist vs Business Analyst — Medium](https://medium.com/@KevinSchmidtBiz/data-engineer-vs-data-scientist-vs-business-analyst-b68d201364bc)
 
 [Doing Data Science at Twitter — Medium](https://medium.com/@rchang/my-two-year-journey-as-a-data-scientist-at-twitter-f0c13298aee6)
+
+---
+
+## Data Science For Good
+
+[ Definitive Guide to Data Science for Good - DataLook](http://blog.datalook.io/definitive-guide-data-science-good/)
+
+[Meet the Canadians who Code for America — Medium](https://medium.com/@transitapp/meet-the-canadians-who-code-for-america-b3da6d478a50)
+
+[Bayes Impact | Technology for good](http://www.bayesimpact.org/)
+
+[Data Science for Social Good fellowship - University of Chicago](http://dssg.uchicago.edu/)
+
+[Five principles for applying data science for social good - O'Reilly Media](https://www.oreilly.com/ideas/five-principles-for-applying-data-science-for-social-good)
+
+
+[Reddit AMA](https://www.reddit.com/r/datascience/comments/3zq4s6/ama_data_scientist_jake_porway_of_datakind/)
+
+
+---
+
+## Data Science Myths
+
+
+[Haunted By Data](http://idlewords.com/talks/haunted_by_data.htm)
+
+[Richie | Data is not an asset, it's a liability](https://www.richie.fi/blog/data-is-a-liability.html)
+
+[The Model Complexity Myth](https://jakevdp.github.io/blog/2015/07/06/model-complexity-myth/)
+
+The self-service movement has not replaced the need for data scientists, but instead created a new reality in which the business and end users are able to seize control of big data and begin leveraging it without them.
+
+
+
+ --- [Exposing the Data Scientist Myth: Using Big Data Without Them](http://www.datanami.com/2015/11/03/exposing-the-data-scientist-myth-using-big-data-without-them/)
+
+---
+
+## Processes
+
+
+[More tools for managing and reproducing complex data projects - O'Reilly Radar](http://radar.oreilly.com/2015/04/more-tools-for-managing-and-reproducing-complex-data-projects.html)
+
+[Data Science workflow with reproducible research - Another Life Form](http://mfactor.sdf.org/data-science-workflow-with-reproducible-research.html)
+
+[An extension of the Data Science process - OSEMIC | Models are illuminating and wrong](https://peadarcoyle.wordpress.com/2015/03/22/an-extension-of-the-data-science-process-osemic/)
 

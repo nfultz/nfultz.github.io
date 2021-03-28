@@ -1,3 +1,0 @@
-<!-- njnmdoc: title="Nihilism"  -->
-
-## Links
