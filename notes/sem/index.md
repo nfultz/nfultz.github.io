@@ -11,7 +11,7 @@ Sign our [guestbook](https://web.archive.org/web/20190804224649/http://www.gsu.
 
 FAQ Topics ("UC" indicates "under construction" or incomplete):
 
--   [SEMNET](https://web.archive.org/web/20190804224649/http://www.gsu.edu/~mkteer/semnet.html)
+-   [SEMNET](semnet.html)
 -   SEMNET [LISTSERV documentation](https://web.archive.org/web/20190804224649/http://bama.ua.edu/cgi-bin/wa), fully updated
 -   [SEMNET Citizenship](https://web.archive.org/web/20190804224649/http://www.gsu.edu/~mkteer/citizen.html)
 -   [What is Structural Equation Modeling?](https://web.archive.org/web/20190804224649/http://www.gsu.edu/~mkteer/sem.html)
