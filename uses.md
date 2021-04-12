@@ -13,3 +13,4 @@
 * Windows
 * Mac
 
+*This page is inspired by [uses.tech](https://uses.tech/).*
