@@ -64,8 +64,6 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 ## Frederick Taylor
 
-Untitled Group @ Sun, Apr 18, 2021, 4:13 PM
-
 [Internet Archive Search: frederick taylor](https://archive.org/search.php?query=frederick+taylor&and%5B%5D=mediatype%3A%22texts%22&page=4)
 
 [The principles of scientific management : Taylor, Frederick Winslow, 1856-1915 : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/bub_gb_HoJMAAAAYAAJ)
@@ -73,3 +71,12 @@ Untitled Group @ Sun, Apr 18, 2021, 4:13 PM
 [The scientific work of René Descartes (1596-1650) : Scott, J. F. (Joseph Frederick) : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/scientificworkof00scot)
 
 [Frederick W. Taylor, the father of scientific management : myth and reality : Wrege, Charles D : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/frederickwtaylor0000wreg)
+
+## Hiring
+
+[How to Consistently Hire Remarkable Data Scientists - First Round Review](http://firstround.com/review/how-to-consistently-hire-remarkable-data-scientists/)
+
+[You're hiring the wrong data scientists | Computerworld](http://www.computerworld.com/article/2929766/data-analytics/youre-hiring-the-wrong-data-scientists.html)
+
+[Cultural Ramifications of Technical Interviews by Heidy Khlaaf | Model View Culture](https://modelviewculture.com/pieces/cultural-ramifications-of-technical-interviews)
+
