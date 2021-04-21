@@ -1,5 +1,17 @@
 <!-- njnmdoc: title="Bookmarks"  -->
 
+
+## Bitcoin
+
+[A Complete Beginners Guide to Blockchain Technology - Blockstrap Blockstrap](http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/)
+
+[Accessing Bitcoin Data with R](http://blog.revolutionanalytics.com/2015/11/accessing-bitcoin-data-with-r.html)
+
+[Attacks in the World of Cryptocurrencies — Bytecoin Blog](https://bytecoin.org/blog/attacks-in-world-of-cryptocurrency/)
+
+[Why I believe in the Blockchain — Medium](https://medium.com/@jamieelizabethsmith/why-i-believe-in-the-blockchain-b19bf2014fab#.8l0tkl7rk)
+
+
 ## Bootcamps
 
 
@@ -50,3 +62,14 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [CTSP | A Pledge of Ethics for I School Graduates](https://ctsp.berkeley.edu/an-ischool-pledge-of-ethics)
 
+## Frederick Taylor
+
+Untitled Group @ Sun, Apr 18, 2021, 4:13 PM
+
+[Internet Archive Search: frederick taylor](https://archive.org/search.php?query=frederick+taylor&and%5B%5D=mediatype%3A%22texts%22&page=4)
+
+[The principles of scientific management : Taylor, Frederick Winslow, 1856-1915 : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/bub_gb_HoJMAAAAYAAJ)
+
+[The scientific work of René Descartes (1596-1650) : Scott, J. F. (Joseph Frederick) : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/scientificworkof00scot)
+
+[Frederick W. Taylor, the father of scientific management : myth and reality : Wrege, Charles D : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/frederickwtaylor0000wreg)
