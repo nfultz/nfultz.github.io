@@ -1,15 +1,15 @@
 <!-- njnmdoc:  title="Vim"  -->
 
 
-#Vim Cheat Sheet
+# Vim Cheat Sheet
 
-##Modes
+## Modes
 
 * Normal mode
 * Insert mode
 * Visual mode
 
-##Navigation
+## Navigation
 
 ```
   hjkl  		:: left down up right
@@ -29,7 +29,7 @@
   N     		:: prev match
 ```
 
-##Commands
+## Commands
 
 ```
   =     		:: Indent object
@@ -46,7 +46,7 @@
   :diffpatch    :: view a patch (as a diff)
 ```
 
-##Spelling
+## Spelling
 
 ```
   :set spell    :: Turn on
@@ -57,7 +57,7 @@
   z=            :: Suggest a word       *CTRL-X*
 ```
 
-##Buffers
+## Buffers
 
 Buffers are
 
@@ -70,7 +70,7 @@ Buffers are
 ```
                 :: Switch to last       *CTRL-6*
 
-###How to read ls
+### How to read ls
 
 ```
 
@@ -87,7 +87,7 @@ Buffers are
 ```
 
 
-##Windows
+## Windows
 
 Windows split the screen into regions
 
@@ -104,7 +104,7 @@ Windows split the screen into regions
                 :: Rotate windows       *CTRL-w r*
 ```
 
-##Tabs
+## Tabs
 
 Tabs contain windows.
 
@@ -118,7 +118,7 @@ Tabs contain windows.
 
 ```
 
-##Folding
+## Folding
 
 ```
   zo            :: Open one fold
@@ -128,7 +128,7 @@ Tabs contain windows.
   zC            :: Close all nested folds
 ```
 
-##Screen
+## Screen
 
 ```
   :ScreenShell  :: Starts a shell below
@@ -137,13 +137,13 @@ Tabs contain windows.
 %% todo: bind to keys
 ```
 
-##File Manager
+## File Manager
 ```
   :e.   :: Look at current dir
   :Ve.  :: Look at current in side panel
 ```
 
-##Version Control
+## Version Control
 ```
   \ca 			:: Add current file
   \cb 			:: Annotate
@@ -174,5 +174,5 @@ How to get vim to open multiple files into tabs at once?
 http://superuser.com/questions/171763/how-to-get-vim-to-open-multiple-files-into-tabs-at-once
 
 
-##Links
+## Links
   * http://arstechnica.com/information-technology/2011/11/two-decades-of-productivity-vims-20th-anniversary/
