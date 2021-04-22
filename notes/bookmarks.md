@@ -80,3 +80,40 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [Cultural Ramifications of Technical Interviews by Heidy Khlaaf | Model View Culture](https://modelviewculture.com/pieces/cultural-ramifications-of-technical-interviews)
 
+## Jabber
+
+[Building a Jabber Bot (Google Talk) with Python and Google App Engine | Abu Ashraf Masnun](http://www.masnun.com/2010/02/01/building-a-jabber-bot-google-talk-with-python-and-google-app-engine.html)
+
+[Using the XMPP service - App Engine — Google Cloud Platform](https://cloud.google.com/appengine/articles/using_xmpp?hl=en)
+
+[Build a “Management” Chat Bot in 5 steps with Google AppEngine | vogella blog](http://blog.vogella.com/2010/12/16/xmpp-google-appengine/)
+
+
+## Software Craftsmanship
+
+http://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html
+
+http://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+
+https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
+
+## Wikipedia
+
+
+[Meet the Ultimate WikiGnome — Backchannel — Medium](https://medium.com/backchannel/meet-the-ultimate-wikignome-10508842caad)
+
+[List of reported UFO sightings - Wikipedia](https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings)
+
+[List of eponymous laws - Wikipedia](https://en.wikipedia.org/wiki/List_of_eponymous_laws)
+
+[List of unsolved problems in physics - Wikipedia](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics)
+
+[List of emerging technologies - Wikipedia](https://en.wikipedia.org/wiki/List_of_emerging_technologies)
+
+[List of problems solved by MacGyver - MacGyver Wiki](http://macgyver.wikia.com/wiki/List_of_problems_solved_by_MacGyver)
+
+[Web Directory - Wikipedia](https://en.wikipedia.org/wiki/Web_directory)
+
+[Discworld - Wikipedia](https://en.wikipedia.org/wiki/Discworld#Novels)
+
+
