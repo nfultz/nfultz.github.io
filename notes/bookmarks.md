@@ -26,11 +26,21 @@ https://www.wired.com/story/how-we-learn-lambda-income-sharing-agreements/
 
 [Interesting New Books — 2016 | CR](http://conversationalreading.com/interesting-new-books-2016/)
 
-> Last week James Wood blasted modern fiction, calling for a return to feeling from self-conscious cleverness in the wake of the terrorist attacks. Zadie Smith, one of the novelists he cited, replies --- [This is how it feels to me | Books | The Guardian](http://www.theguardian.com/books/2001/oct/13/fiction.afghanistan)
-
 [Obama's 2016 summer reading list | The Guardian](https://www.theguardian.com/us-news/2016/aug/12/barack-obama-summer-reading-list-girl-on-the-train)
 
+[25 Best Books of 2019---Must-Read Books of the Year](https://parade.com/965194/ashley_johnson/best-books-of-2019/)
 
+[Investor Reading List: December 14, 2019 - The Hindu BusinessLine](https://www.thehindubusinessline.com/markets/investor-reading-list-december-14-2019/article30304701.ece)
+
+[Book Club --- Your December Reading List - 425 Magazine](https://425magazine.com/book-club-your-december-reading-list/)
+
+[A Babel Fish Bookshelf | Library Babel Fish](https://www.insidehighered.com/blogs/library-babel-fish/babel-fish-bookshelf)
+
+[The Best of Nature Writing 2019 | Five Books Expert Recommendations](https://fivebooks.com/best-books/the-best-of-nature-writing-2019-charles-foster/)
+
+[5 books Bill Gates wants you to read this holiday season - Business Insider](https://www.businessinsider.com/bill-gates-books-to-read-this-holiday-season-2019-12)
+
+[Holiday reading list: Books for the political junkie | CTV News](https://montreal.ctvnews.ca/holiday-reading-list-books-for-the-political-junkie-1.4725693)
 
 
 ## Bridge
@@ -197,6 +207,11 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [Lisp as the Maxwell’s equations of software | DDI](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
 
 
+## Literary Criticism
+
+> Last week James Wood blasted modern fiction, calling for a return to feeling from self-conscious cleverness in the wake of the terrorist attacks. Zadie Smith, one of the novelists he cited, replies --- [This is how it feels to me | Books | The Guardian](http://www.theguardian.com/books/2001/oct/13/fiction.afghanistan)
+
+
 ## Herman Melville
 
 [Herman Melville’s Bartleby, the Scrivener: An interactive, annotated text.](http://www.slate.com/articles/arts/culturebox/2015/10/herman_melville_s_bartleby_the_scrivener_an_interactive_annotated_text.html)
@@ -204,6 +219,67 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [A Melville Marginalia Mystery | The New York Public Library](http://www.nypl.org/blog/2016/05/05/melville-marginalia-mystery)
 
 > Astronomy fascinated Herman Melville and provided an important and recurring theme in all his writing. He was inspired by uranography, stellar lore, ancient philosophical notions about the nature of the universe, and discoveries and speculations in contemporary astronomy. In Herman Melville: Stargazer Brett Zimmerman investigates Melville's knowledge and literary uses of astronomy, especially within the thematic contexts of Mardi, Clarel, and Billy Budd.  --- [Herman Melville | McGill-Queen’s University Press](http://www.mqup.ca/herman-melville-products-9780773517868.php)
+
+
+## Nabokov
+
+[Ada Online](http://www.ada.auckland.ac.nz/index.htm)
+
+[The Nabokovian](https://thenabokovian.org/)
+
+
+## Nietzsche
+
+[nietzsche - Google Search](https://www.google.com/search?q=nietzsche&rlz=1CAASUO_enUS765US765&oq=nietzsche&aqs=chrome..69i57j0l5.2388j0j4&sourceid=chrome&ie=UTF-8)
+
+[Essential Nietzsche knowhow | Letters | Books | The Guardian](https://www.theguardian.com/books/2020/feb/14/essential-nietzsche-knowhow)
+
+[Nietzsche, Nihilism, Nihilists, Nihilistic Philosophy](https://www.learnreligions.com/nietzsche-and-nihilism-250454)
+
+[The Sufferings of Nietzsche - Los Angeles Review of Books](https://lareviewofbooks.org/article/the-sufferings-of-nietzsche/)
+
+[Nietzsche, Narcissism, and the Left - American Greatness](https://amgreatness.com/2020/04/10/nietzsche-narcissism-and-the-left/)
+
+["The Weightiest Questions in the Smallest Number of Words": Retelling the Nietzsche Story - Los Angeles Review of Books](https://lareviewofbooks.org/article/the-weightiest-questions-in-the-smallest-number-of-words-retelling-the-nietzsche-story/)
+
+[The Nietzschean Prophecies « Attack the System](https://attackthesystem.com/the-nietzschean-prophecies/)
+
+[Nietzsche --- PETER ROLLINS](https://peterrollins.com/nietzsche)
+
+[Nietzsche the Visionary « Attack the System](https://attackthesystem.com/nietzsche-the-visionary/)
+
+[Commentary - Friedrich Nietzsche](https://thegreatthinkers.org/nietzsche/bibliography/commentary/)
+
+[Trump Meets Nietzsche - Palisades Hudson Financial Group](https://www.palisadeshudson.com/2020/06/trump-meets-nietzsche/)
+
+[Nietzsche Archives | Andrew Wood Acting Studio](https://www.andrewwoodla.com/tag/nietzsche/)
+
+[Friedrich Nietzsche Prize Awarded to Ágnes Heller - Hungary Today](https://hungarytoday.hu/friedrich-nietzsche-prize-awarded-to-agnes-heller/)
+
+[Nietzsche and the Burbs review -- deadpan philosophical comedy | Books | The Guardian](https://www.theguardian.com/books/2020/jan/03/nietzsche-and-the-burbs-review-lars-iyer-wittgenstein-jr)
+
+[Why Nietzsche wouldn't go near social media](https://www.irishtimes.com/culture/why-nietzsche-wouldn-t-go-near-social-media-1.4106877)
+
+[Friedrich Nietzsche (Stanford Encyclopedia of Philosophy) ](https://plato.stanford.edu/entries/nietzsche/)
+
+[Nietzsche, The Fear of Death, and Life Affirmation -- Guerrilla Ontology](http://guerrillaontologies.com/2014/01/nietzsche-the-fear-of-death-and-life-affirmation/)
+
+[Nietzsche criticises the Peterson cult 129 years early : enoughpetersonspam](https://www.reddit.com/r/enoughpetersonspam/comments/ae6wzj/nietzsche_criticises_the_peterson_cult_129_years/)
+
+[Review: 'Nietzsche And The Burbs,' By Lars Iyer : NPR](https://www.npr.org/2019/12/14/787615817/kids-these-days-are-reading-nietzsche-in-the-burbs)
+
+[Nietzsche's Eternal Return | The New Yorker](https://www.newyorker.com/magazine/2019/10/14/nietzsches-eternal-return)
+
+[The Best Nietzsche Books | Five Books Expert Recommendations](https://fivebooks.com/best-books/nietzsche-brian-leiter/)
+
+[The End of Nietzsche: God Is Not Dead, But Undead -- Ha'Am: UCLA's Jewish Newsmagazine](https://haam.org/the-end-of-nietzsche-god-is-not-dead-but-undead/)
+
+[Nietzsche's Eternal Return | The New Yorker](https://www.newyorker.com/magazine/2019/10/14/nietzsches-eternal-return)
+
+[I Am Dynamite! by Sue Prideaux review -- Nietzsche as we haven't known him before | Books | The Guardian](https://www.theguardian.com/books/2018/nov/21/i-am-dynamite-by-sue-prideaux-review-nietzsche)
+
+[Friedrich Nietzsche - Wikiquote](https://en.wikiquote.org/wiki/Friedrich_Nietzsche)
+
 
 
 ## Plain Text Accounting
@@ -267,8 +343,56 @@ http://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
 https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 
 
-## Wikipedia
+## Standing Desks
 
+[IKEA desk hack. Finnvard trestles and linnmon table top to make the desk. Ribba picture frames and lack wall shelf for monitor stand. Ad... | Desk hacks, Ikea desk, Monitor stand diy](https://www.pinterest.com/pin/370561875564007410/)
+
+[RISSLA Desk pad - black - IKEA](https://www.ikea.com/us/en/p/rissla-desk-pad-black-40246156/)
+
+[My Awesome Standing Desk Ikea Hack - Soulchaser](http://www.soulchaser.com/my-awesome-standing-desk-ikea-hack/)
+
+[Powered Monitor Stand Hack: 11 Steps (with Pictures)](https://www.instructables.com/id/Monitor-Stand-Hack/)
+
+[Hacking an "Adjustable" Standing Desk -- ProfHacker - Blogs - The Chronicle of Higher Education](https://www.chronicle.com/blogs/profhacker/hacking-an-adjustable-standing-desk/55881)
+
+[Ikea desk hack. Battlestation. Hammarp counter top. Alex drawers. Acer predator monitor. | Ikea desk, Diabetic dog, Desk](https://www.pinterest.com/pin/23081016825429943/)
+
+
+## Vim
+
+[editorconfig/editorconfig-vim: EditorConfig plugin for Vim](https://github.com/editorconfig/editorconfig-vim)
+
+[ap/vim-buftabline: Forget Vim tabs -- now you can have buffer tabs](https://github.com/ap/vim-buftabline)
+
+[vim-mediawiki-editor - Edit MediaWiki right from Vim! : vim online](https://www.vim.org/scripts/script.php?script_id=5150)
+
+[Dr. Bunsen / Writing in Vim](https://www.drbunsen.org/writing-in-vim/)
+
+[At least one Vim trick you might not know - Hillel Wayne](https://www.hillelwayne.com/post/intermediate-vim/)
+
+[Using Vim to take time-stamped notes | CodeSections](https://www.codesections.com/blog/vim-timestamped/)
+
+[Setting up Vim to write a book? : vim](https://www.reddit.com/r/vim/comments/7eld5y/setting_up_vim_to_write_a_book/)
+
+[Reading Reddit from your terminal: : vim](https://www.reddit.com/r/vim/comments/7v1tiv/reading_reddit_from_your_terminal/)
+
+[How to execute diff command on the contents of two buffers? : vim](https://www.reddit.com/r/vim/comments/8pn369/how_to_execute_diff_command_on_the_contents_of/)
+
+[Vimways ~ 2018](https://vimways.org/2018/)
+
+[Vimways ~ From .vimrc to .vim](https://vimways.org/2018/from-vimrc-to-vim/?utm_source=DevOps%27ish&utm_campaign=9ce630b552-105&utm_medium=email&utm_term=0_eab566bc9f-9ce630b552-35370813)
+
+[VimLog -- a ChangeLog for Vim](https://www.arp242.net/vimlog/)
+
+[Vim buffer FAQ | Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_buffer_FAQ)
+
+[cassidoo/vim-up: A bunch of vim shortcuts, colors, and bundles to make your life easier](https://github.com/cassidoo/vim-up)
+
+[Make ALE respect editorconfig? : vim](https://www.reddit.com/r/vim/comments/dlimn6/make_ale_respect_editorconfig/)
+
+
+
+## Wikipedia
 
 [Meet the Ultimate WikiGnome — Backchannel — Medium](https://medium.com/backchannel/meet-the-ultimate-wikignome-10508842caad)
 
