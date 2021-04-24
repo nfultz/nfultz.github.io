@@ -189,6 +189,15 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 [FAQ: What books are DeLillo 'must reads' (Major DeLillo)? Which are 'read if interested' (Minor DeLillo)? How would you rank the works you've read? (Responses will be added to sub wiki) : DonDeLillo](https://www.reddit.com/r/DonDeLillo/comments/j8x6ix/faq_what_books_are_delillo_must_reads_major/)
 
 
+## Drones
+
+[Paint remover: Mexico activists attempt to drone out beleaguered president | Sam Jones | Global development | The Guardian](http://www.theguardian.com/global-development/2015/oct/15/mexico-droncita-rexiste-collective-president-enrique-pena-nieto)
+
+[BBC News - Alibaba begins drone delivery trials in China](http://www.bbc.com/news/technology-31129804)
+
+[Austin declared a drone-free zone during SXSW | ITworld](http://www.itworld.com/article/2896354/austin-declared-a-dronefree-zone-during-sxsw.html)
+
+
 ## Effective Altruism
 
 [Effective Altruism Handbook - Now Online - Effective Altruism Forum](http://effective-altruism.com/ea/hx/effective_altruism_handbook/)
@@ -893,6 +902,13 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 [Hacking an "Adjustable" Standing Desk -- ProfHacker - Blogs - The Chronicle of Higher Education](https://www.chronicle.com/blogs/profhacker/hacking-an-adjustable-standing-desk/55881)
 
 [Ikea desk hack. Battlestation. Hammarp counter top. Alex drawers. Acer predator monitor. | Ikea desk, Diabetic dog, Desk](https://www.pinterest.com/pin/23081016825429943/)
+
+
+## TED Talks
+
+[The Church of TED - NYTimes.com](http://www.nytimes.com/2015/03/15/opinion/sunday/the-church-of-ted.html)
+
+[We Are Now At Peak TED — Backchannel — Medium](https://backchannel.com/we-are-now-at-peak-ted-c4fc4926bf20#.l6z3thhln)
 
 
 ## Vim
