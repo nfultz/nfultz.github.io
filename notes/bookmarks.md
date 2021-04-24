@@ -84,6 +84,10 @@ http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventual
 [Collaborative Filtering with R : Salem Marafi](http://www.salemmarafi.com/code/collaborative-filtering-r/)
 
 
+## Consulting
+
+[Death by consultant](https://theweek.com/articles/842048/death-by-consultant)
+
 ## Douglas Coupland
 
 https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will-force-you-to-look-in-the-mirror-1.5280674
@@ -240,6 +244,10 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [Build a “Management” Chat Bot in 5 steps with Google AppEngine | vogella blog](http://blog.vogella.com/2010/12/16/xmpp-google-appengine/)
 
 
+## Labor
+
+[Is Your Job Lynchian, or Is It More Kafkaesque?](https://longreads.com/2018/04/26/is-your-job-lynchian-or-is-it-more-kafkaesque/)
+
 ## Lisp
 
 ["Chainable action perimeters" - Lisp in 3 words](http://www.vagrant-coder.com/articles/english/Lisp-in-3-words.html)
@@ -254,6 +262,11 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 ## Literary Criticism
 
 > Last week James Wood blasted modern fiction, calling for a return to feeling from self-conscious cleverness in the wake of the terrorist attacks. Zadie Smith, one of the novelists he cited, replies --- [This is how it feels to me | Books | The Guardian](http://www.theguardian.com/books/2001/oct/13/fiction.afghanistan)
+
+
+## Los Angeles
+
+[Dear LAist: Why Is Traffic Lighter On Friday Mornings? : LAist](https://laist.com/2019/06/07/dear_laist_why_is_traffic_lighter_on_friday_mornings.php)
 
 
 ## Herman Melville
@@ -387,6 +400,11 @@ http://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
 https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 
 
+## Space Ghost
+
+[Curling Flower Space](https://www.snard.com/sg/guide/?ep=73&fmt=1)
+
+
 ## Standing Desks
 
 [IKEA desk hack. Finnvard trestles and linnmon table top to make the desk. Ribba picture frames and lack wall shelf for monitor stand. Ad... | Desk hacks, Ikea desk, Monitor stand diy](https://www.pinterest.com/pin/370561875564007410/)
@@ -457,5 +475,4 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 [Web Directory - Wikipedia](https://en.wikipedia.org/wiki/Web_directory)
 
 [Discworld - Wikipedia](https://en.wikipedia.org/wiki/Discworld#Novels)
-
 
