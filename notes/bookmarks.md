@@ -104,6 +104,38 @@ http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventual
 
 [Death by consultant](https://theweek.com/articles/842048/death-by-consultant)
 
+
+## Cryptography
+
+[So you want to be a cryptographer](http://www.windowsecurity.com/uplarticle/4/cryptwant.txt)
+
+[A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/)
+
+[Be wary of one-time pads and other crypto unicorns](https://freedom-to-tinker.com/blog/jbonneau/be-wary-of-one-time-pads-and-other-crypto-unicorns/)
+
+
+## Cybercrime
+
+[Cardinals Face F.B.I. Inquiry in Hacking of Astros’ Database - The New York Times](http://www.nytimes.com/2015/06/17/sports/baseball/st-louis-cardinals-hack-astros-fbi.html)
+
+[Today I Am Releasing Ten Million Passwords](https://xato.net/passwords/ten-million-passwords/#.VNlpTjWVv0o)
+
+[My Roommate, the Darknet Drug Lord | Motherboard](http://motherboard.vice.com/read/my-roommate-the-darknet-drug-lord)
+
+[Working_Paper_No.1_Egloff.pdf](http://www.politics.ox.ac.uk/materials/centres/cyber-studies/Working_Paper_No.1_Egloff.pdf)
+
+[I Built a Botnet that Could Destroy Spotify with Fake Listens | Motherboard](http://motherboard.vice.com/read/i-built-a-botnet-that-could-destroy-spotify-with-fake-listens)
+
+[Leaked AshleyMadison Emails Suggest Execs Hacked Competitors — Krebs on Security](http://krebsonsecurity.com/2015/08/leaked-ashleymadison-emails-suggest-execs-hacked-competitors/)
+
+[Department Of Justice Uses Grand Jury Subpoena To Identify Anonymous Commenters on a Silk Road Post at Reason.com | Popehat](http://popehat.com/2015/06/08/department-of-justice-uses-grand-jury-subpoena-to-identify-anonymous-commenters-on-a-silk-road-post-at-reason-com/)
+
+[Hackers Breaking New Ground With Ransomware](http://www.darkreading.com/hackers-breaking-new-ground-with-ransomware/d/d-id/1319475)
+
+[DDoS and you](https://codewords.recurse.com/issues/three/ddos-and-you)
+
+
+
 ## Douglas Coupland
 
 https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will-force-you-to-look-in-the-mirror-1.5280674
@@ -902,6 +934,13 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 [Hacking an "Adjustable" Standing Desk -- ProfHacker - Blogs - The Chronicle of Higher Education](https://www.chronicle.com/blogs/profhacker/hacking-an-adjustable-standing-desk/55881)
 
 [Ikea desk hack. Battlestation. Hammarp counter top. Alex drawers. Acer predator monitor. | Ikea desk, Diabetic dog, Desk](https://www.pinterest.com/pin/23081016825429943/)
+
+
+## Tech History
+
+https://archive.org/details/bstj-archives
+
+https://archive.org/details/nsacryptolog
 
 
 ## TED Talks
