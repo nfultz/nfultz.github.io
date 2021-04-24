@@ -569,6 +569,17 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 [Why time management is ruining our lives | Technology | The Guardian](https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives)
 
 
+## GPGPU
+
+[Matrix Computations on the GPU in Clojure (in TFLOPS!)](http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html)
+
+[MapD: Massive Throughput Database Queries with LLVM on GPUs | Parallel Forall](http://devblogs.nvidia.com/parallelforall/mapd-massive-throughput-database-queries-llvm-gpus/)
+
+[Better Beer Through GPUs: How GPUs and Deep Learning Help Brewers Improve Their Suds | The Official NVIDIA Blog](http://blogs.nvidia.com/blog/2015/09/02/beer/)
+
+[1508.06791 Boosting Java Performance using GPGPUs](http://arxiv.org/abs/1508.06791)
+
+
 
 ## Hiring
 
@@ -612,6 +623,29 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [Dear LAist: Why Is Traffic Lighter On Friday Mornings? : LAist](https://laist.com/2019/06/07/dear_laist_why_is_traffic_lighter_on_friday_mornings.php)
 
+[Books about Los Angeles: readers' picks | Books | The Guardian](http://www.theguardian.com/books/booksblog/2015/mar/23/books-about-los-angeles-readers-picks)
+
+[$15 California Minimum Wage: Democratic Party Is Abandoning Economics - Fortune](http://fortune.com/2016/04/07/where-the-fight-for-15-went-wrong/)
+
+[The Best Burritos in Los Angeles ~ L.A. TACO](http://www.lataco.com/best-burritos-in-los-angeles/)
+
+[The Essential Guide to Regional Chinese Food in Los Angeles | First We Feast](http://firstwefeast.com/eat/essential-guide-regional-chinese-food-los-angeles/)
+
+[At Trystero Coffee in Atwater Village, bring your own cup - LA Times](http://www.latimes.com/food/dailydish/la-dd-trystero-coffee-atwater-village-20150305-story.html)
+
+[Earth, Water, Air, Fire: A Historical Look at SoCal's Troubled Relationship with Nature | LA as Subject | SoCal Focus | KCET](http://www.kcet.org/updaily/socal_focus/history/la-as-subject/earth-water-air-fire-a-historical-look-at-socals-troubled-relationship-with-the-four-classical-eleme.html)
+
+[L.A. Breaks From Its Car-Reliant Reputation With 'Mobility Plan 2035' - CityLab](http://www.citylab.com/commute/2015/08/las-new-mobility-plan-envisions-a-different-kind-of-city/401351/)
+
+
+## Markdown
+
+[Markdown spec](http://jgm.github.io/stmd/spec.html)
+
+[Scholarly Markdown](http://scholarlymarkdown.com/)
+
+[Markdown](https://daringfireball.net/projects/markdown/)
+
 
 ## Herman Melville
 
@@ -619,7 +653,7 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [A Melville Marginalia Mystery | The New York Public Library](http://www.nypl.org/blog/2016/05/05/melville-marginalia-mystery)
 
-> Astronomy fascinated Herman Melville and provided an important and recurring theme in all his writing. He was inspired by uranography, stellar lore, ancient philosophical notions about the nature of the universe, and discoveries and speculations in contemporary astronomy. In Herman Melville: Stargazer Brett Zimmerman investigates Melville's knowledge and literary uses of astronomy, especially within the thematic contexts of Mardi, Clarel, and Billy Budd.  --- [Herman Melville | McGill-Queen’s University Press](http://www.mqup.ca/herman-melville-products-9780773517868.php)
+> Astronomy fascinated Herman Melville and provided an important and recurring theme in all his writing. He was inspired by uranography, stellar lore, ancient philosophical notions about the nature of the universe, and discoveries and speculations in contemporary astronomy. In Herman Melville: Stargazer Brett Zimmerman investigates Melville's knowledge and literary uses of astronomy, especially within the thematic contexts of Mardi, Clarel, and Billy Budd.  --- [Herman Melville - Stargazer | McGill-Queen’s University Press](http://www.mqup.ca/herman-melville-products-9780773517868.php)
 
 
 ## Metal
@@ -738,6 +772,17 @@ https://staging.airflowsciences.com/rkn/Pynchon/None.bomarc/index.html
 http://bleedingedge.pynchonwiki.com/wiki/index.php?title=Songs_mentioned_in_Bleeding_Edge
 
 http://www.thesatirist.com/books/Vineland.html
+
+
+## Rust
+
+[Writing an OS in Rust · phil-opp's blog](http://os.phil-opp.com/)
+
+[Servo, the parallel browser engine](http://servo.org/)
+
+[Reenix: Implementing a Unix-Like Operating System in Rust - reenix.pdf](http://scialex.github.io/reenix.pdf)
+
+[rust tls audit](https://github.com/ctz/rustls/blob/master/audit/TLS-01-report.pdf)
 
 
 ## Saved By the Bell
