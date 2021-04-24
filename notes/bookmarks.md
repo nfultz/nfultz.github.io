@@ -225,6 +225,219 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 
 [Frederick W. Taylor, the father of scientific management : myth and reality : Wrege, Charles D : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/frederickwtaylor0000wreg)
 
+## Getting Things Done
+
+
+[Someday/Maybe | MetaFilter](https://www.metafilter.com/189438/Someday-Maybe)
+
+<https://pinboard.in/t:gtd>
+
+["Getting Things Done"](http://cogprints.org/6289/1/Heylighen-Vidal-GTD-Science.pdf)
+
+[045-getting-things-done-gtd-weekly-review-productivitycast.mp3.pdf](https://productivitycast.net/wp-content/uploads/sites/5/2019/03/045-getting-things-done-gtd-weekly-review-productivitycast.mp3.pdf)
+
+[10 Personal Finance Books to Jumpstart Your Financial Education | The Simple Dollar](https://www.thesimpledollar.com/financial-wellness/10-personal-finance-books-to-jumpstart-your-financial-education/)
+
+[11 years and nothing to show for it : gtd](https://old.reddit.com/r/gtd/comments/cz1l1o/11_years_and_nothing_to_show_for_it/)
+
+[12 tips to getting things done in open source | FOSSBazaar](https://fossbazaar.org/content/12-tips-getting-things-done-open-source/)
+
+[5 To-Do List Tricks That Will Completely Change How You Think About Work | Inc.com](https://www.inc.com/jessica-rovello/how-to-write-a-to-do-list-that-will-make-you-happier-more-productive.html)
+
+[A Beginner's Guide to Getting Things Done® | Zenkit](https://zenkit.com/en/blog/a-beginners-guide-to-getting-things-done/)
+
+[A GTD-er's perspective on Mission Control's "Productivity and Accomplishment" workshop - The Experiment-Driven Life Blog - Matthew Cornell. Programmer, Research Software Engineer, Think, Try, Learn](http://www.matthewcornell.org/blog/2006/7/5/a-gtd-ers-perspective-on-mission-controls-productivity-and-a.html)
+
+[Access to talks given at the GTD Summit | Getting Things Done® Forums](https://forum.gettingthingsdone.com/threads/access-to-talks-given-at-the-gtd-summit.16032/)
+
+[Beginner's Guide to GTD - zen habits zen habits](https://zenhabits.net/beginners-guide-to-gtd/)
+
+[Critique of GTD | Getting Things Done® Forums](https://forum.gettingthingsdone.com/threads/critique-of-gtd.10944/)
+
+[David Allen - GTD Live - DDLValley.cool](https://forum.ddlvalley.me/viewtopic.php?t=237669)
+
+[David Allen --- The Art of Getting Things Done (GTD) (#384) -- The Blog of Author Tim Ferriss](https://tim.blog/2019/09/03/david-allen-getting-things-done/)
+
+[David Allen and the Getting Things Done Philosophy - The Atlantic](https://www.theatlantic.com/magazine/archive/2004/07/organize-your-life/303455/)
+
+[Fault-Tolerant GTD - Yiming Chen](https://yiming.dev/blog/2019/11/19/fault-tolerant-gtd/)
+
+[Figuring Out the Best GTD Lists for You](https://gettingthingsdone.com/2010/11/figuring-out-the-best-gtd-lists-for-you/)
+
+[GTD - Steve Holden's Blog](https://sholden.typepad.com/weblog/gtd/)
+
+[GTD Connect® Productivity Support Membership](https://gtdconnect.com/free/14days)
+
+[GTD FAST Audio 8CDs Download - GTD FAST配套音频下载](https://www.mifengtd.cn/articles/gtd-fast-audio-book-download.html)
+
+[GTD Gmail: Inbox Zero and Optimized Email Workflow Dan Silvestre](https://dansilvestre.com/gtd-gmail/)
+
+[GTD Networking : gtd](https://www.reddit.com/r/gtd/comments/fkrqmj/gtd_networking/)
+
+[GTD Summit Presentations | Getting Things Done® Forums](https://forum.gettingthingsdone.com/threads/gtd-summit-presentations.16062/)
+
+[GTD Timer by Productivity Scientific](http://www.gtd-timer.com/)
+
+[GTD educational tools](https://store.gettingthingsdone.com/)
+
+[GTD for Academics --- Robert Talbert, Ph.D.](http://rtalbert.org/gtd/)
+
+[GTD in 15 minutes -- A Pragmatic Guide to Getting Things Done](https://hamberg.no/gtd)
+
+[GTD is Broken - Focus on Results, Not the System | Scott H Young](https://www.scotthyoung.com/blog/2007/07/02/gtd-is-broken-focus-on-results-not-the-system/)
+
+[GTD specific | ProtoScholar](https://protoscholar.com/category/gtd-specific/)
+
+[GTD | malvasia bianca](https://malvasiabianca.org/archives/category/gtd/)
+
+[GTD® Book Club: Getting it EverDone® | Harmon Enterprises](https://courses.harmonenterprises.com/p/everdone-book-club-gtd)
+
+[GTD® Practitioner Competency Assess_Eval 14Aug2017.pdf - Google Drive](https://drive.google.com/file/d/1KDaZ18QtuKsWX8wkVLy99r_pp5OHlHA4/view)
+
+[GTD® Virtual Study Group](https://www.gtdvsg.com/)
+
+[GTD® Virtual Study Group](https://www.gtdvsg.com/podcasts/tag/Waiting+For)
+
+[Getting Things Done (GTD) -- What is it? -- Dandy With Lens](https://www.dandywithlens.com/getting-things-done-gtd/)
+
+[Getting Things Done (GTD) Resources --- Technically Simple](https://technicallysimple.com/gtd/)
+
+[Getting Things Done - A network of weblogs talking and discussing everything GTD, lifehacking and personal productivity - A FeedBurner Network](http://web.archive.org/web/20090211051136/http://networks.feedburner.com/Getting-Things-Done)
+
+[Getting Things Done Guru David Allen and His Cult of Hyperefficiency | WIRED](https://www.wired.com/2007/09/ff-allen/)
+
+[Getting Things Done on a Macintosh - organization software | Ask MetaFilter](https://ask.metafilter.com/18937/Getting-Things-Done-on-a-Macintosh)
+
+[Getting Things Done, Ten Years In](https://lifehacker.com/getting-things-done-ten-years-in-1795707084)
+
+[Getting Things Done: Your Step-By-Step Guide](https://todoist.com/productivity-methods/getting-things-done)
+
+[Getting Things Done: the GTD method explained in 5 steps - IONOS](https://www.ionos.com/startupguide/productivity/getting-things-done-gtd/)
+
+[Getting Things Done® - David Allen's GTD® Methodology](https://gettingthingsdone.com/)
+
+[How The Art of "Getting Things Done" Can Conquer Your To-Do List - Rindle Blog](https://rindle.com/blog/how-the-art-of-%E2%80%9Cgetting-things-done%E2%80%9D-can-conquer-your-to-do-list/)
+
+[How To Be Productive and Get Things Done Using GTD](https://www.thegeekstuff.com/2010/08/gtd-getting-things-done/)
+
+[How To Use A Pen And Paper To Level Up Your Productivity - Foundr](https://foundr.com/analog-methods-for-getting-things-done-superpower-your-productivity-with-pen-and-paper)
+
+[How does GTD Live differ from GTD Fast | Getting Things Done® Forums](https://forum.gettingthingsdone.com/threads/how-does-gtd-live-differ-from-gtd-fast.5831/)
+
+[How to Boost Your Personal Productivity System -- Tim Lombardo](https://timlombardo.com/how-to-boost-your-personal-productivity-system-2/)
+
+[How to be Productive: A Guide to Personal Kanban | Zenkit](https://zenkit.com/en/blog/how-to-be-productive-a-guide-to-personal-kanban/)
+
+[It's Time to Start Promoting Personal Productivity Systems](https://www.workingsimply.com/blog/personal-productivity-systems)
+
+[It's time to Quit GTD, and downsize your system](https://alphaefficiency.com/quit-gtd/)
+
+[LoFi Hi GTD | kvet.ch](https://web.archive.org/web/20150516041157/http://kvet.ch/pages/gtd-whitepaper-emory)
+
+[LoFi Hi GTD | kvet.ch](https://web.archive.org/web/20160311102120/http://kvet.ch/pages/gtd-whitepaper-emory/)
+
+[Making It All Work: Winning at the Game of Work and Business of Life by David Allen | Goodreads](https://www.goodreads.com/book/show/3338850-making-it-all-work)
+
+[Managing Email in GTD (And Other Poorly-Worded Posts) : gtd](https://www.reddit.com/r/gtd/comments/flajm2/managing_email_in_gtd_and_other_poorlyworded_posts/)
+
+[Massive GTD Resource List - zen habits zen habits](https://zenhabits.net/massive-gtd-resource-list/)
+
+[My Newest Productivity Gadget - The Elgato Streamdeck. : gtd](https://www.reddit.com/r/gtd/comments/ffm9o2/my_newest_productivity_gadget_the_elgato/)
+
+[My Things3 GTD setup after years of tweaking : gtd](https://www.reddit.com/r/gtd/comments/mmvaon/my_things3_gtd_setup_after_years_of_tweaking/)
+
+[New recording: Optimizing Your System | Getting Things Done® Forums](https://forum.gettingthingsdone.com/threads/new-recording-optimizing-your-system.16193/)
+
+[Orgmode: A Couple of GTD Weekly Review repeating tasks, and a GTD Proje](https://lists.gnu.org/archive/html/emacs-orgmode/2009-08/msg00116.html)
+
+[Page Not Found | Become A Writer Today](https://becomeawritertoday.com/whats-wrong-with-gtd-2/)
+
+[Page not found](http://stackedbooks.org/2015/04/getting-things-done-with-bullet.html)
+
+[Personal Kanban: Mapping Work | Navigating Life: Benson, Jim, Barry, Tonianne DeMaria: 8601405571120: Amazon.com: Books](https://www.amazon.com/Personal-Kanban-Mapping-Work-Navigating/dp/1453802266/)
+
+[Pickaflick - gtd in 15 minutes a pragmatic guide to getting things done](https://register.pickaflick.co/qhkfp/en/?aid=MN6ar7Lkbu3MQ&var4=agn_14&hobj=eyJoc2lkIjogImYwZDY5ZjFmNTE2OWFmZjRkYzllNGQ0YWFhYzk2ZmFjOTI4NTk0MDBlZGQxNmUwNGMzOTJjYWE0YWNmOWQ1ZDMiLCAiX19sb2NhdGlvbmNvZGUiOiAiVVMiLCAicHJpY2luZyI6IHsibmFtZSI6ICJ1czQ5IiwgInByaWNlIjogIjQ5Ljk5IiwgImN1cnJlbmN5IjogIlVTRCIsICJ0cmlhbCI6IHRydWUsICJwZXJpb2QiOiAzMCwgInRyaWFsX3BlcmlvZCI6IDcsICJkaXNwbGF5X3ByaWNlIjogIjQ5Ljk5ICQiLCAiZGlzcGxheV92X3ByaWNlIjogIjEgJCIsICJ2X3ByaWNlIjogIjEifSwgIm0iOiAiZ3RkIGluIDE1IG1pbnV0ZXMgYSBwcmFnbWF0aWMgZ3VpZGUgdG8gZ2V0dGluZyB0aGluZ3MgZG9uZSIsICJza2luIjogdHJ1ZSwgInBheW1lbnRfdHlwZSI6ICJjYXJkIiwgImRvbWFpbiI6ICJwaWNrYWZsaWNrLmNvIiwgInN1Yl9pZCI6ICI2NTkiLCAiYWN0aW9uIjogInJlZ2lzdHJhdGlvbiIsICJrX2FjdGl2ZSI6IGZhbHNlLCAidG1fYWN0aXZlIjogZmFsc2V9)
+
+[Practicing Simplified GTD](https://lifehacker.com/practicing-simplified-gtd-335269)
+
+[Productive Talk Compilation: 8-episode podcast with GTD's David Allen | 43 Folders](http://www.43folders.com/2006/11/28/productive-talk-comp)
+
+[REVIEW: Should You Read the "Getting Things Done" Book? --- Keep Productive](https://www.keepproductive.com/blog/getting-things-done-book-review)
+
+[Re-read to re-start GTD | Get (back) on the GTD band wagon!](https://web.archive.org/web/20181019033835/https://restartgtd.com/re-reading-getting-things-done-to-re-start-getting-things-done/)
+
+[Show HN: Killing Procrastination by Making Everything Fit | Hacker News](https://news.ycombinator.com/item?id=12786935)
+
+[The Best To Do List App & Task Manager](https://todoist.com/templates/personal/gtd-weekly-review)
+
+[The Creative War Against Getting Things Done](http://mikeshea.net/creative_war_of_gtd.html)
+
+[The Father Of "Getting Things Done": You're Getting Me All Wrong](https://www.fastcompany.com/3046463/the-father-of-getting-things-done-youre-getting-me-all-wrong)
+
+[The Fears and the Promises of GTD | The Stanford Daily](https://www.stanforddaily.com/2010/10/09/the-fears-and-the-promises-of-gtd/)
+
+[The GTD® Virtual Study Group](https://gtdvsg.libsyn.com/webpage/page/14/size/10)
+
+[The Getting Things Done (GTD) FAQ - zen habits zen habits](https://zenhabits.net/the-getting-things-done-gtd-faq/)
+
+[The Psychology Of Getting Things Done - Fernando Gros](https://fernandogros.com/the-psychology-of-getting-things-done/)
+
+[The Rise and Fall of Getting Things Done | The New Yorker](https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done)
+
+[The Top Three Problems With Getting Things Done® | by Ken Fleisher | Medium](https://medium.com/@KenFleisher/the-top-three-problems-with-getting-things-done-be56521db806)
+
+[The problem with GTD Lists: Life hacks by Charles Assisi | Hindustan Times](https://www.hindustantimes.com/columns/the-problem-with-gtd-lists-life-hacks-by-charles-assisi/story-cm3Ut8VDiupVV4P1hwGzmI.html)
+
+[This is my Things 3 setup according to the official GTD setup guide - of course I've organized my own way, but I liked their concept of making Things' idea of a "project" turn into "lists" and it's been working well for me. 👍🏽 : gtd](https://www.reddit.com/r/gtd/comments/fyi2fu/this_is_my_things_3_setup_according_to_the/)
+
+[Time management books for professionals to lead a smooth & organized life | Most Searched Products - Times of India](https://timesofindia.indiatimes.com/most-searched-products/books/time-management-books-for-professionals-to-lead-a-smooth-organized-life/articleshow/73067267.cms)
+
+[Todo.txt users, what's your mobile/desktop workflow...? : gtd](https://www.reddit.com/r/gtd/comments/fas3sv/todotxt_users_whats_your_mobiledesktop_workflow/)
+
+[Toodledo | Online To Do Lists, Task Manager, Note Taking & More](https://www.toodledo.com/)
+
+[Top Habits For Data Analysts To Help Them Become Successful Data Scientists](https://analyticsindiamag.com/top-habits-for-data-analysts-to-help-them-become-successful-data-scientists/)
+
+[Topics --- GTD® Virtual Study Group](https://www.gtdvsg.com/topics)
+
+[Toward a New Vision of Productivity, Part 3: The Trouble with GTD](https://www.lifehack.org/articles/featured/toward-a-new-vision-of-productivity-part-3-the-trouble-with-gtd.html)
+
+[What are some criticisms of the Getting Things Done system? - Quora](https://www.quora.com/What-are-some-criticisms-of-the-Getting-Things-Done-system)
+
+[What habits make GTD successful? : gtd](https://www.reddit.com/r/gtd/comments/fcfgos/what_habits_make_gtd_successful/)
+
+[What is your criticism regarding GTD ? : productivity](https://www.reddit.com/r/productivity/comments/3qffkm/what_is_your_criticism_regarding_gtd/)
+
+[When Did Productivity Become Personal? - Study Hacks - Cal Newport](https://www.calnewport.com/blog/2020/11/17/when-did-productivity-become-personal/)
+
+[Which productivity tools do you use both at work and at home where you have information/documents/journals/project information/email/appointments etc. stored in? : gtd](https://www.reddit.com/r/gtd/comments/flfun9/which_productivity_tools_do_you_use_both_at_work/)
+
+[Why David Allen's 'Getting Things Done' Remains An Entrepreneur's Bible](https://www.forbes.com/sites/amyguttman/2015/04/08/why-david-allens-getting-things-done-remains-an-entrepreneurs-bible/)
+
+[Why Distributed Teams Need GTD Workflows - Taskade Blog](https://www.taskade.com/blog/gtd-workflow-distributed-remote-teams/)
+
+[Why I Don't Use Getting Things Done | Laura Earnest](https://lauraearnest.com/getting-things-done/)
+
+[Why I Stopped Doing GTD: Part 3 - Productivityist](https://productivityist.com/stopped-gtd-part-three/)
+
+[Why I've (Mostly) Quit GTD - Jonathan Vieker](https://jonathanvieker.com/quit-gtd/)
+
+[Why time management is ruining our lives | Technology | The Guardian](https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives)
+
+[buzznovation: GTD...the Road Map...San Jose](https://buzzmodo.typepad.com/buzznovation/2005/08/gtdthe_road_map.html)
+
+[could i get a quick refresh on projects list? : gtd](https://www.reddit.com/r/gtd/comments/jki2mr/could_i_get_a_quick_refresh_on_projects_list/)
+
+[gtd.marvelz.com](http://gtd.marvelz.com/blog/2008/03/06/10-useful-tips-for-optimizing-ubiquitous-capture/)
+
+[gtd.marvelz.com](http://gtd.marvelz.com/blog/gtd-index/)
+
+[https://s3.amazonaws.com/academia.edu.documents/31306993/GTDGregg.pdf?response-content-disposition=inline%3B filename%3DGetting_Things_Done_Productivity_self-m.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200311T030644Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=061c3e446596523d851d865ecc2045188267d5d2c9fb8de3c87f72c9b308ad95](https://s3.amazonaws.com/academia.edu.documents/31306993/GTDGregg.pdf?response-content-disposition=inline%3B%20filename%3DGetting_Things_Done_Productivity_self-m.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200311T030644Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=061c3e446596523d851d865ecc2045188267d5d2c9fb8de3c87f72c9b308ad95)
+
+[购彩中心 - 用户注册](https://75344d.com/register?id=60395393)
+
+
+
 
 ## Hiring
 
