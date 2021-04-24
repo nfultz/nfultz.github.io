@@ -213,6 +213,15 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [Beancount - Running &amp; Reports - Google Docs](https://docs.google.com/document/d/1e44jtLyVRl2H2Pj4K3WUc66otAlTOFOc90-tsrFEQdo/edit#heading=h.4q31mvini2f7)
 
 
+## Pynchon
+
+https://staging.airflowsciences.com/rkn/Pynchon/None.bomarc/index.html
+
+http://bleedingedge.pynchonwiki.com/wiki/index.php?title=Songs_mentioned_in_Bleeding_Edge
+
+http://www.thesatirist.com/books/Vineland.html
+
+
 ## Software Craftsmanship
 
 http://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html
