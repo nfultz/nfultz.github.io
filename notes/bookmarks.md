@@ -14,7 +14,6 @@
 
 ## Bootcamps
 
-
 https://www.wired.com/story/how-we-learn-lambda-income-sharing-agreements/
 
 
@@ -107,6 +106,7 @@ http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventual
 
 http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
+
 ## Esoterica
 
 [The Strange Autobiography of Frank B. Robinson](http://www.johnblack.com/psychiana/strange/index.html)
@@ -128,6 +128,7 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 
 [CTSP | A Pledge of Ethics for I School Graduates](https://ctsp.berkeley.edu/an-ischool-pledge-of-ethics)
 
+
 ## Frederick Taylor
 
 [Internet Archive Search: frederick taylor](https://archive.org/search.php?query=frederick+taylor&and%5B%5D=mediatype%3A%22texts%22&page=4)
@@ -138,6 +139,7 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 
 [Frederick W. Taylor, the father of scientific management : myth and reality : Wrege, Charles D : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/frederickwtaylor0000wreg)
 
+
 ## Hiring
 
 [How to Consistently Hire Remarkable Data Scientists - First Round Review](http://firstround.com/review/how-to-consistently-hire-remarkable-data-scientists/)
@@ -145,6 +147,7 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [You're hiring the wrong data scientists | Computerworld](http://www.computerworld.com/article/2929766/data-analytics/youre-hiring-the-wrong-data-scientists.html)
 
 [Cultural Ramifications of Technical Interviews by Heidy Khlaaf | Model View Culture](https://modelviewculture.com/pieces/cultural-ramifications-of-technical-interviews)
+
 
 ## Jabber
 
@@ -155,6 +158,61 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [Build a “Management” Chat Bot in 5 steps with Google AppEngine | vogella blog](http://blog.vogella.com/2010/12/16/xmpp-google-appengine/)
 
 
+## Lisp
+
+["Chainable action perimeters" - Lisp in 3 words](http://www.vagrant-coder.com/articles/english/Lisp-in-3-words.html)
+
+[FixedPoint](http://winvector.github.io/FixedPoint/FixedPoint.html)
+
+[A Personal Lisp Crisis – blog.jacius.info](https://blog.jacius.info/2012/05/29/a-personal-lisp-crisis/)
+
+[Lisp as the Maxwell’s equations of software | DDI](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
+
+
+
+## Plain Text Accounting
+
+[Plain Text Accounting with ledger, by @colindean at #ohiolinux - Google Search](https://www.google.com/search?q=Plain+Text+Accounting+with+ledger%2C+by+%40colindean+at+%23ohiolinux&amp;rlz=1CAASUO_enUS765US765&amp;oq=Plain+Text+Accounting+with+ledger%2C+by+%40colindean+at+%23ohiolinux&amp;aqs=chrome..69i57j69i61&amp;sourceid=chrome&amp;ie=UTF-8)
+
+[Plaintext Accounting with the Ledger Ecosystem - Ohio Linuxfest 2017 - YouTube](https://www.youtube.com/watch?v=FJtaM43PgXQ)
+
+[Plain Text Accounting - YouTube](https://www.youtube.com/watch?v=8r5Cp66k4PA)
+
+[Conquering Your Finances with Emacs and Ledger - YouTube](https://www.youtube.com/watch?v=cjoCNRpLanY)
+
+[Plain Text Accounting, a guide to Ledger and friends - plaintextaccounting.org](https://plaintextaccounting.org/)
+
+[LedgerTips (@LedgerTips) / Twitter](https://twitter.com/ledgertips?lang=en)
+
+[hledger — hledger documentation](https://hledger.org/)
+
+[Plain Text Accounting with ledger and ledger-likes](https://www.reddit.com/r/plaintextaccounting/)
+
+[Plain Text Accounting with Ledger - Jack Baty - Medium](https://medium.com/@jackbaty/plain-text-accounting-with-ledger-3ec5b27ef0a8)
+
+[Plain Text Accounting, a guide to Ledger and friends - plaintextaccounting.org](https://plaintextaccounting.org/#plain-text-accounting-apps)
+
+[(99+) Ledger - Google Groups](https://groups.google.com/forum/#!forum/ledger-cli)
+
+[differential analysis and Python math - Google Groups](https://groups.google.com/forum/#!topic/ledger-cli/nMJwS-xNswo)
+
+[any script to order transactions by date - Google Groups](https://groups.google.com/forum/#!topic/ledger-cli/a8qUfneSyHQ)
+
+[How to Setup an LCD Touchscreen on the Raspberry Pi](https://www.circuitbasics.com/setup-lcd-touchscreen-raspberry-pi/)
+
+[Newest 'ledger-cli' Questions - Personal Finance &amp; Money Stack Exchange](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest)
+
+[Ledger CLI cheatsheet](https://devhints.io/ledger)
+
+[Set effective date and payee in posting's metadata in ledger-cli : plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/comments/etf9fe/set_effective_date_and_payee_in_postings_metadata/)
+
+[Beancount - Index - Google Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)
+
+[Beancount - Cookbook - Sharing Expenses - Google Docs](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit)
+
+[Beancount - Running &amp; Reports - Google Docs](https://docs.google.com/document/d/1e44jtLyVRl2H2Pj4K3WUc66otAlTOFOc90-tsrFEQdo/edit#heading=h.4q31mvini2f7)
+
+
 ## Software Craftsmanship
 
 http://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html
@@ -162,6 +220,7 @@ http://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.
 http://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
 
 https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
+
 
 ## Wikipedia
 
