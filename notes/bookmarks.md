@@ -715,6 +715,11 @@ http://bleedingedge.pynchonwiki.com/wiki/index.php?title=Songs_mentioned_in_Blee
 http://www.thesatirist.com/books/Vineland.html
 
 
+## Saved By the Bell
+
+[saved by the belding](https://web.archive.org/web/20150422022847oe_/https://r4---sn-a5m7zu7z.googlevideo.com/videoplayback?ipbits=0&pl=21&dur=1199.589&itag=22&fexp=900720%2C907263%2C934954%2C938028%2C9407115%2C9408025%2C9408347%2C947233%2C948124%2C948703%2C951703%2C952637%2C957201&sparams=dur,expire,id,initcwndbps,ip,ipbits,itag,mime,mm,ms,mv,pl,ratebypass,requiressl,source,upn&id=o-ACn8NT_LTOYRL8doJ41jtLz_aM57xybWB1a6L3Fn5zS0&ip=207.241.237.185&sver=3&signature=50B1C4EBF4CE89D3C7505B3CA454C056D4CE069D.523C87D8C533599B281583375EFDCC8EDF3B8FCB&source=youtube&upn=SZMRnHXL-ZE&requiressl=yes&mime=video%2Fmp4&ratebypass=yes&expire=1429691272&key=cms1&signature=&redirect_counter=1&req_id=3033b932ef27a3ee&cms_redirect=yes&mm=26&ms=tsu&mt=1429669638&mv=m)
+
+
 ## Software Craftsmanship
 
 http://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html
