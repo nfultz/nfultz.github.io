@@ -1,6 +1,15 @@
 <!-- njnmdoc: title="Bookmarks"  -->
 
 
+## Agile / Scrum
+
+[Scrum seems to be mostly about having better alibis - Scrum - Agile Overflow](http://agileoverflow.com/t/scrum-seems-to-be-mostly-about-having-better-alibis/47)
+
+[Why Agile and especially Scrum are terrible | Michael O. Church](https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/)
+
+[xpdx.org](https://xpdx.org) - A collection of complementary, low ceremony, XP patterns and practices for developing useful software.
+
+
 ## Bitcoin
 
 [A Complete Beginners Guide to Blockchain Technology - Blockstrap Blockstrap](http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/)
@@ -190,7 +199,7 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [The Strange Autobiography of Frank B. Robinson](http://www.johnblack.com/psychiana/strange/index.html)
 
-The Waite Rider pack references Egyptian, Christian and Greek myths and, in A History of the Occult Tarot, Ronald Decker and the late Michael Dummett describe how a whole fake history of the Tarot was constructed by a series of 19th-century occultists who claimed to trace its legend back as far as ancient Egypt. It is not always clear how much these fantasists believed their own fakery, but for many the manufactured legends were – and still are – as compelling as those of Christianity. --- [Atheists can embrace the power of Tarot | New Humanist](https://newhumanist.org.uk/articles/2758/atheists-can-embrace-the-power-of-tarot)
+[Atheists can embrace the power of Tarot | New Humanist](https://newhumanist.org.uk/articles/2758/atheists-can-embrace-the-power-of-tarot)
 
 [What is and what will be: Integrating spirituality and science](http://www.mtnmath.com/willbe.html)
 
@@ -213,6 +222,17 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 [Guy Gavriel Kay: A Guide to the Author and His Books : Fantasy](https://www.reddit.com/r/Fantasy/comments/1ot68c/guy_gavriel_kay_a_guide_to_the_author_and_his/)
 
 [Discworld - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Discworld#Novels)
+
+
+## Finance
+
+[The creepy mindset of online credit scoring | mathbabe](http://mathbabe.org/2013/07/12/the-creepy-mindset-of-online-credit-scoring/)
+
+[Mortgages Are About Math: Open-Source Loan-Level Analysis of Fannie and Freddie - Todd W. Schneider](http://toddwschneider.com/posts/mortgages-are-about-math-open-source-loan-level-analysis-of-fannie-and-freddie/)
+
+[Register for the Non-Prime 101 Conference](https://www.nonprime101.com/nonprime101-conference-registration/)
+
+[Certifying and removing disparate impact](http://arxiv.org/abs/1412.3756)
 
 
 ## Frederick Taylor
@@ -602,6 +622,11 @@ The Waite Rider pack references Egyptian, Christian and Greek myths and, in A Hi
 > Astronomy fascinated Herman Melville and provided an important and recurring theme in all his writing. He was inspired by uranography, stellar lore, ancient philosophical notions about the nature of the universe, and discoveries and speculations in contemporary astronomy. In Herman Melville: Stargazer Brett Zimmerman investigates Melville's knowledge and literary uses of astronomy, especially within the thematic contexts of Mardi, Clarel, and Billy Budd.  --- [Herman Melville | McGill-Queen’s University Press](http://www.mqup.ca/herman-melville-products-9780773517868.php)
 
 
+## Metal
+
+https://www.theguardian.com/music/2020/apr/03/sweat-tears-and-terrible-gigs-why-heavy-metal-is-just-like-standup-ed-gamble
+
+
 ## Nabokov
 
 [Ada Online](http://www.ada.auckland.ac.nz/index.htm)
@@ -718,6 +743,11 @@ http://www.thesatirist.com/books/Vineland.html
 ## Saved By the Bell
 
 [saved by the belding](https://web.archive.org/web/20150422022847oe_/https://r4---sn-a5m7zu7z.googlevideo.com/videoplayback?ipbits=0&pl=21&dur=1199.589&itag=22&fexp=900720%2C907263%2C934954%2C938028%2C9407115%2C9408025%2C9408347%2C947233%2C948124%2C948703%2C951703%2C952637%2C957201&sparams=dur,expire,id,initcwndbps,ip,ipbits,itag,mime,mm,ms,mv,pl,ratebypass,requiressl,source,upn&id=o-ACn8NT_LTOYRL8doJ41jtLz_aM57xybWB1a6L3Fn5zS0&ip=207.241.237.185&sver=3&signature=50B1C4EBF4CE89D3C7505B3CA454C056D4CE069D.523C87D8C533599B281583375EFDCC8EDF3B8FCB&source=youtube&upn=SZMRnHXL-ZE&requiressl=yes&mime=video%2Fmp4&ratebypass=yes&expire=1429691272&key=cms1&signature=&redirect_counter=1&req_id=3033b932ef27a3ee&cms_redirect=yes&mm=26&ms=tsu&mt=1429669638&mv=m)
+
+
+## Self Help
+
+[The untold story of Napoleon Hill](https://paleofuture.gizmodo.com/the-untold-story-of-napoleon-hill-the-greatest-self-he-1789385645)
 
 
 ## Software Craftsmanship

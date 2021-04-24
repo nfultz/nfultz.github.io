@@ -3,8 +3,6 @@ The Dresden Files is a series of urban fantasy novels by Jim Butcher. They follo
 
 Butcher takes an everything-and-the-kitchen-sink approach to fantasy, with his universe including not only nigh-immortal wizards, but also multiple types of vampires, werewolves, fairies, demons, angels, and aliens.
 
-Good Times.
-
 ## Main Series
 
 |  # | Title                   | Year |
