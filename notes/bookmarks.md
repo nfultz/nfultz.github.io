@@ -84,6 +84,13 @@ https://en.wikipedia.org/wiki/Bullet_LaVolta
 http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventually.html
 
 
+## Bullshit
+
+[Why bullshit is no laughing matter — Aeon Opinions](https://aeon.co/opinions/why-bullshit-is-no-laughing-matter)
+
+[Fuck Nuance](http://kieranhealy.org/files/papers/fuck-nuance.pdf)
+
+
 ## Collaborative Filtering
 
 [Collaborative Filtering : Implementation with Python! - Artificial Intelligence in Motion](http://aimotion.blogspot.com/2009/11/collaborative-filtering-implementation.html)
@@ -215,6 +222,19 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 [13 Moral Biographies That Make You A Better Person And Teach You About Life | Thought Catalog](http://thoughtcatalog.com/ryan-holiday/2014/05/13-moral-biographies-that-will-make-you-a-better-person-and-teach-you-about-life/)
 
 [CTSP | A Pledge of Ethics for I School Graduates](https://ctsp.berkeley.edu/an-ischool-pledge-of-ethics)
+
+
+## Executioner / Mack Bolan
+
+[The Executioner - All The Tropes](https://allthetropes.org/wiki/The_Executioner)
+
+[Mack Bolan - Infogalactic: the planetary knowledge core](https://infogalactic.com/info/Mack_Bolan)
+
+[Mack Bolan -- Fuldapocalypse Fiction](https://fuldapocalypsefiction.com/tag/mack-bolan/)
+
+[The Masculine Wisdom of The Executioner - Legends of Men](http://legendsofmen.com/2019/03/the-masculine-wisdom-of-the-executioner/)
+
+[Executioner Series Books by Don Pendleton](https://www.executionerseries.com/series.html)
 
 
 ## Fantasy Novels
@@ -568,6 +588,16 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [Why time management is ruining our lives | Technology | The Guardian](https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives)
 
+[Are we spending too much time on setting up complicated GTD apps and processes? : gtd](https://www.reddit.com/r/gtd/comments/mogwrd/are_we_spending_too_much_time_on_setting_up/)
+
+[Merlin Mann interviews David Allen in 2007 : gtd](https://www.reddit.com/r/gtd/comments/m19ftt/merlin_mann_interviews_david_allen_in_2007/)
+
+[Calling all GTDers - have you found our podcast yet? : gtd](https://www.reddit.com/r/gtd/comments/lygub7/calling_all_gtders_have_you_found_our_podcast_yet/)
+
+[Does anyone have good ways to organize non-actionable meeting notes by topic as reference? : gtd](https://www.reddit.com/r/gtd/comments/ka1nba/does_anyone_have_good_ways_to_organize/)
+
+
+
 
 ## GPGPU
 
@@ -884,6 +914,11 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 ## VOTOMS
 
 [Armored Trooper Votoms - Manga Wiki](https://manga.fandom.com/wiki/Armored_Trooper_Votoms)
+
+
+## Web 2.0
+
+[The End of Cyberspace and Other Surprises](https://doi.org/10.1177/1354856506068316)
 
 
 ## Wikipedia

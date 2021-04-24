@@ -4,7 +4,7 @@ This is very old, but maybe still works? It was my most popular blog post ever.
 
 ## Config
 
-Here’s some code for controlling Winamp with the remote that comes with a
+Here's some code for controlling Winamp with the remote that comes with a
 Hauppauge TV tuner card. Since this uses the winamp API, winamp does not need
 to have focus in order to receive commands. Open up
 `C:\windows\irremote.ini`, and edit these lines into the [Default]
