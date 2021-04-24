@@ -89,6 +89,50 @@ http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventual
 https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will-force-you-to-look-in-the-mirror-1.5280674
 
 
+## Cyberpunk
+
+[The cyberpunk genre has been Orientalist for decades --- but it doesn't have to be - Polygon](https://www.polygon.com/2021/1/30/22255318/cyberpunk-2077-genre-xenophobia-orientalism)
+
+[An Inclusive, Cyberpunk Future Is In the Cards | WIRED](https://www.wired.com/story/inclusive-cyberpunk-future-android-netrunner/)
+
+[Cyberpunk Needs a Reboot](https://jacobinmag.com/2020/12/cyberpunk-2077-aesthetics-elon-musk-anti-capitalist-fiction)
+
+[What is cyberpunk? | The Economist](https://www.economist.com/the-economist-explains/2020/12/14/what-is-cyberpunk)
+
+[AmazonSmile: #cyberpunkNOW and the Dystopian Moment: The London Reader, Volume One eBook: H Maurice, Alexander, Hamil, Ike, Ng, Lena, Ward, Benn, Sterling, Bruce, Gibson, William, Robinson, Kim Stanley, Kain, Zak, Bartlett, George , Cerbone, Will: Kindle Store](https://smile.amazon.com/gp/product/B08NQMFNMF/ref=pe_33088430_557306060_pe_re_csr_ea_title)
+
+['Ghostrunner' review: a cyberpunk slasher that tests your patience](https://www.nme.com/reviews/game-reviews/ghostrunner-review-a-deadly-cyberpunk-first-person-slasher-that-tests-your-patience-2803103)
+
+[Wolfe on Cyberpunk : genewolfe](https://www.reddit.com/r/genewolfe/comments/f12pzl/wolfe_on_cyberpunk/)
+
+[10 Cyberpunk Sci-Fi Books Too Twisted To Be Made Into Films](https://screenrant.com/cyberpunk-sci-fi-books-cant-become-movies/)
+
+['Ghostrunner' review: a cyberpunk slasher that tests your patience](https://www.nme.com/en_asia/reviews/game-reviews/ghostrunner-review-a-deadly-cyberpunk-first-person-slasher-that-tests-your-patience-2803350)
+
+[ESR | October 28, 2019 | Tradition and liberty in science fiction and fantasy: Part Seven -- Cyberpunk](http://www.enterstageright.com/archive/articles/1019/tradlibp7.html)
+
+[Hackers Is a Glorious Cyberpunk Classic About Nothing](https://themuse.jezebel.com/hackers-is-a-glorious-cyberpunk-classic-that-might-actu-1845053532)
+
+[Did You Know That Warren Zevon Did a Cyberpunk Record? #cyberpunk « Adafruit Industries](https://blog.adafruit.com/2020/09/04/did-you-know-that-warren-zevon-did-a-cyberpunk-record-cyberpunk/)
+
+[The Essential Cyberpunk Reading List #cyberpunk « Adafruit Industries](https://blog.adafruit.com/2020/03/02/the-essential-cyberpunk-reading-list-cyberpunk/)
+
+[Neo-Noir vs. Cyberpunk: The Differences Between The Sci-Fi Subgenres Explained](https://screenrant.com/neo-noir-cyberpunk-sci-fi-subgenres-differences-explained/)
+
+[Saving punk from Cyberpunk - Eurogamer.net](https://www.eurogamer.net/articles/2018-09-25-saving-punk-from-cyberpunk)
+
+[Cyberpunk Comic Book Meets Synthwave In Codeburst --- CyberPunks.com](https://www.cyberpunks.com/cyberpunk-comic-book-meets-synthwave-in-codeburst/)
+
+[Definition of Slang Used in Cyberpunk](http://project.cyberpunk.ru/idb/cyberslang.html)
+
+[The coronavirus crisis shows that the cyberpunk future is about to come true.](https://slate.com/technology/2020/04/coronavirus-cyberpunk-science-fiction-government-politics.html)
+
+[Astral Chain's director talks about Nier, the police, and cyberpunk - Polygon](https://www.polygon.com/interviews/2019/6/17/18682365/astral-chain-nintendo-switch-e3-2019-platinumgames-interview-nier-automata)
+
+[Conglomerate 451 review: An average cyberpunk dungeon-crawler | Windows Central](https://www.windowscentral.com/conglomerate-451-review)
+
+
+
 ## DevOps
 
 [How Weird Twitter's @fart became a DevOps idol](http://www.dailydot.com/technology/devops-jon-hendren-fart/)
@@ -390,6 +434,10 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 
 [Make ALE respect editorconfig? : vim](https://www.reddit.com/r/vim/comments/dlimn6/make_ale_respect_editorconfig/)
 
+
+## VOTOMS
+
+[Armored Trooper Votoms - Manga Wiki](https://manga.fandom.com/wiki/Armored_Trooper_Votoms)
 
 
 ## Wikipedia
