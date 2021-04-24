@@ -199,7 +199,7 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 
 [The Awesome Foundation : Los Angeles, CA](http://www.awesomefoundation.org/en/chapters/los-angeles)
 
-http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
+[Effective Altruism is Self Recommending](http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/)
 
 
 ## Esoterica
@@ -478,9 +478,9 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [Orgmode: A Couple of GTD Weekly Review repeating tasks, and a GTD Proje](https://lists.gnu.org/archive/html/emacs-orgmode/2009-08/msg00116.html)
 
-[Page Not Found | Become A Writer Today](https://becomeawritertoday.com/whats-wrong-with-gtd-2/)
+[What's Wrong with GTD | Become A Writer Today](https://web.archive.org/web/20171019182334/http://becomeawritertoday.com/whats-wrong-with-gtd-2/)
 
-[Page not found](http://stackedbooks.org/2015/04/getting-things-done-with-bullet.html)
+[Getting Things Done with Bullet Journaling](https://web.archive.org/web/20180109034505/http://stackedbooks.org/2015/04/getting-things-done-with-bullet.html)
 
 [Part III: Building A Second Brain --- Using Notion and Roam Research - Soundarya Balasubramani](https://www.bsoundarya.com/part-iii-building-a-second-brain%E2%80%8A-%E2%80%8Ausing-notion-and-roam-research/)
 
@@ -516,7 +516,7 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 
 [The crucible of teaching: Want to learn in a hurry? Teach! - The Experiment-Driven Life Blog - Matthew Cornell. Programmer, Research Software Engineer, Think, Try, Learn](http://www.matthewcornell.org/blog/2006/4/9/the-crucible-of-teaching-want-to-learn-in-a-hurry-teach.html)
 
-[The design of artifacts for augmenting intellect | Paper | Microsoft Academic](https://academic.microsoft.com/paper/2132214445/reference/search?q=The%20design%20of%20artifacts%20for%20augmenting%20intellect&qe=Or(Id%253D2159094788%252CId%253D2084944215%252CId%253D2124591829%252CId%253D2012975396%252CId%253D2007445014%252CId%253D2160170050%252CId%253D2123427850%252CId%253D1580118833%252CId%253D2156221064%252CId%253D2171301064%252CId%253D2142556291%252CId%253D1964596829%252CId%253D2017060242%252CId%253D2015226007%252CId%253D1974962426%252CId%253D130930458%252CId%253D2153925979%252CId%253D2157607046%252CId%253D2126689453%252CId%253D1550388017%252CId%253D2114939427%252CId%253D2103676101%252CId%253D2536445687%252CId%253D2293416685%252CId%253D2016498460%252CId%253D2124190705%252CId%253D1996314002%252CId%253D2108723693%252CId%253D1518638857%252CId%253D26924883%252CId%253D2115277246%252CId%253D1975791421%252CId%253D2170485939%252CId%253D2283867234%252CId%253D2007316548%252CId%253D2113950443%252CId%253D2031184266%252CId%253D1587722563%252CId%253D2799163700%252CId%253D2023470106%252CId%253D2902294776%252CId%253D2151844074%252CId%253D2167939839%252CId%253D2055176884%252CId%253D2031215447%252CId%253D2003458874%252CId%253D2134042390%252CId%253D562337180%252CId%253D1551113582%252CId%253D2018518524%252CId%253D2043951293%252CId%253D2141373701%252CId%253D2152304295%252CId%253D2272467362%252CId%253D581911716)
+[The design of artifacts for augmenting intellect | Paper | Microsoft Academic](https://academic.microsoft.com/paper/2132214445/reference/search?q=The%20design%20of%20artifacts%20for%20augmenting%20intellect)
 
 [The Father Of "Getting Things Done": You're Getting Me All Wrong](https://www.fastcompany.com/3046463/the-father-of-getting-things-done-youre-getting-me-all-wrong)
 
@@ -597,6 +597,21 @@ http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/
 [Does anyone have good ways to organize non-actionable meeting notes by topic as reference? : gtd](https://www.reddit.com/r/gtd/comments/ka1nba/does_anyone_have_good_ways_to_organize/)
 
 
+## GOTO Conference (YouTube)
+
+[GOTO Conferences - YouTube](https://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA)
+
+[GOTO 2019 - The Soul of Erlang and Elixir - Saša Jurić - YouTube](https://www.youtube.com/watch?v=JvBT4XBdoUE)
+
+[GOTO 2018 - Containers From Scratch - Liz Rice - YouTube](https://www.youtube.com/watch?v=8fi7uSYlOdc)
+
+[GOTO 2018 - 50.000 Orange Stickies Later - Alberto Brandolini - YouTube](https://www.youtube.com/watch?v=NGXl1D-KwRI)
+
+[GOTO 2018 - Unconditional Code - Michael Feathers - YouTube](https://www.youtube.com/watch?v=AnZ0uTOerUI)
+
+[GOTO 2018 - Modular Monoliths - Simon Brown - YouTube](https://www.youtube.com/watch?v=5OjqD-ow8GE)
+
+[GOTO 2017 - DDD Today - Modeling Uncertainty - Vaughn Vernon - YouTube](https://www.youtube.com/watch?v=8Y-XPlXOWoA)
 
 
 ## GPGPU
@@ -751,6 +766,12 @@ https://www.theguardian.com/music/2020/apr/03/sweat-tears-and-terrible-gigs-why-
 [Friedrich Nietzsche - Wikiquote](https://en.wikiquote.org/wiki/Friedrich_Nietzsche)
 
 
+## Perl
+
+http://perl4science.github.com/software/
+http://pdl.perl.org/
+http://p3rl.org/PDL::Stats
+
 
 ## Plain Text Accounting
 
@@ -795,6 +816,15 @@ https://www.theguardian.com/music/2020/apr/03/sweat-tears-and-terrible-gigs-why-
 [Beancount - Running &amp; Reports - Google Docs](https://docs.google.com/document/d/1e44jtLyVRl2H2Pj4K3WUc66otAlTOFOc90-tsrFEQdo/edit#heading=h.4q31mvini2f7)
 
 
+## Programming Language Development
+
+[Jonathan Blow Is Writing His Own Programming Language](https://www.forbes.com/sites/michaelthomsen/2015/11/24/jonathan-blow-is-writing-his-own-programming-language/#d562fd42fa16)
+
+[Jonathan Blow - Wikipedia](https://en.wikipedia.org/wiki/Jonathan_Blow#Jai_language)
+
+[Ideas about a new programming language for games. - YouTube](https://www.youtube.com/watch?v=TH9VCN6UkyQ&list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO)
+
+
 ## Pynchon
 
 https://staging.airflowsciences.com/rkn/Pynchon/None.bomarc/index.html
@@ -837,6 +867,17 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 ## Space Ghost
 
 [Curling Flower Space](https://www.snard.com/sg/guide/?ep=73&fmt=1)
+
+
+## Spark
+
+[Downloads | Apache Spark](http://spark.apache.org/downloads.html)
+
+[Skip the Ph.D and Learn Spark, Data Science Salary Survey Says](http://www.datanami.com/2015/11/04/skip-the-ph-d-and-learn-spark-data-science-salary-survey-says/)
+
+[Data Science for Losers, Part 5 – Spark DataFrames | Coding](http://blog.brakmic.com/data-science-for-losers-part-5-spark-dataframes/)
+
+[Beginners Guide: Apache Spark Machine Learning Scenario With A Large Input Dataset | Full Stack ML](http://fullstackml.com/2015/10/29/beginners-guide-apache-spark-machine-learning-scenario-with-a-large-input-dataset/)
 
 
 ## Standing Desks
@@ -921,6 +962,13 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 [The End of Cyberspace and Other Surprises](https://doi.org/10.1177/1354856506068316)
 
 
+## Weird History
+
+[In the Early 1900s, Robber Barons Bought Dozens of Centuries-Old European Buildings. Where is Medieval America Now? | Atlas Obscura](http://www.atlasobscura.com/articles/in-the-early-1900s-dozens-of-centuriesold-european-buildings-came-to-america-where-is-medieval-america-now)
+
+[We Buy Broken Gold | Lapham’s Quarterly](http://laphamsquarterly.org/swindle-fraud/we-buy-broken-gold)
+
+
 ## Wikipedia
 
 [Meet the Ultimate WikiGnome — Backchannel — Medium](https://medium.com/backchannel/meet-the-ultimate-wikignome-10508842caad)
@@ -939,3 +987,13 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 
 [Discworld - Wikipedia](https://en.wikipedia.org/wiki/Discworld#Novels)
 
+
+## Zig
+
+[Ziglang - reddit](https://www.reddit.com/r/Zig/)
+
+[zig - GitHub Topics](https://github.com/topics/zig)
+
+[nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig)
+
+[Newest 'zig' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/zig)
