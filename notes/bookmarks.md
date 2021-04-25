@@ -141,6 +141,11 @@ http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventual
 https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will-force-you-to-look-in-the-mirror-1.5280674
 
 
+## Crime
+
+[How a Rumor Sent a Teen to Prison for Murder in Vegas - The Intercept](https://firstlook.org/theintercept/2015/03/12/murderinvegas/)
+
+
 ## Cyberpunk
 
 [The cyberpunk genre has been Orientalist for decades --- but it doesn't have to be - Polygon](https://www.polygon.com/2021/1/30/22255318/cyberpunk-2077-genre-xenophobia-orientalism)
@@ -638,6 +643,25 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 [Does anyone have good ways to organize non-actionable meeting notes by topic as reference? : gtd](https://www.reddit.com/r/gtd/comments/ka1nba/does_anyone_have_good_ways_to_organize/)
 
 
+[Pmarchive - Guide to Personal Productivity](http://pmarchive.com/guide_to_personal_productivity.html)
+
+[Structured Procrastination: Do Less and Deceive Yourself](http://www.structuredprocrastination.com/)
+
+[5 Really Stupid Ways to Manage Deadlines — Medium](https://medium.com/@filevine/5-really-stupid-ways-to-manage-deadlines-b62c35ab7f1e)
+
+[Forget the ‘To-Do’ List, You Need a ‘Stop Doing’ List | TIME](http://time.com/3724744/need-stop-doing-list/)
+
+[The Problem of Artificial Willpower - Scientific American](http://www.scientificamerican.com/article/the-problem-of-artificial-willpower/)
+
+[The Emergent Task Planner™ - Dave Seah](http://davidseah.com/node/the-emergent-task-planner/)
+
+[How Soylent Uses Zapier to Automatically Transcribe Phone Calls and Build a Database of Legal Advice](https://zapier.com/blog/transcribe-phone-calls/)
+
+[Ask Slashdot: How To Turn an Email Stash Into Knowledge For My Successor? - Slashdot](http://it.slashdot.org/story/15/06/09/1325236/ask-slashdot-how-to-turn-an-email-stash-into-knowledge-for-my-successor)
+
+[Getting Things GNOME!](http://gtgnome.net/)
+
+
 ## GOTO Conference (YouTube)
 
 [GOTO Conferences - YouTube](https://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA)
@@ -864,6 +888,24 @@ http://p3rl.org/PDL::Stats
 [Jonathan Blow - Wikipedia](https://en.wikipedia.org/wiki/Jonathan_Blow#Jai_language)
 
 [Ideas about a new programming language for games. - YouTube](https://www.youtube.com/watch?v=TH9VCN6UkyQ&list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO)
+
+
+[The convergence of compilers, build systems and package managers : Inside 736-131](http://blog.ezyang.com/2015/12/the-convergence-of-compilers-build-systems-and-package-managers/)
+
+[The End of Dynamic Languages](http://elbenshira.com/blog/the-end-of-dynamic-languages/)
+
+[Wake Programming Language](http://www.wakelang.com/)
+
+[Static vs. dynamic languages: a literature review](http://danluu.com/empirical-pl/)
+
+[META II: Digital Vellum in the Digital Scriptorium - ACM Queue](https://queue.acm.org/detail.cfm?id=2724586)
+
+[Zero-Overhead Metaprogramming: Reflection and Metaobject Protocols Fast and without Compromises](http://stefan-marr.de/papers/pldi-marr-et-al-zero-overhead-metaprogramming/)
+
+[Tutorial part 4: Adding JIT-compilation to a toy interpreter — libgccjit v5.1.0 ( ) documentation](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/jit/intro/tutorial04.html)
+
+[RECC, The Robert Elder Compiler (and emulator and microkernel) Collection](http://recc.robertelder.org/)
+
 
 
 ## Pynchon

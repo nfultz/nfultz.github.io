@@ -9,7 +9,7 @@ Although nominally [[cyberpunk]], the series blended in [[Fantasy]] including dr
 
 
 | r | #  | Title                         | Author                        | Date    |
-|   | -: | ----------------------------- | ----------------------------- |    ---: |
+| - | -: | ----------------------------- | ----------------------------- |    ---: |
 | ✓ | 1  | Never Deal with a Dragon      | Robert N. Charrette           | 1990-12 |
 | ✓ | 2  | Choose Your Enemies Carefully | Robert N. Charrette           | 1991-02 |
 | ✓ | 3  | Find Your Own Truth           | Robert N. Charrette           | 1991-06 |
