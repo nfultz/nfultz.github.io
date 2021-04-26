@@ -709,9 +709,28 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 [Build a “Management” Chat Bot in 5 steps with Google AppEngine | vogella blog](http://blog.vogella.com/2010/12/16/xmpp-google-appengine/)
 
 
+## Java
+
+[Home | Dropwizard](http://dropwizard.io/)
+
+[Learn java in Y Minutes](http://learnxinyminutes.com/docs/java/)
+
+[JitPack | Just-in-time packager](https://www.jitpack.io/)
+
+[Java is the new C: A persistent KeyValue Server in 40 lines and a sad fact](http://java-is-the-new-c.blogspot.com/2014/12/a-persistent-keyvalue-server-in-40.html)
+
+[Add Graal JIT Compilation to Your JVM Language in 5 Easy Steps, Step 1 | Stefan-Marr.de](http://stefan-marr.de/2015/11/add-graal-jit-compilation-to-your-jvm-language-in-5-easy-steps-step-1/)
+
+[JEP 295: Ahead-of-Time Compilation](http://openjdk.java.net/jeps/295)
+
+[How (not) to write Factorial in Java. | Development Chaos Theory](http://chaosinmotion.com/blog/?p=622)
+
+
+
 ## Labor
 
 [Is Your Job Lynchian, or Is It More Kafkaesque?](https://longreads.com/2018/04/26/is-your-job-lynchian-or-is-it-more-kafkaesque/)
+
 
 ## Lisp
 

@@ -17,6 +17,13 @@ window.indexedDB.open("reduxPersistence",2).onsuccess = function(event){
 }
 ```
 
+To convert to contacts format using jq:
+
+```
+jq -r '["First Name","Last Name", "Email Address","Real Name"], (.members[].profile | {first_name, last_name, email, real_name} | [.[]]) | @csv'
+
+```
+
 ## Custom UCLA Theme
 
 ```
