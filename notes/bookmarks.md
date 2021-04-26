@@ -789,6 +789,10 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 
 https://www.theguardian.com/music/2020/apr/03/sweat-tears-and-terrible-gigs-why-heavy-metal-is-just-like-standup-ed-gamble
 
+http://www.furious.com/perfect/carducci.html
+
+https://www.thefreelibrary.com/Rock+and+the+Pop+Narcotic%3a+Testament+for+the+Electric+Church.-a018163689
+
 
 ## Nabokov
 
