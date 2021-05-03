@@ -690,6 +690,17 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 [1508.06791 Boosting Java Performance using GPGPUs](http://arxiv.org/abs/1508.06791)
 
 
+## Greybeards
+
+[The World’s Email Encryption Software Relies on One Guy, Who is Going Broke - ProPublica](http://www.propublica.org/article/the-worlds-email-encryption-software-relies-on-one-guy-who-is-going-broke)
+
+[djb (Aaron Swartz's Raw Thought)](http://www.aaronsw.com/weblog/djb)
+
+[NTP's Fate Hinges On 'Father Time' - InformationWeek](http://www.informationweek.com/it-life/ntps-fate-hinges-on-father-time/d/d-id/1319432)
+
+[Interview: Larry Wall | Linux Voice](http://www.linuxvoice.com/interview-larry-wall/)
+
+
 
 ## Hiring
 
