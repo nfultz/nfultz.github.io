@@ -34,6 +34,21 @@ openssl rsautl -raw -pubin -inkey /home/nfultz/.ssh/id_rsa.pem.pub  -in foo >foo
 openssl rsautl -decrypt -raw -inkey ~/.ssh/id_rsa -in foo.enc -out -
 ```
 
+# REPL tools
+
+sudo gem install repl
+
+sudo apt-get install rlwrap
+
+To make a git repl:
+
+$ repl git
+
+Add readline capabilities to [[sic]]
+
+$ rlwrap sic -h localhost
+
+
 # Misc
 
 https://github.com/jarun/nnn
