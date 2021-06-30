@@ -89,3 +89,6 @@ The self-service movement has not replaced the need for data scientists, but ins
 
 [How big data is unfair — Medium](https://medium.com/@mrtz/how-big-data-is-unfair-9aa544d739de)
 
+## Reproducibility
+
+https://www.nature.com/articles/d41586-020-00672-7
