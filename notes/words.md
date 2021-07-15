@@ -20,4 +20,10 @@
 <dt>syndemic</dt>
 <dd>The intersection of two epidemics—two diseases ravaging a population at the same time, exacerbating each other.</dd>
 
+<dt>parrhesia</dt>
+<dd>Frank speech; sometimes translated as "free speech."<dd>
+
+<dt>research programming</dt>
+<dd>Research programming is a type of programming activity where the goal is to write computer programs to obtain insights from data. Coined by <cite>Phillip Guo</cite></dd>
+
 </dl>
