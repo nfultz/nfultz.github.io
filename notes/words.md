@@ -26,4 +26,10 @@
 <dt>research programming</dt>
 <dd>Research programming is a type of programming activity where the goal is to write computer programs to obtain insights from data. Coined by <cite>Phillip Guo</cite></dd>
 
+<dt>goyakod</dt>
+<dd>get off your ass and knock on doors</dd>
+
+<dt>话语权 (huayuquan)</dt>
+<dd>The right to speak and be heard, and the power to set the parameters of acceptable discourse</dd>
+
 </dl>
