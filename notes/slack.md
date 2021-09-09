@@ -7,7 +7,7 @@ To extractr the local database for slack from the web client, you can use the be
 ```
 window.indexedDB.open("reduxPersistence",2).onsuccess = function(event){
     const rps = "reduxPersistenceStore";
-    const id = "persist:slack-client-T015X27QLAF-U0177NKS3LN";
+    const id = "persist:slack-client-" + document.querySelector("div.p-ia__nav__user > span > img").src.replace(/.*\//, '').replace(/-[0-9a-z]*-[0-9]*$/, '');
 	var db = event.target.result;
 
 	db.transaction(rps, "readonly").objectStore(rps).get(id).onsuccess = function(event) {
