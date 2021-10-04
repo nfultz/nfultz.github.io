@@ -1,4 +1,4 @@
-<!-- njnmdoc:  title="nfultz.github.io uses"  -->
+<!-- njnmdoc:  title="nfultz.github.io feeds"  -->
 
 My feeds:
 

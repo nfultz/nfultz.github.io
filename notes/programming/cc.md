@@ -1,11 +1,3 @@
-C is the defacto standard language for systems programming.
-
-<[[stdio.h]]>
-
-<[[stdlib.h]]>
-
-It's reasonably easy to call [[FORTRAN]] procedures from C.
-
 [Chistory](http://www.bell-labs.com/usr/dmr/www/chist.html)
 
 [codersnotes / Being Sneaky in C](http://www.codersnotes.com/notes/being-sneaky-in-c)

@@ -23,3 +23,8 @@
 [Practical Reusable Unix Software (PDF)](http://web.archive.org/web/20031215023357/http://www.research.att.com/~gsf/publications/prus-1995-1.pdf)
 
 https://www.arp242.net/the-art-of-unix-programming/
+
+https://diamantidis.github.io/tips/2020/07/01/list-makefile-targets
+
+
+

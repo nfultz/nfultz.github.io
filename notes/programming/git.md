@@ -1,9 +1,5 @@
 <!-- njnmdoc: title="Git Notes"  -->
-Git is a [[Version Control System]] written by Linus Torvalds.
-
-It is free and open source. It definitely has some warts.
-
-See also https://www.smashingmagazine.com/make-life-easier-when-using-git/
+https://www.smashingmagazine.com/make-life-easier-when-using-git/
 
 
 ## Better diff
