@@ -792,6 +792,22 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 
 [L.A. Breaks From Its Car-Reliant Reputation With 'Mobility Plan 2035' - CityLab](http://www.citylab.com/commute/2015/08/las-new-mobility-plan-envisions-a-different-kind-of-city/401351/)
 
+## Machine Learning
+
+[An executive's guide to machine learning | McKinsey   Company](http://www.mckinsey.com/Insights/High_Tech_Telecoms_Internet/An_executives_guide_to_machine_learning)
+
+[ML is tech debt](http://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
+
+[Kaggle Ensembling Guide | MLWave](http://mlwave.com/kaggle-ensembling-guide/)
+
+[Machine Learning Checklist](http://machinelearningmastery.com/machine-learning-checklist/)
+
+[How to Machine Learn - Google Docs](https://docs.google.com/document/d/1YN6BVdReNAYc8B0fjQ84yzDflqmeEPj7S0Xc-9_26R0/preview?sle=true)
+
+[Machine Learning for Developers by Mike de Waard](http://xyclade.github.io/MachineLearning/)
+
+[Machine Learning for Programming](http://www.infoq.com/presentations/machine-learning-general-programming)
+
 
 ## Markdown
 
