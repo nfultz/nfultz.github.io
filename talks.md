@@ -2,6 +2,7 @@
 
 ## 2021
 
+  * Oct 20 - UCLA Social Sciences - _Intro to the Census PL-94_
   * Apr 08 - UCLA Social Sciences - _Practical Web Scraping_ [[slides]](https://bit.ly/ssc_scraping)
   * Mar 24 - LA R User Group - _R in the Terminal_ [[slides]](https://bit.ly/larug-terminal)
   * Feb 26 - Women in Big Data LA - _GRPC in/to/from R_ [[slides]](http://bit.ly/wibdla-grpc)
