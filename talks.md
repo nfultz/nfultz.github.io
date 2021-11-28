@@ -2,6 +2,7 @@
 
 ## 2021
 
+  * Nov 23 - CEU Business Analytics Seminar - _njnm in a Nutshell: A Three Year Retrospective_ [[slides]](https://bit.ly/3I0LVwE)
   * Oct 20 - UCLA Social Sciences - _Intro to the Census PL-94_
   * Apr 08 - UCLA Social Sciences - _Practical Web Scraping_ [[slides]](https://bit.ly/ssc_scraping)
   * Mar 24 - LA R User Group - _R in the Terminal_ [[slides]](https://bit.ly/larug-terminal)
