@@ -896,6 +896,25 @@ https://www.thefreelibrary.com/Rock+and+the+Pop+Narcotic%3a+Testament+for+the+El
 [Friedrich Nietzsche - Wikiquote](https://en.wikiquote.org/wiki/Friedrich_Nietzsche)
 
 
+## OODA
+
+https://ia903106.us.archive.org/30/items/DTIC_ADA391774/DTIC_ADA391774.pdf
+
+https://archive.org/details/DTIC_ADA391774/page/n10/mode/2up
+
+https://ia802803.us.archive.org/26/items/DTIC_AD1019164/DTIC_AD1019164.pdf
+
+https://archive.org/details/DTIC_ADA425228/mode/2up
+
+https://ia801008.us.archive.org/32/items/DTIC_ADA425228/DTIC_ADA425228.pdf
+
+https://archive.org/details/deceptiontheoryn109457388/mode/2up
+
+https://archive.org/details/DTIC_AD1000842/mode/2up
+
+https://archive.org/details/Inside_The_OODA_Loop
+
+
 ## Perl
 
 http://perl4science.github.com/software/
@@ -980,6 +999,18 @@ https://staging.airflowsciences.com/rkn/Pynchon/None.bomarc/index.html
 http://bleedingedge.pynchonwiki.com/wiki/index.php?title=Songs_mentioned_in_Bleeding_Edge
 
 http://www.thesatirist.com/books/Vineland.html
+
+## Quantified Self
+
+[Better Fitness Through Your Phone - NYTimes.com](http://well.blogs.nytimes.com/2015/02/11/better-fitness-through-your-phone/)
+
+[Why your bathroom scales are lying to you and how to find your true weight | Science | The Guardian](http://www.theguardian.com/science/the-lay-scientist/2015/sep/04/why-your-bathroom-scales-are-lying-to-you-and-how-to-find-your-true-weight)
+
+[Critical social research on self-tracking: a reading list | This Sociological Life](https://simplysociology.wordpress.com/2016/01/12/critical-social-research-on-self-tracking-a-reading-list/)
+
+[Fitter, Happier, More Productive: The Promises and Failures of Self-Tracking Technologies by Dana Cass | Model View Culture](https://modelviewculture.com/pieces/fitter-happier-more-productive-the-promises-and-failures-of-self-tracking-technologies)
+
+
 
 ## Rougelikes
 
@@ -1089,6 +1120,14 @@ https://web.archive.org/web/20180316083402/http://www.stat.ufl.edu/vlib/statisti
 
 https://www.nature.com/articles/d41586-020-00672-7
 
+
+## Suckless
+
+[suckless.org](http://www.suckless.org)
+
+[cat-v](http://www.cat-v.org)
+
+https://www.youtube.com/watch?v=-Xr4ouz8zQA
 
 
 ## Tech History
