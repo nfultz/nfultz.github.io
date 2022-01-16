@@ -204,6 +204,9 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 
 [Literate Devops with Emacs - YouTube](https://www.youtube.com/watch?v=dljNabciEGg)
 
+[Principles of Chaos Engineering](http://www.principlesofchaos.org/)
+
+
 
 ## DeLillo
 
@@ -751,6 +754,20 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 
 [Compiling Julia for NVIDIA GPUs · maleadt](http://blog.maleadt.net/2015/01/15/julia-cuda/)
 
+
+## Jupyter
+
+[IPerl demo](http://nbviewer.ipython.org/github/zmughal/zmughal-iperl-notebooks/blob/master/IPerl-demos/20150209_IPerl_display_demo.ipynb)
+
+[Create isolated Jupyter ipython kernels with pyenv and virtualenv – Alfredo Motta](http://www.alfredo.motta.name/create-isolated-jupyter-ipython-kernels-with-pyenv-and-virtualenv/)
+
+[List of IPython (Jupyter) Notebooks by Peter Norvig](http://norvig.com/ipython/README.html)
+
+[IBash Notebook](http://jeroenjanssens.com/2015/02/19/ibash-notebook.html)
+
+https://analyticsindiamag.com/top-8-extensions-for-your-jupyter-notebook/
+
+https://carreau.gitbooks.io/jupyter-book/content/notebook-extensions.html
 
 
 ## Labor
