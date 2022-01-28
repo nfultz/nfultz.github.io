@@ -26,7 +26,7 @@ I would extend the table thus:
 |-------|-------------|---|---|---|
 |WWW | HTTP, HTML| Personal homepage | Hotmail, Yahoo | Yahoo, Amazon |
 |Web 2.0 | CMSs, XHR, RSS, JSON | Personal blog |  Google Maps | Google Ads, Facebook |
-|web3 | Blockchain? | Personal "Wallet" | ??? | ??? |
+|web3 | Blockchain? | Personal "Wallet" ? | ??? | ??? |
 
 
 
@@ -35,33 +35,32 @@ I would extend the table thus:
 I think before we try to decipher what's included and excluded from web 2.0 / web3, it's worth
 revisiting some context for why there was a web 2.0 at all.
 
-In the year 2000, there was a stock market crash that wiped most tech companies (remember pets.com?).
+In the year 2000, there was a stock market crash that destroyed most tech companies (remember pets.com?).
 
 But according to the aphorism "In a gold rush, sell shovels", the shovel sellers were the
 ecosystem companies, which were able to survive the crash even as their customers were wiped out.
 They needed a new generation of customers.
 
 Tim OReilly, a computer manual publisher, coined the phrase Web 2.0 as a way to market to the post-crash
-internet industry and cultivate a second wave of start ups.
+internet industry and cultivate a second crop of start ups.
 
 To use an analogy, "Web 2.0" has about as much to do with specific companies as "GenX" or "Millenial"
 does with people. Yes, people with closer birthdays tend to have some common traits given that they
-grew up around the same time. But not everyone born in 1988 is eating avacado toast all the time. Probably
+grew up around the same time. But not everyone born in 1988 is eating avocado toast all the time. Probably
 most of them aren't.
 
 The technologies Web 2.0 was initially associated with (such as XHR or JSON) pre-existed the moniker, and
 continue to exist.
 
-And the platforms that grew in that time period were open and interoperable (without any blockchain).
+And the platforms that grew in that time period were initially open and interoperable (without any blockchain).
 
-Facebook used to offer RSS feeds. Twitter used to offer RSS feeds.
+Facebook used to offer RSS feeds. Twitter used to offer RSS feeds. Google used to read RSS feeds.
 
 Now they don't. And we draw barbed wire around their logos.
 
-What we ended up with was not the same as what we were promised.
+What we ended up with was not the same as what the technology promised.
 
 That didn't happen by accident. Market forces were a factor. So was greed. So was time.
-
 Open architecture was quickly discard in the pursuit of monetization.
 
 ### Web 3 is a branding exercise also
@@ -132,7 +131,7 @@ Gchat dropped XMPP, twitter dropped RSS, etc. Embrace-extend-extinguish.
 ### Final thoughts
 
 Maybe the killer app thats coming in the next couple years starts out compatible with ethereum.
-but there's nothing requiring it to stay that way forever. And after that, another crash, and
+But there's nothing requiring it to stay that way forever. And after that, another crash, and
 the survivors will put up their barbed wire, and after that, we can look forward to wEb4.
 
 
