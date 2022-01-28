@@ -1,7 +1,5 @@
 <!-- njnmdoc:  title="Some Thoughts on 'web3'"  -->
 
-# Some Thoughts on 'web3'
-
 A friend posted [The Truth About web3](http://thisisworthreading.com/2022/01/28/the-truth-about-web3/)
 and I wanted to take a moment to respond.
 
