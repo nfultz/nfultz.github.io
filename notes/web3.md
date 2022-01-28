@@ -24,7 +24,7 @@ I would extend the table thus:
 |-------|-------------|---|---|---|
 |WWW | HTTP, HTML| Personal homepage | Hotmail, Yahoo | Yahoo, Amazon |
 |Web 2.0 | CMSs, XHR, RSS, JSON | Personal blog |  Google Maps | Google Ads, Facebook |
-|web3 | Blockchain? | Personal "Wallet" ? | ??? | ??? |
+|web3 | Blockchain? NFT? | Personal "Wallet" ? | ??? | ??? |
 
 
 
