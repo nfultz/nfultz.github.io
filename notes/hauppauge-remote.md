@@ -24,17 +24,17 @@ section:
 
 
 The keys are:
-<ol>
-<li>    Vol Down
-<li>    Show Playlist
-<li>    Vol Up
-<li>    Prev
-<li>    Play
-<li>    Next
-<li>    Visualization
-<li>    Stop
-<li>    Pause
-</ol>
+
+1.  Vol Down
+2.  Show Playlist
+3.  Vol Up
+4.  Prev
+5.  Play
+6.  Next
+7.  Visualization
+8.  Stop
+9.  Pause
+
 
 
 

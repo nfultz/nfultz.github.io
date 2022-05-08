@@ -10,21 +10,6 @@
 [xpdx.org](https://xpdx.org) - A collection of complementary, low ceremony, XP patterns and practices for developing useful software.
 
 
-## Bitcoin
-
-[A Complete Beginners Guide to Blockchain Technology - Blockstrap Blockstrap](http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/)
-
-[Accessing Bitcoin Data with R](http://blog.revolutionanalytics.com/2015/11/accessing-bitcoin-data-with-r.html)
-
-[Attacks in the World of Cryptocurrencies — Bytecoin Blog](https://bytecoin.org/blog/attacks-in-world-of-cryptocurrency/)
-
-[Why I believe in the Blockchain — Medium](https://medium.com/@jamieelizabethsmith/why-i-believe-in-the-blockchain-b19bf2014fab#.8l0tkl7rk)
-
-
-## Bootcamps
-
-https://www.wired.com/story/how-we-learn-lambda-income-sharing-agreements/
-
 
 ## Books
 
@@ -227,6 +212,13 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 [What DeLillo book do you think is underrated? : DonDeLillo](https://www.reddit.com/r/DonDeLillo/comments/jlps9b/what_delillo_book_do_you_think_is_underrated/)
 
 [FAQ: What books are DeLillo 'must reads' (Major DeLillo)? Which are 'read if interested' (Minor DeLillo)? How would you rank the works you've read? (Responses will be added to sub wiki) : DonDeLillo](https://www.reddit.com/r/DonDeLillo/comments/j8x6ix/faq_what_books_are_delillo_must_reads_major/)
+
+
+## Docker
+
+[How I shrunk a Docker image by 98.8% – featuring fanotify | Yet another enthusiast blog!](https://blog.jtlebi.fr/2015/04/25/how-i-shrunk-a-docker-image-by-98-8-featuring-fanotify/)
+[10 things to avoid in docker containers – Red Hat Developer Blog](http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/)
+
 
 
 ## Drones
@@ -786,11 +778,6 @@ https://carreau.gitbooks.io/jupyter-book/content/notebook-extensions.html
 [Lisp as the Maxwell’s equations of software | DDI](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
 
 
-## Literary Criticism
-
-> Last week James Wood blasted modern fiction, calling for a return to feeling from self-conscious cleverness in the wake of the terrorist attacks. Zadie Smith, one of the novelists he cited, replies --- [This is how it feels to me | Books | The Guardian](http://www.theguardian.com/books/2001/oct/13/fiction.afghanistan)
-
-
 ## Los Angeles
 
 [Dear LAist: Why Is Traffic Lighter On Friday Mornings? : LAist](https://laist.com/2019/06/07/dear_laist_why_is_traffic_lighter_on_friday_mornings.php)
@@ -1101,20 +1088,6 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 [Beginners Guide: Apache Spark Machine Learning Scenario With A Large Input Dataset | Full Stack ML](http://fullstackml.com/2015/10/29/beginners-guide-apache-spark-machine-learning-scenario-with-a-large-input-dataset/)
 
 
-## Standing Desks
-
-[IKEA desk hack. Finnvard trestles and linnmon table top to make the desk. Ribba picture frames and lack wall shelf for monitor stand. Ad... | Desk hacks, Ikea desk, Monitor stand diy](https://www.pinterest.com/pin/370561875564007410/)
-
-[RISSLA Desk pad - black - IKEA](https://www.ikea.com/us/en/p/rissla-desk-pad-black-40246156/)
-
-[My Awesome Standing Desk Ikea Hack - Soulchaser](http://www.soulchaser.com/my-awesome-standing-desk-ikea-hack/)
-
-[Powered Monitor Stand Hack: 11 Steps (with Pictures)](https://www.instructables.com/id/Monitor-Stand-Hack/)
-
-[Hacking an "Adjustable" Standing Desk -- ProfHacker - Blogs - The Chronicle of Higher Education](https://www.chronicle.com/blogs/profhacker/hacking-an-adjustable-standing-desk/55881)
-
-[Ikea desk hack. Battlestation. Hammarp counter top. Alex drawers. Acer predator monitor. | Ikea desk, Diabetic dog, Desk](https://www.pinterest.com/pin/23081016825429943/)
-
 
 ## Stats
 
@@ -1253,13 +1226,3 @@ https://archive.org/details/nsacryptolog
 
 [Discworld - Wikipedia](https://en.wikipedia.org/wiki/Discworld#Novels)
 
-
-## Zig
-
-[Ziglang - reddit](https://www.reddit.com/r/Zig/)
-
-[zig - GitHub Topics](https://github.com/topics/zig)
-
-[nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig)
-
-[Newest 'zig' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/zig)

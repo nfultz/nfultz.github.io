@@ -1,28 +1,15 @@
-R is the hottest stat package now.
-
-The most important feature R provides is extensibility. Most of the major improvements it offers over other competitors are not in base R, but rather are developed by third parties in industry or academia.
-
 Although not on CRAN, [colorout](http://www.lepem.ufc.br/jaa/colorout.html) is a sweet package that will colorize your output. Although not on CRAN, you can still install it with a one-liner:
 
-> install.packages(repos=NULL, "http://www.lepem.ufc.br/jaa/colorout_1.1-0.tar.gz")
+    install.packages(repos=NULL, "http://www.lepem.ufc.br/jaa/colorout_1.1-0.tar.gz")
+    #or
+    devtools::install_github("colorout", "jalvesaq")
 
-> #or
 
-> devtools::install_github("colorout", "jalvesaq")
-
-Graphics are provided by [[ggplot2]] and [[lattice]] packages in addition to [[base graphics]].
-
-[[Rcpp]] is an R package for easily integrating [[C++]], usually for performance.
-
-[[roxygen2]] provides inline documentation for R packages, so you don't have to maintain Rd files by hand.
 
 Also be sure to install <code><pre>apt-get install texinfo texlive-fonts-extra</pre></code> to build package manauls cleanly. --- [Diagnosing R package build warning: "LaTeX errors when creating PDF version" - Stack Overflow](http://stackoverflow.com/questions/10819959/diagnosing-r-package-build-warning-latex-errors-when-creating-pdf-version)
 
 
 
-
-
-[[RStudio]] is a p solid IDE for R.
 
 [RPubs - Regex Performance](http://rpubs.com/jonclayden/regex-performance)
 
