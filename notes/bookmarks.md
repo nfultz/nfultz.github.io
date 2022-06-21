@@ -1150,6 +1150,36 @@ https://archive.org/details/nsacryptolog
 
 [We Are Now At Peak TED — Backchannel — Medium](https://backchannel.com/we-are-now-at-peak-ted-c4fc4926bf20#.l6z3thhln)
 
+## UNIX
+
+[tkatchev / tab — Bitbucket](https://bitbucket.org/tkatchev/tab)
+
+[since: Stateful Tail](http://welz.org.za/projects/since)
+
+[GNU Recutils - GNU Project - Free Software Foundation](http://www.gnu.org/software/recutils/)
+
+[cadaver - command-line WebDAV client](http://www.webdav.org/cadaver/)
+
+[Command-line tools can be 235x faster than your Hadoop cluster - Adam Drake](http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+
+[Terminals Are Weird](http://catern.com/posts/terminal_quirks.html)
+
+[The TTY demystified](http://www.linusakesson.net/programming/tty/index.php)
+
+[Tunnel SSH Connections Over SSL Using 'Stunnel' On Debian 7 / Ubuntu 13.10 | Unixmen](http://www.unixmen.com/tunnel-ssh-connections-ssl-using-stunnel-debian-7-ubuntu-13-10/)
+
+[Imaginary/Real: shmake - A Shell-based Build Tool](http://steved-imaginaryreal.blogspot.co.uk/2015/05/shmake-shell-based-build-tool.html)
+
+[Unix Toolbox](http://cb.vu/unixtoolbox.xhtml)
+
+[Practical Reusable Unix Software (PDF)](http://web.archive.org/web/20031215023357/http://www.research.att.com/~gsf/publications/prus-1995-1.pdf)
+
+https://www.arp242.net/the-art-of-unix-programming/
+
+https://diamantidis.github.io/tips/2020/07/01/list-makefile-targets
+
+
+
 
 ## Vim
 
@@ -1206,6 +1236,20 @@ https://archive.org/details/nsacryptolog
 [Vimb - The Vim like Browser](http://fanglingsu.github.io/vimb/)
 
 [How do I highlight every 3rd digit of large numbers? : vim](https://www.reddit.com/r/vim/comments/4m44eg/how_do_i_highlight_every_3rd_digit_of_large/)
+
+
+## Visualization
+
+
+[A Compendium of Clean Graphs in R](http://shinyapps.org/apps/RGraphCompendium/index.php#introduction)
+
+[Vizipedia](http://www.vizipedia.com/)
+
+[PLOS Biology: Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
+
+[Plotly Blog - How To Analyze Data: Seven Modern Remakes Of The...](http://blog.plot.ly/post/120532468127/how-to-analyze-data-seven-modern-remakes-of-the)
+
+[Tufte in R](http://motioninsocial.com/tufte/)
 
 
 ## VOTOMS
