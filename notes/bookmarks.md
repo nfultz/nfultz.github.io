@@ -1044,6 +1044,23 @@ In Hadean Lands, which is available on iOS, MacOS, Windows, and Linux, you play 
 
 [saved by the belding](https://web.archive.org/web/20150422022847oe_/https://r4---sn-a5m7zu7z.googlevideo.com/videoplayback?ipbits=0&pl=21&dur=1199.589&itag=22&fexp=900720%2C907263%2C934954%2C938028%2C9407115%2C9408025%2C9408347%2C947233%2C948124%2C948703%2C951703%2C952637%2C957201&sparams=dur,expire,id,initcwndbps,ip,ipbits,itag,mime,mm,ms,mv,pl,ratebypass,requiressl,source,upn&id=o-ACn8NT_LTOYRL8doJ41jtLz_aM57xybWB1a6L3Fn5zS0&ip=207.241.237.185&sver=3&signature=50B1C4EBF4CE89D3C7505B3CA454C056D4CE069D.523C87D8C533599B281583375EFDCC8EDF3B8FCB&source=youtube&upn=SZMRnHXL-ZE&requiressl=yes&mime=video%2Fmp4&ratebypass=yes&expire=1429691272&key=cms1&signature=&redirect_counter=1&req_id=3033b932ef27a3ee&cms_redirect=yes&mm=26&ms=tsu&mt=1429669638&mv=m)
 
+## Security
+
+
+[How to Remove Superfish Adware From Your Lenovo Computer | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2015/02/how-remove-superfish-adware-your-lenovo-computer)
+
+[Schneier on Security: Everyone Wants You To Have Security, But Not from Them](https://www.schneier.com/blog/archives/2015/02/everyone_wants_.html)
+
+[Automated Scanning of Firefox Extensions is Security Theater (And Here’s Code to Prove It) – Dan Stillman](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater)
+
+[Auditing GitHub users' SSH key quality](https://blog.benjojo.co.uk/post/auditing-github-users-keys)
+
+[People Who Could Really Break The Internet | Cloudmark Security Blog](http://blog.cloudmark.com/2015/03/05/people-who-could-really-break-the-internet/)
+
+[Antisec Movement - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Antisec_Movement)
+
+[Survival Tips For The Security Skills Shortage](http://www.darkreading.com/operations/survival-tips-for-the-security-skills-shortage/a/d-id/1320842)
+
 
 ## Self Help
 

@@ -20,49 +20,7 @@ For non-sauce flavor, I use:
   * Tajin
   * Shichimi Togarashi🌶️
 
-Amy got me some spicy stuff from Taiwan. Thanks Amy!
-
-  * Yun Hai Su Spicy Chili Crisp - "An oil of one hundred sensations."🌶️
-  * TK Food Garlic Chili
-
-For my birthday, I got a [Hot Ones][] gift set. Thanks Ira!
-
-  * Clark+Hopkins Quintana Roo
-  * Pirate's Lantern Hot Bajan BBQ
-  * Torchbearer Sauces' Habenero Evil - "Accidentally Healthy, Intentionally Delicious"🌶️
-
-My mother got me an Ass Kickin' gift set, plus a bonus. Thanks mom!
-
-  * Ass Kickin Original
-  * Ass Kickin Roasted Garlic
-  * Ass Kickin Cajun
-  * Ass Kickin Wasabi
-  * Aztecs Revenge Chipotle Burning Revenge🌶️
-
-Ravin hooked me up with a bottle of Sweet Greens "Old Flame"! Thanks!
-
-Sean and Muriel gave me Island Spice Scotch Bonnet Pepper Sauce! Awesome!
-
-Got a Hot Ones Stay Spicy set for Christmas, thanks Irina!
-
-  * The Classic Pepper X
-  * Los Calientes Roja
-  * The Last Dab Chile De Arbol
-
-And truffle hot sauce, thanks Mom!
-
-  * Truffle Tango
-  * Truff
-  * Trufflin Sriracha
-
-Finally scored some Old Bay Hot Sauce (limited edition)! w00t!
-
-For Christmas 21, my mom got me:
-
-  * Yellowbird
-  * Kuman Avocado Sauce
-
-Thanks Mom!
+I scored a bottle of Taco Bell Diablo from 99c store! w00t!
 
 Wishlist:
 
