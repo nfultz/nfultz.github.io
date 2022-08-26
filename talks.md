@@ -1,5 +1,9 @@
 <!-- njnmdoc: title="Talks"  -->
 
+## 2022
+
+  * Aug 13 - DataCon - _PaCMAP Ensembles_ [[slides]](http://bit.ly/3vwx0W3) [[video]](https://youtu.be/R4HEt0XyYTA)
+
 ## 2021
 
   * Nov 23 - CEU Business Analytics Seminar - _njnm in a Nutshell: A Three Year Retrospective_ [[slides]](https://bit.ly/3I0LVwE)
