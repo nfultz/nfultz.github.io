@@ -69,13 +69,6 @@ https://en.wikipedia.org/wiki/Bullet_LaVolta
 http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventually.html
 
 
-## Bullshit
-
-[Why bullshit is no laughing matter — Aeon Opinions](https://aeon.co/opinions/why-bullshit-is-no-laughing-matter)
-
-[Fuck Nuance](http://kieranhealy.org/files/papers/fuck-nuance.pdf)
-
-
 ## Collaborative Filtering
 
 [Collaborative Filtering : Implementation with Python! - Artificial Intelligence in Motion](http://aimotion.blogspot.com/2009/11/collaborative-filtering-implementation.html)
@@ -125,10 +118,6 @@ http://onebaseonanoverthrow.blogspot.com/2008/02/gun-didnt-know-id-suck-eventual
 
 https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will-force-you-to-look-in-the-mirror-1.5280674
 
-
-## Crime
-
-[How a Rumor Sent a Teen to Prison for Murder in Vegas - The Intercept](https://firstlook.org/theintercept/2015/03/12/murderinvegas/)
 
 
 ## Cyberpunk
@@ -478,8 +467,6 @@ https://www.cbc.ca/arts/you-ve-changed-since-2016-we-all-have-and-this-show-will
 [How to Use Hyperfocus for Success // ONE37pm](https://www.one37pm.com/grind/productivity/how-to-use-hyperfocus-for-success)
 
 <https://pinboard.in/t:gtd>
-
-[https://s3.amazonaws.com/academia.edu.documents/31306993/GTDGregg.pdf?response-content-disposition=inline%3B filename%3DGetting_Things_Done_Productivity_self-m.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200311T030644Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=061c3e446596523d851d865ecc2045188267d5d2c9fb8de3c87f72c9b308ad95](https://s3.amazonaws.com/academia.edu.documents/31306993/GTDGregg.pdf?response-content-disposition=inline%3B%20filename%3DGetting_Things_Done_Productivity_self-m.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200311T030644Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=061c3e446596523d851d865ecc2045188267d5d2c9fb8de3c87f72c9b308ad95)
 
 ["I lie to myself that i have freedom in my own schedule"](https://dl.acm.org/doi/pdf/10.1145/1978942.1979077?casa_token=Jdqz_6eyfzwAAAAA:iIHvCWLRbgNAeVfCrdHu2TM0MG6JWrG0KEdF2x61C8V4e76BxjNOgwd03BftqNajL_-tftwm9Tqi)
 
@@ -940,8 +927,6 @@ http://p3rl.org/PDL::Stats
 
 [LedgerTips (@LedgerTips) / Twitter](https://twitter.com/ledgertips?lang=en)
 
-[hledger — hledger documentation](https://hledger.org/)
-
 [Plain Text Accounting with ledger and ledger-likes](https://www.reddit.com/r/plaintextaccounting/)
 
 [Plain Text Accounting with Ledger - Jack Baty - Medium](https://medium.com/@jackbaty/plain-text-accounting-with-ledger-3ec5b27ef0a8)
@@ -961,12 +946,6 @@ http://p3rl.org/PDL::Stats
 [Ledger CLI cheatsheet](https://devhints.io/ledger)
 
 [Set effective date and payee in posting's metadata in ledger-cli : plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/comments/etf9fe/set_effective_date_and_payee_in_postings_metadata/)
-
-[Beancount - Index - Google Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)
-
-[Beancount - Cookbook - Sharing Expenses - Google Docs](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit)
-
-[Beancount - Running &amp; Reports - Google Docs](https://docs.google.com/document/d/1e44jtLyVRl2H2Pj4K3WUc66otAlTOFOc90-tsrFEQdo/edit#heading=h.4q31mvini2f7)
 
 
 ## Programming Language Development
@@ -1060,11 +1039,6 @@ In Hadean Lands, which is available on iOS, MacOS, Windows, and Linux, you play 
 [Antisec Movement - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Antisec_Movement)
 
 [Survival Tips For The Security Skills Shortage](http://www.darkreading.com/operations/survival-tips-for-the-security-skills-shortage/a/d-id/1320842)
-
-
-## Self Help
-
-[The untold story of Napoleon Hill](https://paleofuture.gizmodo.com/the-untold-story-of-napoleon-hill-the-greatest-self-he-1789385645)
 
 
 ## Singularity
@@ -1223,8 +1197,6 @@ https://diamantidis.github.io/tips/2020/07/01/list-makefile-targets
 
 [How to boost your Vim productivity · sheerun](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 
-[Vim Reddit](http://www.reddit.com/r/vim)
-
 [weblog.sh - hosted blogging from the command-line](https://weblog.sh/)
 
 [Need some inspiration for your Vimrc? : vim](http://www.reddit.com/r/vim/comments/2z2fg0/need_some_inspiration_for_your_vimrc/)
@@ -1252,10 +1224,6 @@ https://diamantidis.github.io/tips/2020/07/01/list-makefile-targets
 [Tufte in R](http://motioninsocial.com/tufte/)
 
 
-## VOTOMS
-
-[Armored Trooper Votoms - Manga Wiki](https://manga.fandom.com/wiki/Armored_Trooper_Votoms)
-
 
 ## Web 2.0
 
@@ -1267,6 +1235,8 @@ https://diamantidis.github.io/tips/2020/07/01/list-makefile-targets
 [In the Early 1900s, Robber Barons Bought Dozens of Centuries-Old European Buildings. Where is Medieval America Now? | Atlas Obscura](http://www.atlasobscura.com/articles/in-the-early-1900s-dozens-of-centuriesold-european-buildings-came-to-america-where-is-medieval-america-now)
 
 [We Buy Broken Gold | Lapham’s Quarterly](http://laphamsquarterly.org/swindle-fraud/we-buy-broken-gold)
+
+[The untold story of Napoleon Hill](https://paleofuture.gizmodo.com/the-untold-story-of-napoleon-hill-the-greatest-self-he-1789385645)
 
 
 ## Wikipedia
