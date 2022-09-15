@@ -2,7 +2,8 @@
 
 ## 2022
 
-  * Aug 13 - DataCon - _PaCMAP Ensembles_ [[slides]](http://bit.ly/3vwx0W3) [[video]](https://youtu.be/R4HEt0XyYTA)
+  * Sep 15 - UCLA Professional Development Program - _Winning with Data_
+  * Aug 13 - DataCon LA - _PaCMAP Ensembles_ [[slides]](http://bit.ly/3vwx0W3) [[video]](https://youtu.be/R4HEt0XyYTA)
 
 ## 2021
 
