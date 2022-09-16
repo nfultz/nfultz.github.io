@@ -1070,7 +1070,6 @@ https://blog.kjamistan.com/the-practice-of-programming-18-years-later/
 
 ## Spark
 
-[Downloads | Apache Spark](http://spark.apache.org/downloads.html)
 
 [Skip the Ph.D and Learn Spark, Data Science Salary Survey Says](http://www.datanami.com/2015/11/04/skip-the-ph-d-and-learn-spark-data-science-salary-survey-says/)
 
