@@ -1,4 +1,4 @@
-<!-- njnmdoc:  title="nfultz.github.io menu"  -->
+<!-- njnmdoc:  title="menu"  -->
 <base target="main"/>
 
   * [Now](now) & [Feeds](feeds)
