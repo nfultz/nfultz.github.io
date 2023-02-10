@@ -3,7 +3,7 @@
 
   * [Now](now) & [Feeds](feeds)
   * [Talks](talks)
-  * [Notes](#)
+  * Notes
     * [Hot Sauces](notes/hotsauce.html)
     * [Linux](notes/computer/linux.html)
     * [Windows](notes/computer/windows.html)

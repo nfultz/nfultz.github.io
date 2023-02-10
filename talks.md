@@ -2,6 +2,7 @@
 
 ## 2022
 
+  * Dec 17 - IDEAS - _Reject Inference and the Causal Connection_ [[slides]](http://bit.ly/3YdadLG) [[video]](https://www.youtube.com/watch?v=piUZhjCx6nk)
   * Sep 15 - UCLA Professional Development Program - _Winning with Data_
   * Aug 13 - DataCon LA - _PaCMAP Ensembles_ [[slides]](http://bit.ly/3vwx0W3) [[video]](https://youtu.be/R4HEt0XyYTA)
 

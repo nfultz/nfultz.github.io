@@ -1,17 +1,5 @@
 <!-- njnmdoc:  title="nfultz.github.io"  -->
 
-## Hello, world!
-
-
-  * [Now](now) & [Feeds](feeds)
-  * [Talks](talks)
-  * [Notes](#)
-    * [Hot Sauces](notes/hotsauce.html)
-    * [Linux](notes/computer/linux.html)
-    * [Windows](notes/computer/windows.html)
-    * [Projects](notes/programming/projects.html)
-
-
 ## About
 
 This is the third iteration of my personal notetaking repository, having gone
