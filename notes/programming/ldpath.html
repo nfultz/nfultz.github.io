@@ -1,0 +1,262 @@
+<html>
+<head>
+<title>Why LD_LIBRARY_PATH is bad</title>
+</head>
+<body bgcolor="#FFFFFF" fgcolor="#000000">
+<H1>Why LD_LIBRARY_PATH is bad</H1>
+
+By <a href="http://www.visi.com/~barr/">David Barr, barr@visi.com</a>
+
+<p>Copied from Internet Archive, https://web.archive.org/web/20060713225354id_/http://www.visi.com/~barr/ldpath.html
+
+<H2>Background</H2>
+This is one system administrator's point of view why LD_LIBRARY_PATH,
+as frequently used, is bad.  This is written from a SunOS 4.x/5.x (and to
+some extent Linux) point of view, but this also applies to most other
+UNIXes.<P>
+
+<H2>What LD_LIBRARY_PATH does</H2>
+
+LD_LIBRARY_PATH is an environment variable you set to give the run-time
+shared library loader (ld.so) an extra set of directories to look for
+when searching for shared libraries.  Multiple directories can be listed,
+separated with a colon (:).  This list is <em>prepended</em> to the
+existing list of compiled-in loader paths for a given executable, and
+any system default loader paths.<p>
+
+For security reasons, LD_LIBRARY_PATH is ignored at runtime for
+executables that have their setuid or setgid bit set.  This
+severely limits the usefulness of LD_LIBRARY_PATH.
+
+<H2>Why was it invented?</H2>
+
+There were a couple good reasons why it was invented:
+
+<ul>
+<li>To test out new library routines against an already compiled
+binary (for either backward compatibility or for new feature testing).
+<li>To have a short term way out in case you wanted to move a set of
+shared libraries to another location.
+</ul>
+
+As an often unwanted side effect, LD_LIBRARY_PATH will also be searched
+at link (ld) stage after directories specified with <tt>-L</tt> (also if
+no <tt>-L</tt> flag is given).
+
+Some good examples of how LD_LIBRARY_PATH is used:
+<ul>
+<li>When upgrading shared libraries, you can test out a library before
+replacing it.
+<li>In a similar vein, in case your upgrade program depends on shared
+libraries and may freak out if you replace a shared library out from under
+it, you can use LD_LIBRARY_PATH to point to a directory with copy of a 
+shared libraries and then you can replace the system copy without
+worry.  You can even undo things should things fail by moving the copy
+back.
+<li>X11 uses LD_LIBRARY_PATH during its build process.  X11 distributes its
+fonts in "bdf" format, and during the build process it needs to "compile"
+the bdf files into "pcf" files.  LD_LIBRARY_PATH is used to point the the
+build lib directory
+so it can run bdftopcf during the build stage before the shared libraries
+are installed.
+<li>Perl can be installed with most of its core code as a shared library.
+This is handy if you embed Perl in other programs -- you can compile them
+so they use the shared library and so you'll save memory at run time.
+However Perl uses Perl scripts at various points in the build and install
+process.  The 'perl' binary won't run until its shared libraries are
+installed, unless LD_LIBRARY_PATH is used to bootstrap the process.
+</ul>
+
+<H2>How has it been corrupted?</H2>
+
+Too often people use it as a crutch for not doing the right thing
+(i.e. relying on the compiled in path).  Often programs (even commercial
+ones) are compiled without any run-time loader paths at all, <em>forcing</em>
+you to have LD_LIBRARY_PATH set or else the program won't run.<p>
+
+LD_LIBRARY_PATH is one of those insidious things that once it gets
+set globally for a user, things tend to happen which cause people to
+rely on it being set.  Eventually when LD_LIBRARY_PATH needs to be
+changed or removed, mass breakage will occur!<p>
+
+<H2>How does the shared loader work?</H2>
+
+SunOS 4.x uses major and minor revision numbers.  If you have a
+library <tt>Xt</tt>, then it's named something like <tt>libXt.so.4.10</tt>
+(Major version
+4, minor 10).  If you update the library (to correct a bug, for example),
+you would install libX11.so.4.11 and applications would automatically
+use the new version.  To do this, the loader must do a readdir() for every
+directory in the loader path and glob out the correct file name.  This
+is quite expensive especially if the directories are large, contain
+symlinks, and/or are located over NFS.<p>
+
+Linux, SunOS 5.x and most other SYSV variants use only major revision
+numbers.  A library <tt>Xt</tt> is just named something like
+<tt>libXt.so.4</tt>.  (Linux confuses things by generally using
+major/minor library file names, but always include a symlink that is
+the actual library path referenced.  So, for example, a library
+"libXt.so.6" is actually a symlink to "libXt.so.6.0".  The linker/loader
+actually looks for "libXt.so.6".)<p>
+
+The loader works essentially the same except that you don't have minor
+library updates (you update the existing library) and the loader just
+does a stat() for each directory in the loader path.  (This is much
+faster)<p>
+
+<H2>The bad old days before separate run-time vs link-time paths</H2>
+
+Nowadays you specify the run-time path for an executable at link stage
+with the <tt>-R</tt> (or sometimes <tt>-rpath</tt>) flag to
+<tt>ld</tt>.  There's also LD_RUN_PATH which is an environment
+variable which acts to <tt>ld</tt> just like specifying
+<tt>-R</tt>.<p>
+
+Before all this you had only <tt>-L</tt>, which applied not only
+during compile-time, but during run time as well.  There was no way to
+say "use this directory during compile time" but "use this other
+directory at run time".  There were some rather spectacular failure
+modes that one could get in to because of this.  For example, say you
+are building X11R6 in an NFS automounted directory
+<tt>/home/snoopy/src</tt>.  X11R6 is made up of shared libraries as
+well as programs.  The programs are compiled against the libraries when
+they are located in the build tree, not in their final installed
+location.  Since the linker must resolve symbols at link time, you need
+a <tt>-L</tt> path that includes the link-time path <em>in addition
+to</em> the final run-time path of, say,
+<tt>/usr/local/X11R6/lib</tt>.  Now all the programs which use
+shared libraries will look <em>first</em> in
+<tt>/home/snoopy/src</tt> for their libraries and then in the
+correct place.  Now every time an X11R6 app starts up it NFS automounts
+its build directory!  You probably removed the temporary build
+directory ages ago, but the linker will still search there.  What's
+worse, say snoopy is down or no longer exists, no X11R6 apps will run!
+Bummer!  Happily this all has been fixed, assuming your OS has a modern
+linker/loader.  It also is worked around by specifying the final run time
+path first, before the build path in the <tt>-L</tt> options.<p>
+
+<H3>Evil Case Study #1</H3>
+
+My first experience with this breakage was under SunOS 4.x, with OpenWindows.
+For some dumb reason, a few Sun OpenWindows apps were not compiled with
+correct run-time loader paths, forcing you to have LD_LIBRARY_PATH set all
+the time.  Remember, at this time, in the
+global OpenWindows startup scripts the system would automatically set
+your LD_LIBRARY_PATH to be <tt>$OPENWINHOME/lib</tt>.<p>
+
+Okay, how did it break?  Well, it just so happens that this site also
+had compiled X11R4 from source, in /usr/local/X11R4 .  Things got
+really confusing because if you ever wanted to run the X11R4 apps, they
+would run against the OpenWindows libraries in
+<tt>/usr/openwin/lib</tt>, not the libraries in
+<tt>/usr/local/X11R4/lib</tt>!  Things got even more confusing once
+X11R5 and then X11R6 came out.  Now we had four different and often
+incompatible versions of a given shared library.<p>
+
+Hm.  What do you do?  If you set LD_LIBRARY_PATH to put OpenWindows
+first, then at best it will slow things down (since most people were
+running X11R5 and X11R6 stuff, searching for libraries in 
+<tt>/usr/openwin/lib</tt> was a waste).  At worst it caused
+spurious warnings ("ld.so: warning: libX11.x.y has older revision than
+expected z") or caused apps to break altogether due to incompatibilities.
+It was also confusing to lots of people trying to compile X apps and
+forget to use <tt>-L</tt>.
+
+What did I do?  I whipped out emacs and binary edited the few OpenWindows
+apps which didn't have a correct run-time path compiled in, and changed
+to the correct location in /usr/openwin/lib.  (it should be noted that
+these tended to be apps which were fixed with system patches.. alas
+it seems guys who build the patched versions didn't have the same
+environment as the FCS guys).  I then changed all the startup scripts
+and removed any "setenv LD_LIBRARY_PATH" statements.  I even put in
+an "unsetenv LD_LIBRARY_PATH" in my own .cshrc for good measure.
+
+<H3>Evil Case Study #2</H3>
+
+(based on a true story).<P>
+
+Due to licensing issues, it's common for commercial apps to ship
+in binary form a copy of the shared Motif library.  Motif is a commercial
+product, and not all OS's come with it.  It's a common toolkit
+for commercial programs to write applications against.  It's also
+an evolving product, with ongoing bugfixes and new features.<p>
+
+Say application WidgetMan is one such application.  In its startup script,
+it sets LD_LIBRARY_PATH to point to its copy of Motif so it uses that
+one when it runs.  As it happens, WidgetMan is designed to launch
+other programs too.  Unfortunately, when WidgetMan launches other apps,
+they inherit the LD_LIBRARY_PATH setting and some Motif based apps
+now break when run from WidgetMan because WidgetMan's Motif is incompatible
+with (but the same library version as) the system Motif library.  Bummer!<p>
+
+Imagine if you had followed what some clueless commercial install apps
+tell you to do and set LD_LIBRARY_PATH <em>globally</em>!<p>
+
+<H2>Half-hearted attempts to improve things</H2>
+
+Some OS's (e.g. Linux) have a configurable loader.  You can
+configure what run-time paths to look in by modifying
+<tt>/etc/ld.so.conf</tt>.  This is almost as bad a LD_LIBRARY_PATH!
+Install scripts should <em>never</em> modify this file!  This file
+should contain only the standard library locations as shipped with the OS.
+
+<H1>Canonical rules for handling LD_LIBRARY_PATH</H1>
+
+<ol>
+<li>Never <em>ever</em> set LD_LIBRARY_PATH globally.<p>
+
+<li>If you must ship binaries that use shared libraries and want to allow
+your clients to install the program outside a 'standard' location, do
+one of the following:
+<ul>
+<li>Ship your binaries as .o files, and as part of the install process
+relink them with the correct installation library path.
+<li>Ship executables with a very long "dummy" run-time library path, and
+as part of the install process use a binary editor to substitute
+the correct install library path in the executable.
+</ul>
+<li>If you are forced to set LD_LIBRARY_PATH, do so <em>only</em> as part of
+a wrapper.<p>
+</ol>
+
+Some software packages make you install a symlink from the standard location
+pointing to the real location.  While this 'works', it does not solve
+the problem.  What if you need to have two versions installed?  Not
+to mention the fact that many vendors seem to choose stupid locations
+as their 'standard' location (like putting them in '/' or '/usr').  This
+also typically makes things difficult for network installations, since
+even though you install an application on a network directory, you need
+to go around to every computer on the network and make a symlink.
+
+<H1>Thoughts on improving LD_LIBRARY_PATH implementations in UNIX</H1>
+
+<ul>
+<li>Remove the link-time aspect of LD_LIBRARY_PATH.  (Solaris's <tt>ld</tt>
+will do this with the <tt>-i</tt> flag).  Too often people
+just lazily set LD_LIBRARY_PATH so they don't have to specify <tt>-L</tt>,
+causing bad consequences at run time for other apps.  Or on the flip side
+people will set LD_LIBRARY_PATH to fix some brokenness at run time with
+some app, but it will lead to confusion or breakage at compile time for
+some other app if they don't specify a correct <tt>-L</tt> path.  It
+would be much cleaner if LD_LIBRARY_PATH only had influence at run-time.
+If necessary, invent some other environment variable for the job
+(LD_LINK_PATH ?).
+<li>Have OS's ship with programs which allow one to safely change
+an executable's run-time linker path.
+<li>Implement <tt>-s</tt> option
+to <tt>ldd</tt> which prints this run-time path for a given executable.
+(You can also see this with 'dump -Lv' in Solaris.)
+<li>Solaris 7 has a neat idea.  There you can can specify a run time path
+which is also evaluated at run time.  You link with an rpath of
+<tt>$ORIGIN/../lib</tt>.  Here, $ORIGIN evaluates at run time to be
+the installation path of the binary.  Now you can move the installation
+tree to another location entirely and everything will still work.
+We need this in other OS's!  Unfortunately, at least in Solaris 7,
+$ORIGIN is considered a "relative" path (you can subvert it if
+you have a writable directory on the same filesystem because
+UNIX lets you hard link even a setuid executable) so it is
+ignored on setuid/setgid binaries.  Sun has fixed this in Solaris
+8.  You can specify with crle(1) paths that are "trustworthy".
+</ul>
+</body>
+</html>
