@@ -528,3 +528,15 @@ To mount a WebDAV share on linux, download the davfs2 package and run:
 $ mount -t davfs http://example.com /mnt/dir
 
 https://github.com/pimutils/vdirsyncer
+
+### GNOME
+
+#### Set an Always on Top keyboard shortcut on GNOME desktop
+
+from https://www.linuxuprising.com/2020/12/how-to-use-keyboard-shortcut-to-toggle.html
+
+GNOME doesn't have a default keyboard shortcut for Always on Top any more (it used to have Alt + Space, then t), but there is an option to set your own keyboard shortcut for this window feature. The option is not exposed in Settings - > Keyboard Shortcuts though.
+
+Dconf Editor Always on Top
+
+To access the option that allows setting a keyboard shortcut for Always on Top, open Dconf Editor and go to /org/gnome/desktop/wm/keybindings. There, set a keyboard shortcut for always-on-top in this form (example): ['<Alt>1'], ['<Control>2'], ['<Control><Shift>a'] and so on, but obviously, set it to what you want to use for this. Disable the "Use default value" toggle to be able to enter a shortcut.

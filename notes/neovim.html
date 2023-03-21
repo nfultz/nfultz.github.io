@@ -1,0 +1,147 @@
+<html>
+    
+    <title>Neovim Notes</title>
+
+
+    <h1> Neovim Notes </h1>
+
+    <h2> Using old vim configs </h2>
+
+    Neovim has moved the location of default config under $XDG_CONFIG,
+    but there is a snippet to load them in:
+
+    <pre>
+
+    set runtimepath^=~/.vim runtimepath+=~/.vim/after
+    let &packpath = &runtimepath
+    source ~/.vim/vimrc
+
+    </pre>
+
+
+    <h2>cmdheight = 0</h2>
+
+    Vim doesn't allow one to hide the command line.
+
+    I had posted a half working patch to github in 2014:
+    <a href=https://github.com/neovim/neovim/issues/1004>[1]</a>.
+
+    It was finally fully implemented by a guy from japan in 2022:
+    <a href=https://github.com/neovim/neovim/pull/16251>[2]</a>
+
+    <h2>Plugin Ecosystem</h2>
+
+    Neovim can use vim plugins, but it also supports plugins written in lua.
+
+    Apparently the most popular plugin manager is 
+    <a href=https://github.com/wbthomason/packer.nvim>packer.nvim</a>
+
+    To install it, clone the repository into your home directory:
+
+    <pre>
+    git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+    </pre>
+
+    You can then activate it by adding the below to your init.vim:
+
+    <pre>
+    lua require('plugins')
+    </pre>
+
+
+    <h2>Language Server Protocol</h2>
+
+    <p>LSP is an api that allows language-specific IDE features such
+    as jumping to defintions, which largely replaces the tags features
+    in regular vim.
+
+    <p> While neovim has a built in client, it does not come with the LSP
+    server nor with any integration with the user interface. More plugins 
+    are required.
+
+    <p> The below plugins can be installed via packer by adding them to 
+    `plugins.lua`:
+
+    <pre>
+      use {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
+      }
+    </pre>
+
+    <p> `mason.vim` is a package manger neovim
+    for installing external editor tools such as 
+    LSP servers, debuggers, linters, formatters, and so on
+    that are not themselves vim plugins.
+
+    <p> `nvim-lspconfig` is the official if not officially
+    supported set of LSP configuration files for neovim.
+
+    <p> `mason-lspconfig.nvim` is an adaptor package
+    to allow mason to install and configure LSP.
+
+    <p> After incorporating the above use lines into your config,
+    you can trigger packer using `:PackerSync` in command mode.
+
+    <p> From there, you can enable the mason plugins by adding them
+    to the plugins.lua script:
+
+    <pre>
+      require("mason").setup()
+      require("mason-lspconfig").setup()
+    </pre>
+
+    <p>Assumming that worked, you can use `:LspInstall` and related commands
+    to download and install a mason packaged version of a LSP server
+    to your local configuration
+
+    <p>However, we are not done yet. While you can integrate the LSP
+    into the built-in OmniFunc completion, an autocompletion plugin is recommended.
+    <a href=https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion>[3]</a>
+
+    <p> `nvim-cmp` is the recommended autocomplete plugin. Add the below to
+    install it and it's dependencies:
+
+    <pre>
+      use { -- Autocompletion
+        'hrsh7th/nvim-cmp',
+        requires = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' }
+      }
+    </pre>
+
+    Don't forget to re-sync packer.
+
+    <p> Next, you have to configure the LSP plugin with the autocompletion capabilities:
+
+    <pre>
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+      require('lspconfig')['pyright'].setup{
+          capabilities = capabilities
+      }
+    </pre>
+
+    <p> Each LSP server you install and use will need to be configured in a similar manner.
+
+    <p> Finally, I recommend you add the key mappings as mentioned on the Autocompletion wiki page.
+
+    <h2> Copilot </h2>
+
+    After all that to get LSP autocompletion, it turns out the Copilot / GPT3 
+    is implemented completely differently anyways. See 
+    <a href=https://github.com/github/copilot.vim>copilot.vim</a>.
+
+    <h2> Mouse is always on </h2>
+
+    Neovim always compiles with mouse support. This is generally fine, but do note
+    that clicking in the window (eg to give it focus) will move the mouse cursor,
+    and Right Click is now a text-based context menu instead of the default X11 paste.
+
+
+
+
+
+
+</html>
