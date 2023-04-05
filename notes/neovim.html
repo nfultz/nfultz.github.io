@@ -18,6 +18,16 @@
 
     </pre>
 
+    <h2>undodir</h2>
+
+    Neovim has an incompatible undo format with base vim, so override
+    undodir in init.vim. I recommend following XDG in this case:
+
+    <code>
+    set undodir=~/.local/state/nvim/undodir
+    </code>
+
+
 
     <h2>cmdheight = 0</h2>
 
@@ -28,6 +38,20 @@
 
     It was finally fully implemented by a guy from japan in 2022:
     <a href=https://github.com/neovim/neovim/pull/16251>[2]</a>
+
+    <h2>Trailing Tildes</h2>
+
+    Vim has forever used ~s as filler characters at the end of the buffer.
+
+    In neovim, this behavior can be disabled with:
+
+    <pre>
+    set fcs=eob:\ 
+    </pre>
+
+    With a trailing space, so that space is the character printed instead.
+
+
 
     <h2>Plugin Ecosystem</h2>
 
@@ -136,7 +160,11 @@
 
     <p> Finally, I recommend you add the key mappings as mentioned on the Autocompletion wiki page.
 
-    <h2> Copilot </h2>
+    <p> <em>NB:</em> Many LSPs are implemented in js and require a new(ish) version of node to function.
+    If you get "Client Errors" when nvim tries to start an LSP, check the log using <code>:LspLog</code>
+    and potential upgrading node.
+
+    <h2> TODO: Copilot </h2>
 
     After all that to get LSP autocompletion, it turns out the Copilot / GPT3 
     is implemented completely differently anyways. See 
