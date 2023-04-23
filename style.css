@@ -3,8 +3,8 @@
 }
 
 body {
-    background-image: url(/bg02.webp)
-
+    background-image: url(/bg02.webp);
+    padding: 2ch;
 }
 
 header {
