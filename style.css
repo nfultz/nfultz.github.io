@@ -2,6 +2,10 @@
     font-family: sans-serif
 }
 
+body {
+    background-image: url(/bg02.webp)
+
+}
 
 header {
     text-align: center
