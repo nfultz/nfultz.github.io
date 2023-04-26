@@ -96,7 +96,8 @@ xrandr --output HDMI-A-0 --mode "1024x600_60.00"
   * `sudo apt install network-manager-openconnect-gnome`
   * Start `nm-applet` - this may require the gnome-tweak to show indicators
       * https://bugzilla.redhat.com/show_bug.cgi?id=1394977
-  * Better debugging: ```
+  * Better debugging:
+```
 sudo nmcli general logging level TRACE
 journalctl -u NetworkManager --since '2 minutes ago'
 ```
@@ -114,7 +115,8 @@ journalctl -u NetworkManager --since '2 minutes ago'
 ## Enable Bluetooth at boot
 
   * From [TomTom](https://unix.stackexchange.com/a/199088/50441):
-  * Add to /etc/udev/rules.d/10-local.rules :```
+  * Add to /etc/udev/rules.d/10-local.rules :
+```
  # Set bluetooth power up
 ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
 ```
@@ -122,7 +124,8 @@ ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
 ## Fix crackling audio on HDMI
 
   * From [Gav](https://askubuntu.com/questions/405071/static-and-crackling-in-my-hdmi-audio):
-  * Edit /etc/pulse/default.pa :```
+  * Edit /etc/pulse/default.pa :
+```
 # add tsched=0 to udev-detect
 load-module module-udev-detect tsched=0
 ```
