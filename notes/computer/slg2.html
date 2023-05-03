@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"><title>SGL2 Notes</title>
+        <link rel='stylesheet' type='text/css' href='/style.css' />
+    </head>
+    <body>
+        <header><h1>SGL2 Notes</h1></header>
+<article><!-- raw HTML omitted -->
+<h2>Setup Notes</h2>
+
+<p><b>NB:</b> In BIOS, change SecureBoot to MS and Other, will not boot a thumb drive
+otherwise </p>
+
+<pre><code>
+
+sudo apt install extrepo
+sudo extrepo enable surface-linux && sudo apt update
+sudo apt install linux-image-surface linux-headers-surface libwacom-surface iptsd
+sudo apt install linux-surface-secureboot-mok
+# Reboot, choose install on blue screen, password is 'surface'
+
+sudo update-grub
+# Reboot again
+
+# Deal with thermal rate limiting less harshly
+cd /etc/thermald/
+sudo wget https://raw.githubusercontent.com/linux-surface/linux-surface/master/contrib/thermald/surface_laptop_go_2/thermal-conf.xml
+
+# Too minimal
+sudo apt install gnome-shell-extension-prefs
+sudo apt install cheese
+
+
+</code></pre>
+</article>
+<footer> Last updated on 2023-05-02.</footer>
+</body>
+</html>

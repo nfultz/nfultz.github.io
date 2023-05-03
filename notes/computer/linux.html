@@ -11,6 +11,15 @@
 <body>
     <header><h1>Linux Notes</h1> </header>
 <article>
+<h2>Disable Suspend</h2>
+<p>
+For systems which should never attempt any type of suspension, these targets
+can be disabled at the systemd level with the following:
+</p>
+<pre><code>
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+</code></pre>
+
 <h2>How to Fix &quot;Authentication is required to create a color profile/managed device&quot;</h2>
 <p>from <a href="https://devanswers.co/how-to-fix-authentication-is-required-to-create-a-color-profile-managed-device-on-ubuntu-20-04-20-10/">https://devanswers.co/how-to-fix-authentication-is-required-to-create-a-color-profile-managed-device-on-ubuntu-20-04-20-10/</a></p>
 <p>The safest fix to get rid of these popups is to create a new configuration file in <code>/etc/polkit-1/localauthority.conf.d/02-allow-colord.conf</code>.</p>
