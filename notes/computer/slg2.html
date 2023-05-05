@@ -9,8 +9,15 @@
 <article><!-- raw HTML omitted -->
 <h2>Setup Notes</h2>
 
+Went with Ubuntu 23.04
+
 <p><b>NB:</b> In BIOS, change SecureBoot to MS and Other, will not boot a thumb drive
 otherwise </p>
+
+<p>Generally, things are working out of the box.
+
+<p>Follow https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup to
+install linux-surface kernel.
 
 <pre><code>
 
@@ -20,12 +27,14 @@ sudo apt install linux-image-surface linux-headers-surface libwacom-surface ipts
 sudo apt install linux-surface-secureboot-mok
 # Reboot, choose install on blue screen, password is 'surface'
 
-sudo update-grub
+sudo update-grub #Moves surface kernel to top of GRUB
 # Reboot again
 
 # Deal with thermal rate limiting less harshly
 cd /etc/thermald/
 sudo wget https://raw.githubusercontent.com/linux-surface/linux-surface/master/contrib/thermald/surface_laptop_go_2/thermal-conf.xml
+sudo systemctl edit thermald.service
+sudo systemctl restart thermald.service
 
 # Too minimal
 sudo apt install gnome-shell-extension-prefs
@@ -34,6 +43,6 @@ sudo apt install cheese
 
 </code></pre>
 </article>
-<footer> Last updated on 2023-05-02.</footer>
+<footer> Last updated on 2023-05-04.</footer>
 </body>
 </html>

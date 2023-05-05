@@ -11,6 +11,13 @@
 <body>
     <header><h1>Linux Notes</h1> </header>
 <article>
+<h2>Download from both a torrent and HTTP mirror</h2>
+<p> An occasionally useful feature of the <pre>aria2c</pre> downloader:
+<pre><code>
+aria2c -Ttest.torrent "http://host1/file" "ftp://host2/file"
+</code></pre>
+</p>
+
 <h2>Disable Suspend</h2>
 <p>
 For systems which should never attempt any type of suspension, these targets
@@ -476,6 +483,6 @@ paychecks
 <p>Dconf Editor Always on Top</p>
 <p>To access the option that allows setting a keyboard shortcut for Always on Top, open Dconf Editor and go to /org/gnome/desktop/wm/keybindings. There, set a keyboard shortcut for always-on-top in this form (example): ['<Alt>1'], ['<Control>2'], ['<Control><Shift>a'] and so on, but obviously, set it to what you want to use for this. Disable the &quot;Use default value&quot; toggle to be able to enter a shortcut.</p>
 </article>
-<footer> Last updated on 2023-04-26.</footer>
+<footer> Last updated on 2023-05-05.</footer>
 </body>
 </html>
