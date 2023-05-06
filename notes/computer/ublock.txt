@@ -11,3 +11,24 @@ mail.google.com##tr:has(td span[name=me]):style(background-color: #eee !importan
 mail.google.com##tr div[title=todo]:style(background-color: #FFD984 !important)
 
 
+! 2023-05-06 https://www.wired.com
+www.wired.com##.persistent-bottom
+
+! 2023-05-06 https://www.nature.com and gallup
+##.cc-banner
+##.c-site-messages
+##.c-quick-subscribe
+
+! 2023-05-06 https://www.nytimes.com
+||accounts.google.com/gsi/iframe/select$subdocument
+
+! 2023-05-06 https://www.washingtonpost.com
+www.washingtonpost.com##.regwall-overlay
+www.washingtonpost.com##.hide-for-print
+www.washingtonpost.com##html:style(overflow: scroll !important;)
+
+! 2023-05-06 https://platform.twitter.com
+||platform.twitter.com/embed/*$script,domain=platform.twitter.com
+
+
+
