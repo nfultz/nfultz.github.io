@@ -25,7 +25,7 @@ www.wired.com##.persistent-bottom
 ! 2023-05-06 https://www.washingtonpost.com
 www.washingtonpost.com##.regwall-overlay
 www.washingtonpost.com##.hide-for-print
-www.washingtonpost.com##html:style(overflow: scroll !important;)
+www.washingtonpost.com##html:style(overflow: visible !important;)
 
 ! 2023-05-06 https://platform.twitter.com
 ||platform.twitter.com/embed/*$script,domain=platform.twitter.com
