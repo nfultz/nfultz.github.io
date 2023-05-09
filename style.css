@@ -1,10 +1,12 @@
-* {
-    font-family: sans-serif
-}
-
 body {
     background-image: url(/bg02.webp);
     padding: 2ch;
+    font-size: 21pt;
+    font-family: sans-serif
+}
+
+* + * {
+	margin-top: 1.5em;
 }
 
 header {
