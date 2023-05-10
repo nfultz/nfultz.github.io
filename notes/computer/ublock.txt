@@ -8,6 +8,7 @@ mail.google.com##tr div[title=todo]:style(background-color: #FFD984 !important)
 mail.google.com##tr:has(> td span.yP[name='Amazon.com']):style(background-color: #ff9900 !important)
 mail.google.com##tr:has(> td span.yP[name='Zig Weekly']):style(background-color: #F7A41D !important)
 mail.google.com##tr:has(> td span.yP[name='Stack Overflow']):style(background-color: #ef8236 !important)
+mail.google.com##tr:has(> td span.yP[email='info@email.meetup.com']):style(background-color: #e51937 !important)
 mail.google.com##tr:has(> td span.yP[email='nfultz@gmail.com']):style(background-color: #eee !important)
 
 
