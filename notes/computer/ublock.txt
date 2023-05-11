@@ -5,11 +5,11 @@ calendar.google.com##[data-eventid]:has-text(hold):has-text(Calendar: UCLA):styl
 ! 2023-04-24 https://mail.google.com
 mail.google.com##tr div[title=R-help]:style(background-color: lightblue !important)
 mail.google.com##tr div[title=todo]:style(background-color: #FFD984 !important)
-mail.google.com##tr:has(> td span.yP[name='Amazon.com']):style(background-color: #ff9900 !important)
-mail.google.com##tr:has(> td span.yP[name='Zig Weekly']):style(background-color: #F7A41D !important)
-mail.google.com##tr:has(> td span.yP[name='Stack Overflow']):style(background-color: #ef8236 !important)
-mail.google.com##tr:has(> td span.yP[email='info@email.meetup.com']):style(background-color: #e51937 !important)
-mail.google.com##tr:has(> td span.yP[email='nfultz@gmail.com']):style(background-color: #eee !important)
+mail.google.com##tr:has(> td span.yP[name="Amazon.com"]):style(background-color: #ff9900 !important)
+mail.google.com##tr:has(> td span.yP[name="Zig Weekly"]):style(background-color: #F7A41D !important)
+mail.google.com##tr:has(> td span.yP[name="Stack Overflow"]):style(background-color: #ef8236 !important)
+mail.google.com##tr:has(> td span.yP[email$="meetup.com"]):style(background-color: #e51937 !important)
+mail.google.com##tr:has(> td span.yP[email="nfultz@gmail.com"]):style(background-color: #eee !important)
 
 
 ! 2023-05-06 https://www.wired.com
