@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"><title>SGL2 Notes</title>
+        <meta charset="UTF-8">
+        <title>SGL2 Notes</title>
         <link rel='stylesheet' type='text/css' href='/style.css' />
     </head>
-    <body>
-        <header><h1>SGL2 Notes</h1></header>
-<article><!-- raw HTML omitted -->
+<body>
+    <header><h1>SGL2 Notes</h1></header>
+
+<article>
 <h2>Setup Notes</h2>
 
 Went with Ubuntu 23.04
@@ -40,9 +42,30 @@ sudo systemctl restart thermald.service
 sudo apt install gnome-shell-extension-prefs
 sudo apt install cheese
 
-
 </code></pre>
+
+<h2>Keyboard Remap</h2>
+
+<p> To change the key inbetween the right alt and left arrow to be a rightctrl,
+
+
+<p> Drop this in <code>/etc/udev/hwdb.d/99-slg2-rctrl.hwdb</code>
+
+<pre><code>
+evdev:input:b0003v04F3p0C5B*
+  KEYBOARD_KEY_70065=rightctrl
+</code></pre>
+
+<p> Then force an update to the hardware database:
+
+<pre><code>
+sudo systemd-hwdb update
+sudo udevadm trigger
+</code></pre>
+
+<p> via <a href=https://unix.stackexchange.com/questions/680961/udev-hwdb-to-re-map-a-key-when-i-dont-know-the-key-code>https://unix.stackexchange.com/questions/680961/udev-hwdb-to-re-map-a-key-when-i-dont-know-the-key-code</a>
+
 </article>
-<footer> Last updated on 2023-05-04.</footer>
+<footer> Last updated on 2023-05-11.</footer>
 </body>
 </html>
