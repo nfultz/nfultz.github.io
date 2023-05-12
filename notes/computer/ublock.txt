@@ -11,6 +11,7 @@ mail.google.com##tr:has(> td span.yP[name="Stack Overflow"]):style(background-co
 mail.google.com##tr:has(> td span.yP[email$="meetup.com"]):style(background-color: #e51937 !important)
 mail.google.com##tr:has(> td span.yP[email$="substack.com"]):style(background-color: #FFA500 !important)
 mail.google.com##tr:has(> td span.yP[email$="linkedin.com"]):style(background-color: #2867B2 !important)
+mail.google.com##tr:has(> td span.yP[email$="github.com"]):style(background-color: #6cc644 !important)
 mail.google.com##tr:has(> td span.yP[email="nfultz@gmail.com"]):style(background-color: #eee !important)
 
 

@@ -65,7 +65,36 @@ sudo udevadm trigger
 
 <p> via <a href=https://unix.stackexchange.com/questions/680961/udev-hwdb-to-re-map-a-key-when-i-dont-know-the-key-code>https://unix.stackexchange.com/questions/680961/udev-hwdb-to-re-map-a-key-when-i-dont-know-the-key-code</a>
 
+<h2>Get Rid of snapd</h2>
+
+
+<p> Drop this in <code>/etc/udev/hwdb.d/99-slg2-rctrl.hwdb</code>
+
+<pre><code>
+echo via https://haydenjames.io/remove-snap-ubuntu-22-04-lts/
+echo ~~~~~~~~~~~~~~~~~~~~
+
+snap list
+
+sudo systemctl disable snapd.service
+sudo systemctl disable snapd.socket
+sudo systemctl disable snapd.seeded.service
+
+sudo snap remove firefox
+sudo snap remove snap-store
+sudo snap remove gtk-common-themes
+sudo snap remove gnome-3-38-2004
+sudo snap remove core18
+sudo snap remove snapd-desktop-integration
+
+sudo rm -rf /var/cache/snapd/
+
+sudo apt autoremove --purge snapd
+
+rm -rf snap/
+</code></pre>
+
 </article>
-<footer> Last updated on 2023-05-11.</footer>
+<footer> Last updated on 2023-05-12.</footer>
 </body>
 </html>
