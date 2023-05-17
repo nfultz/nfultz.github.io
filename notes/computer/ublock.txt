@@ -18,6 +18,9 @@ mail.google.com##tr:has(> td span.yP[email="nfultz@gmail.com"]):style(background
 ! 2023-05-06 https://www.wired.com
 www.wired.com##.persistent-bottom
 
+! 2022-11-08 https://www.wired.com
+www.wired.com##.paywall-bar
+
 ! 2023-05-06 https://www.nature.com and gallup
 ##.cc-banner
 ##.c-site-messages
@@ -33,6 +36,19 @@ www.washingtonpost.com##body:style(overflow: visible !important;)
 
 ! 2023-05-06 https://platform.twitter.com
 ||platform.twitter.com/embed/*$script,domain=platform.twitter.com
+
+! 2023-05-18 https://laist.com
+laist.com##.TogglerWrapper
+
+! 2022-08-15 https://www.reddit.com
+www.reddit.com###redesign-beta-optin-btn
+www.reddit.com##.premium-banner-outer
+
+! 2022-10-04 https://www.theguardian.com
+www.theguardian.com##gu-island
+
+! 2022-10-05 https://time.com
+time.com##div.meter-wall.component
 
 
 
