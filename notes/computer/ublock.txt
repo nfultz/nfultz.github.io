@@ -26,6 +26,9 @@ www.wired.com##.paywall-bar
 ##.c-site-messages
 ##.c-quick-subscribe
 
+! 2023-06-08 substack subscribe div
+##.subscription-widget-wrap
+
 ! 2023-05-06 https://www.nytimes.com
 ||accounts.google.com/gsi/iframe/select$subdocument
 
