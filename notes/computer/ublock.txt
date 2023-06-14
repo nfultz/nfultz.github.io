@@ -58,6 +58,7 @@ time.com##div.meter-wall.component
 www.tabletmag.com##.no-display-in-print
 
 ! 2023-06-14 https://www.thebignewsletter.com
-##div[class*=" frontend-components-SubscribePrompt-module"]
+##div[class*=" frontend-components-SubscribePrompt-module"], div[class^=" frontend-components-SubscribePrompt-module"]
+
 
 
