@@ -36,6 +36,10 @@ www.wired.com##.paywall-bar
 www.washingtonpost.com##.regwall-overlay
 www.washingtonpost.com##.hide-for-print
 www.washingtonpost.com##body:style(overflow: visible !important;)
+www.washingtonpost.com##nav span:has-text(Subscribe)
+
+! 2023-04-06 https://sourceforge.net
+sourceforge.net##li.trunc-eligible.standard.nel
 
 ! 2023-05-06 https://platform.twitter.com
 ||platform.twitter.com/embed/*$script,domain=platform.twitter.com
@@ -61,4 +65,10 @@ www.tabletmag.com##.no-display-in-print
 ##div[class*=" frontend-components-SubscribePrompt-module"], div[class^="frontend-components-SubscribePrompt-module"]
 
 
+! 2023-01-22 https://slashdot.org
+slashdot.org##article:has(.ntv-sponsored-disclaimer)
+
+
+! 2023-07-16 https://calendar.google.com applies to 'companion view' in gmail iframe
+calendar.google.com##main div[role="gridcell"] :has(div span:has-text('hold'))
 
