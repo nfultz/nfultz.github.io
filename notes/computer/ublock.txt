@@ -72,3 +72,12 @@ slashdot.org##article:has(.ntv-sponsored-disclaimer)
 ! 2023-07-16 https://calendar.google.com applies to 'companion view' in gmail iframe
 calendar.google.com##main div[role="gridcell"] :has(div span:has-text('hold'))
 
+! disable all autoplay
+##video:remove-attr(autoplay)
+
+! 2023-08-01 https://calendar.google.com hides 12-5am, and holds on month/weeks views
+calendar.google.com##div[role=main][data-period-type=week] > div[data-view-heading] > div[role=grid] div[role=presentation][data-type="1"] div:has(div >[role=row]):style(margin-top:-20em)
+calendar.google.com##div[data-period-type=month] [data-eventid]:has-text(hold)
+calendar.google.com##[data-period-type=custom-weeks] [data-eventid]:has-text(hold)
+
+
