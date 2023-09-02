@@ -81,3 +81,12 @@ calendar.google.com##div[data-period-type=month] [data-eventid]:has-text(hold)
 calendar.google.com##[data-period-type=custom-weeks] [data-eventid]:has-text(hold)
 
 
+! 2023-08-29 https://app.slack.com
+app.slack.com###team_sidebar_scroll_container:style(margin-top:0 !important)
+app.slack.com##div:has(> .p-top_nav)
+app.slack.com##.p-workspace-layout:style(grid-template-areas: 'p-workspace__sidebar p-workspace__primary_view' !important; grid-template-rows: none !important)
+
+! 2023-08-30 https://www.latimes.com
+www.latimes.com##modality-custom-element[name=metering-modal]
+www.latimes.com##body:style(overflow: auto !important)
+
