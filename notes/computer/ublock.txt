@@ -90,3 +90,12 @@ app.slack.com##.p-workspace-layout:style(grid-template-areas: 'p-workspace__side
 www.latimes.com##modality-custom-element[name=metering-modal]
 www.latimes.com##body:style(overflow: auto !important)
 
+! 2023-10-08 https://www.allmusic.com
+www.allmusic.com##div :has-text("Continue after disabling ad blocker")
+
+! 2023-10-16 https://www.revivalhubla.com
+www.revivalhubla.com##.flyoutitemlist
+
+! 2023-05-18 https://www.tabletmag.com
+www.tabletmag.com##.no-display-in-print
+
