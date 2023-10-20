@@ -35,7 +35,7 @@ www.wired.com##.paywall-bar
 ! 2023-05-06 https://www.washingtonpost.com
 www.washingtonpost.com##.regwall-overlay
 www.washingtonpost.com##.hide-for-print
-www.washingtonpost.com##body:style(overflow: visible !important;)
+www.washingtonpost.com##body:style(overflow: visible !important; margin: 1em;)
 www.washingtonpost.com##nav span:has-text(Subscribe)
 
 ! 2023-04-06 https://sourceforge.net
