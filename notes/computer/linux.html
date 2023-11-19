@@ -11,6 +11,20 @@
 <body>
     <header><h1>Linux Notes</h1> </header>
 <article>
+
+<h2>Use nala from local install</h2>
+<p> <a href=https://github.com/volitank/nala>nala</a> is an improved from
+end for the apt package manager in Debian and ubuntu.
+
+If installed in a user directory, use <code>sudo -E</code> and a qualified
+name.
+
+<pre><code>
+pip3 install --user git+https://github.com/volitank/nala
+sudo -E .local/bin/nala
+</code></pre>
+</p>
+
 <h2>Download from both a torrent and HTTP mirror</h2>
 <p> An occasionally useful feature of the <pre>aria2c</pre> downloader:
 <pre><code>
@@ -483,6 +497,6 @@ paychecks
 <p>Dconf Editor Always on Top</p>
 <p>To access the option that allows setting a keyboard shortcut for Always on Top, open Dconf Editor and go to /org/gnome/desktop/wm/keybindings. There, set a keyboard shortcut for always-on-top in this form (example): ['<Alt>1'], ['<Control>2'], ['<Control><Shift>a'] and so on, but obviously, set it to what you want to use for this. Disable the &quot;Use default value&quot; toggle to be able to enter a shortcut.</p>
 </article>
-<footer> Last updated on 2023-05-05.</footer>
+<footer> Last updated on 2023-11-19.</footer>
 </body>
 </html>
