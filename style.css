@@ -16,3 +16,8 @@ header {
 footer {
     font-style: italic
 }
+
+/* hr should align with marker not text */
+ul > hr {
+    margin-left: -2ch
+}
