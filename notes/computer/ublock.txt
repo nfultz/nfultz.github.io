@@ -103,3 +103,12 @@ www.revivalhubla.com##.flyoutitemlist
 ! 2023-05-18 https://www.tabletmag.com
 www.tabletmag.com##.no-display-in-print
 
+! see https://github.com/uBlockOrigin/uBlock-issues/discussions/2895
+! add this to advanced settings
+!           trustedListPrefixes ublock- user- https://nfultz.github.io/notes/computer/ublock.txt
+! 2023-09-08 https://www.dailykillersudoku.com
+www.dailykillersudoku.com##div.heading-info:has(div.patreon-button)
+www.dailykillersudoku.com##.leaderboard-container
+www.dailykillersudoku.com##+js(set-attr, #difficulty, value, 10)
+www.dailykillersudoku.com##+js(set-attr, #type, value, 4)
+
