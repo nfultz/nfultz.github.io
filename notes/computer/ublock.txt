@@ -39,7 +39,7 @@ www.wired.com##.paywall-bar
 ! 2023-05-06 https://www.washingtonpost.com
 www.washingtonpost.com##.regwall-overlay
 www.washingtonpost.com##.hide-for-print
-www.washingtonpost.com##body:style(overflow: visible !important; margin: 1em;)
+www.washingtonpost.com##body:style(overflow: visible !important; margin: 1em !important;)
 www.washingtonpost.com##nav span:has-text(Subscribe)
 
 ! 2023-04-06 https://sourceforge.net
@@ -111,4 +111,19 @@ www.dailykillersudoku.com##div.heading-info:has(div.patreon-button)
 www.dailykillersudoku.com##.leaderboard-container
 www.dailykillersudoku.com##+js(set-attr, #difficulty, value, 10)
 www.dailykillersudoku.com##+js(set-attr, #type, value, 4)
+
+! 2023-09-07 https://simplywall.st
+simplywall.st###modal-container
+
+! 2023-09-29 https://lataco.com
+lataco.com##div[aria-live="assertive"]:has(button[aria-label="Close content gate"])
+
+! 2023-10-02 https://www.accuweather.com
+www.accuweather.com##.content-module.zone-rightRail1 > .thumbnail-right-rail
+
+! 2023-11-12 https://forums.hipinion.com
+forums.hipinion.com##.postprofile img
+
+! 2023-12-08 https://aftermath.site
+aftermath.site##[class*=ContentGate_wrapper]
 
