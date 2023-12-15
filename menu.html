@@ -4,6 +4,59 @@
       <meta charset="UTF-8">
       <title>menu</title>
       <link rel='stylesheet' type='text/css' href='style.css' />
+      <link rel="preload" href="https://kejzlar.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin="">
+<style>
+
+.nobullet {
+    list-style-type: none;
+    margin-left: -40px; /* reset UL tag padding */
+    text-align: center;
+}
+
+/* FontAwesome^H ForkAwesome Horseshit */
+
+@font-face {
+    font-family: forkawesome;
+    src: url(https://kejzlar.com/fonts/forkawesome-webfont.eot?v=1.2.0);
+    src: url(https://kejzlar.com/fonts/forkawesome-webfont.eot?#iefix&v=1.2.0)format("embedded-opentype"),url(https://kejzlar.com/fonts/forkawesome-webfont.woff2?v=1.2.0)format("woff2"),url(https://kejzlar.com/fonts/forkawesome-webfont.woff?v=1.2.0)format("woff"),url(https://kejzlar.com/fonts/forkawesome-webfont.ttf?v=1.2.0)format("truetype"),url(https://kejzlar.com/fonts/forkawesome-webfont.svg?v=1.2.0#forkawesomeregular)format("svg");
+
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+
+a:has(.fa){
+    color: black;
+    text-decoration: none;
+}
+    
+.fa {
+    display: inline-block;
+    font: 14px/1 ForkAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-2x {
+        font-size: 1.5em
+}
+
+.fa-github:before {
+        content: "\f09b"
+}
+
+.fa-envelope:before {
+        content: "\f0e0"
+}
+
+.fa-linkedin:before {
+        content: "\f0e1"
+}
+
+</style>
     </head>
 
 <body>
@@ -21,6 +74,18 @@
 <li><a href="notes/computer/linux.html">Linux</a></li>
 <li><a href="notes/computer/windows.html">Windows</a></li>
 <li><a href="notes/programming/projects.html">Projects</a></li>
+<hr/>
+<li class=nobullet>
+    <a href="https://github.com/nfultz" aria-label="Github">
+        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+    </a>
+    <a href="mailto:nfultz@gmail.com" aria-label="Email">
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/nfultz" aria-label="LinkedIn">
+        <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+    </a>
+</li>
 </ul>
 </article>
 
