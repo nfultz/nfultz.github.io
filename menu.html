@@ -13,49 +13,16 @@
     text-align: center;
 }
 
-/* FontAwesome^H ForkAwesome Horseshit */
-
-@font-face {
-    font-family: forkawesome;
-    src: url(https://kejzlar.com/fonts/forkawesome-webfont.eot?v=1.2.0);
-    src: url(https://kejzlar.com/fonts/forkawesome-webfont.eot?#iefix&v=1.2.0)format("embedded-opentype"),url(https://kejzlar.com/fonts/forkawesome-webfont.woff2?v=1.2.0)format("woff2"),url(https://kejzlar.com/fonts/forkawesome-webfont.woff?v=1.2.0)format("woff"),url(https://kejzlar.com/fonts/forkawesome-webfont.ttf?v=1.2.0)format("truetype"),url(https://kejzlar.com/fonts/forkawesome-webfont.svg?v=1.2.0#forkawesomeregular)format("svg");
-
-    font-weight: 400;
-    font-style: normal;
-    font-display: block
-}
-
-
-a:has(.fa){
+a:has(svg){
     color: black;
     text-decoration: none;
 }
+
+svg {
+    height: 1em;
+    width: 1em;
+}
     
-.fa {
-    display: inline-block;
-    font: 14px/1 ForkAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-.fa-2x {
-        font-size: 1.5em
-}
-
-.fa-github:before {
-        content: "\f09b"
-}
-
-.fa-envelope:before {
-        content: "\f0e0"
-}
-
-.fa-linkedin:before {
-        content: "\f0e1"
-}
-
 </style>
     </head>
 
@@ -77,13 +44,13 @@ a:has(.fa){
 <hr/>
 <li class=nobullet>
     <a href="https://github.com/nfultz" aria-label="Github">
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        <svg>  <use xlink:href="img/iconmonstr-github-1.svg"/></svg>
     </a>
     <a href="mailto:nfultz@gmail.com" aria-label="Email">
-        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <svg>  <use xlink:href="img/iconmonstr-email-3.svg"/></svg>
     </a>
     <a href="https://www.linkedin.com/in/nfultz" aria-label="LinkedIn">
-        <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        <svg>  <use xlink:href="img/iconmonstr-linkedin-1.svg"/></svg>
     </a>
 </li>
 </ul>
