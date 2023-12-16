@@ -32,7 +32,21 @@ on each path tag. Then you can refer to each via a <code>&lt;USE&gt;</code> tag 
 <p>See <a href="https://github.com/nfultz/nfultz.github.io/commit/0a09c80ca8e1411fa3023ac1b8b07d85e20935c3">this commit</a> for an example.
 Basically, the old styling provided by FRAMESET has to be emulated using CSS.</p>
 
+<h2>accesskeys</h2>
+<p>
+There is a built-in way to add shortcut keys to links:
 
+<pre><code>
+&lt;a href="https://webaim.org/" accesskey="w"&gt;
+</code></pre>
+
+That can be launched using Alt+W, for example. However, if there's a conflict
+with a browser or extension shortcut, those will take precedence.
+
+    h/t <a href=https://webaim.org/techniques/keyboard/accesskey#spec>webaim.org</a>
+
+</p>
+ 
 
 </article>
 <footer> Last updated on 2023-05-05.</footer>
