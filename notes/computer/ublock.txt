@@ -127,3 +127,6 @@ forums.hipinion.com##.postprofile img
 ! 2023-12-08 https://aftermath.site
 aftermath.site##[class*=ContentGate_wrapper]
 
+! 2024-01-27 fix ms apps
+||login.microsoftonline.com^$badfilter
+
