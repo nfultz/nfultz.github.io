@@ -8,6 +8,10 @@
 <body>
     <header><h1>slack</h1></header>
 <article>
+<h2>Unblur text</h2>
+<p>To remove the blur filter on old posts, you can use this ublock rule:
+<pre><code>##.c-message_kit__hidden_message_blur :style(filter:none !important) </code></pre>
+
 <h2>Dumping slack's DB</h2>
 <p>To extractr the local database for slack from the web client, you can use the below snippet + the console.save script.</p>
 <pre><code>window.indexedDB.open(&quot;reduxPersistence&quot;,2).onsuccess = function(event){
@@ -29,6 +33,6 @@
 <pre><code>#2774AE,#FFF8D4,#2774AE,#FFB81C,#003B5C,#FFFFFF,#003B5C,#2774AE,#FFD100,#003B5C
 </code></pre>
 </article>
-<footer> Last updated on 2023-04-24.</footer>
+<footer> Last updated on 2024-03-11.</footer>
 </body>
 </html>

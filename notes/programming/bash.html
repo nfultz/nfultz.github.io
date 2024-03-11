@@ -5,14 +5,17 @@
         <title>Bash Notes</title>
         <link rel='stylesheet' type='text/css' href='/style.css' />
     </head>
-    <body><header><h1>Bash Notes</h1> </header>
-<article><!-- raw HTML omitted -->
+    <body>
+        <header><h1>Bash Notes</h1> </header>
+<article>
 <h2>Run in really clean environment</h2>
 <p><a href="https://unix.stackexchange.com/questions/48994/how-to-run-a-program-in-a-clean-environment-in-bash">https://unix.stackexchange.com/questions/48994/how-to-run-a-program-in-a-clean-environment-in-bash</a></p>
 <pre><code>$ env -i bash --noprofile --norc
 </code></pre>
+
 <h2>Manual</h2>
 <p><a href="https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html">https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html</a></p>
+
 <h2>Grep notes</h2>
 <ul>
 <li><code>grep -F</code>    :: fixed string</li>
@@ -23,17 +26,9 @@
 instead want <code>!grep -q</code> which succeeds when there is no matching line. De Morgans Law
 is a hell of a drug.</p>
 <hr />
-<p>According to <!-- raw HTML omitted -->man bash<!-- raw HTML omitted -->, there are a couple files in /etc that also get
-invoked automatically, so rather than cluttering up everyones home folder with
-dotfiles, you can put it there. Neato.</p>
-<p>A major vulnerability in bash got exposed Sep 2014 that affected lots of websites.</p>
-<pre><code>-x
-
-  Echo's the commands to stdout
-</code></pre>
 <p><a href="https://medium.com/@joewalnes/handy-bash-feature-process-substitution-8eb6dce68133">Handy Bash feature: Process Substitution — Medium</a></p>
 <p><a href="http://meta.ath0.com/2007/10/23/cleaning-up-bash-customizations/">Cleaning up bash customizations – General Eclectic</a></p>
 </article>
-<footer> Last updated on 2023-09-11.</footer>
+<footer> Last updated on 2024-03-11.</footer>
 </body>
 </html>
