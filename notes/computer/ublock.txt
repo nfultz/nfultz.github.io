@@ -130,3 +130,10 @@ aftermath.site##[class*=ContentGate_wrapper]
 ! 2024-01-27 fix ms apps
 ||login.microsoftonline.com^$badfilter
 
+
+! May 30, 2024 https://mail.google.com - hides extra sidebars when folder list is collapsed by topleft hamburger
+mail.google.com##div[role=navigation]:has(+ div.aBA)
+mail.google.com##div[role=navigation]:has(+ div.aqn.aBA) ~ div.nH:has( div[aria-label="Hide side panel"])
+
+
+
