@@ -139,6 +139,12 @@ mail.google.com##div[role=navigation]:has(+ div.aqn.aBA) ~ div.nH:has( div[aria-
 pinboard.in##:root:style(color-scheme: light dark; background-color:none)
 pinboard.in##a.bookmark_title:not(:visited):style(color:rgb(100,100,240) !important)
 
+! 2024-04-09 https://www.reddit.com
+www.reddit.com##.side .spacer:has(>a[href="/premium"])
+
+! 2024-04-13 https://github.com
+github.com##.feed-right-sidebar
+
 
 
 
