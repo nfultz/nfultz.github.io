@@ -135,5 +135,10 @@ aftermath.site##[class*=ContentGate_wrapper]
 mail.google.com##div[role=navigation]:has(+ div.aBA)
 mail.google.com##div[role=navigation]:has(+ div.aqn.aBA) ~ div.nH:has( div[aria-label="Hide side panel"])
 
+! 2024-04-06 https://pinboard.in
+pinboard.in##:root:style(color-scheme: light dark; background-color:none)
+pinboard.in##a.bookmark_title:not(:visited):style(color:rgb(100,100,240) !important)
+
+
 
 
