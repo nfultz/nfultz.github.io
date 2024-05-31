@@ -145,6 +145,13 @@ www.reddit.com##.side .spacer:has(>a[href="/premium"])
 ! 2024-04-13 https://github.com
 github.com##.feed-right-sidebar
 
+! 2024-05-24 https://www.google.com
+www.google.com###rcnt div[data-mcpr]
+
+! May 31, 2024 https://www.linkedin.com
+! www.linkedin.com##.scaffold-layout__aside
+www.linkedin.com##:root:style(--scaffold-layout-aside-width:0!important)
+
 
 
 
