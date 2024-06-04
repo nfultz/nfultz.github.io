@@ -149,7 +149,7 @@ github.com##.feed-right-sidebar
 www.google.com###rcnt div[data-mcpr]
 
 ! May 31, 2024 https://www.linkedin.com
-! www.linkedin.com##.scaffold-layout__aside
+www.linkedin.com##.scaffold-layout__aside
 www.linkedin.com##:root:style(--scaffold-layout-aside-width:0!important)
 
 
