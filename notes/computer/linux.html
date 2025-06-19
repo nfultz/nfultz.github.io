@@ -12,6 +12,14 @@
     <header><h1>Linux Notes</h1> </header>
 <article>
 
+<h2>Clean up scratch dirs with systemd</h2>
+<p> Per <a href=https://www.reddit.com/r/archlinux/comments/ldljco/what_is_the_modern_way_to_mount_downloads_as/>Reddit</a>,
+    systemd includes tmpfiles.d to manage cleaning up tmpfiles. I've added lines to clean ~/downloads after 14 days and
+    ~/tmp (a dynamic symlink to /run/user/1000/tmp) after 2 days.
+
+
+
+    
 <h2>GitHub SSH Keys</h2>
 <p> There are two ways to import GitHub SSH Keys - manually, using
 the ssh-import-id python script - alternatively, load the keys
