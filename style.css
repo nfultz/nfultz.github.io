@@ -28,7 +28,13 @@ footer {
     font-style: italic
 }
 
+hr {
+    height: 2px;
+    margin: 20px 20px;
+}
+
 /* hr should align with marker not text */
 ul > hr {
-    margin-left: -2ch
+    margin-left: -2ch;
+    margin-right: 0
 }

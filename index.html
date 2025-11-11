@@ -7,6 +7,7 @@
 
 <style>
 iframe {
+    --l: 100px;
     --w: 200px;
     position: fixed;
     top: 0;
@@ -14,12 +15,12 @@ iframe {
     border: none;
 }
 [name="menu"]{
-    left:0;
+    left:var(--l);
     width:var(--w);
 }
 [name="main"]{
-    left:var(--w);
-    width:calc(calc(100%) - var(--w));
+    left:calc(var(--w) + var(--l));
+    width:calc(calc(100%) - var(--w) - 2 * var(--l));
 }
 </style>
 </head>
