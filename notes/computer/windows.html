@@ -19,49 +19,17 @@ To activate God Mode, right-click the desktop and select New&gt;Folder. Highligh
 <pre>GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}</pre>
 </p>
 
-<h2>Broken chrome</h2>
-<p>Encountered <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=838707">Issue 838707: Win10 Spring Update 1803 causes ERR_TIMED_OUT</a>,</p>
-<p>This seems to occur when chrome is installed, and then the spring update is applied, and somehow the system gets into a broken state.
-It hoses the system crypto library. Google and MS have both declined to actually fix this.</p>
-<p>Actual solution was found in <a href="https://support.google.com/chrome/forum/AAAAP1KN0B0s5S1uPI0kMc/?hl=en&amp;gpf=%23!msg%2Fchrome%2Fs5S1uPI0kMc%2FPVBgVbx6DAAJ&amp;msgid=PVBgVbx6DAAJ">support forums</a>,
-but you will have to click the 'load more comments' button many times, until you see a post by LarryLACa dated 12/6/18</p>
-<blockquote>
-<p>B) CryptSvc Manual Registry fix instructions, preened from Bug 838707:
-The instructions look long, but will probably take longer to read them than to do.
-You need to delete the Root level, but it takes a few steps to get there and be safe along the way.
-The instructions boil down to:</p>
-<ol>
-<li>
-<p>Open Run, type in regedit</p>
-</li>
-<li>
-<p>Go here: HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\Root\</p>
-</li>
-<li>
-<p>Right-click ProtectedRoots &gt; Permissions and pick your account .</p>
-<p>Tick Allow Full Control</p>
-</li>
-<li>
-<p>Open Task Manager &gt; stop Cryptographic Service</p>
-</li>
-<li>
-<p>In regedit, delete Root (HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates)</p>
-</li>
-<li>
-<p>Restart Windows</p>
-</li>
-</ol>
-<p>For detail instructions, see B.1 below</p>
-</blockquote>
 <h2>Broken clock</h2>
 <p>Windows defaults to local time instead of UTC; to use UTC,</p>
 <pre><code>[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation]
 &quot;RealTimeIsUniversal&quot;=dword:00000001
 </code></pre>
+
 <h2>Really old windows notes</h2>
 <p><a href="http://www.oldversion.com/windows/winamp-2-95">Winamp 2.95</a> is also still
 good. I still have a little code snippet for controlling it from a Hauppauge
 remote.</p>
+    
 </article>
 <footer> Last updated on 2024-01-08.</footer>
 </body>
